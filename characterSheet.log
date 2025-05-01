@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.1)  1 MAY 2025 22:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.1)  1 MAY 2025 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -555,7 +555,37 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Underfull \hbox (badness 10000) in alignment at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+[]\T1/phv/m/n/10 They told it was an easy job, they told it would go
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+\T1/phv/m/n/10 all qui-etly and nice with-out any gun-fire or trou-ble.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+\T1/phv/m/n/10 But the very mo-ment you got into the lobby, the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+\T1/phv/m/n/10 cops came sirens blaz-ing and now you are stuck
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+\T1/phv/m/n/10 here. You aren't even a hard-ened crim-i-nal like the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+\T1/phv/m/n/10 rest ^^U you are just a lock-smith look-ing for a way to
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 97--97
 [][] 
  []
 
@@ -570,17 +600,17 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 13762 strings out of 474485
- 286647 string characters out of 5743735
- 1935542 words of memory out of 5000000
- 35820 multiletter control sequences out of 15000+600000
+ 13766 strings out of 474485
+ 286751 string characters out of 5743735
+ 1936542 words of memory out of 5000000
+ 35824 multiletter control sequences out of 15000+600000
  574755 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,13n,107p,431b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,14n,107p,431b,792s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a
 .pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 r8a.pfb>
-Output written on characterSheet.pdf (1 page, 23793 bytes).
+Output written on characterSheet.pdf (1 page, 23801 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

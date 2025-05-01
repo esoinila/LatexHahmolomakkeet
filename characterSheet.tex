@@ -44,8 +44,8 @@
     % Define styles for the boxes - Reverted padding/size changes
     \tikzstyle{headerbox} = [draw=boxborder, fill=boxheaderbg, text=boxheaderfg, minimum height=0.8cm, text width=8cm, anchor=west, font=\bfseries\sffamily\small]
     \tikzstyle{contentbox} = [draw=boxborder, fill=boxcontentbg, minimum height=1.5cm, text width=8cm, anchor=north west, font=\sffamily\large]
-    \tikzstyle{largecontentbox} = [draw=boxborder, fill=boxcontentbg, text width=8cm, anchor=north west, font=\sffamily]
-    \tikzstyle{smalllistbox} = [draw=boxborder, fill=boxcontentbg, text width=8cm, anchor=north west, font=\sffamily]
+    \tikzstyle{largecontentbox} = [draw=boxborder, fill=boxcontentbg, minimum height=10cm, text width=8cm, anchor=north west, font=\sffamily]
+    \tikzstyle{smalllistbox} = [draw=boxborder, fill=boxcontentbg, minimum height=3cm, text width=8cm, anchor=north west, font=\sffamily]
 
     % Character Name Box
     \node (charname_header) [headerbox] {CHARACTER NAME};
@@ -53,37 +53,49 @@
 
     % Abilities Box (Positioned to the right)
     \node (abilities_header) [headerbox, right=0.5cm of charname_header] {ABILITIES (choose three)};
-    \node (abilities_content) [smalllistbox, below=0mm of abilities_header] {
-        \begin{tabularx}{\linewidth}{@{}XXX@{}} % Reverted tabularx spec
+    \node (abilities_content) [smalllistbox, minimum height=3cm, below=0mm of abilities_header] {
+        {\parbox[t]{\linewidth}{%
+        \begin{tabularx}{\linewidth}{@{}XXX@{}}
             Athletics & Driving & Locks \\
             Perception & Stealth & Technology
         \end{tabularx}
+        }%
+        }%
     };
 
     % Character Bio & Notes Box (Below Character Name)
     \node (bio_header) [headerbox, below=0.75cm of charname_content] {CHARACTER BIO \& NOTES};
-    \node (bio_content) [largecontentbox, below=0mm of bio_header] {%
+    \node (bio_content) [largecontentbox, minimum height=10cm, below=0mm of bio_header] {
+        {\parbox[t]{\linewidth}{%
         They told it was an easy job, they told it would go all quietly and nice without any gunfire or trouble. But the very moment you got into the lobby, the cops came sirens blazing and now you are stuck here. You aren't even a hardened criminal like the rest – you are just a locksmith looking for a way to save your business from bankruptcy...
+        }%
+        }%
     };
 
     % Personality Box (Below Abilities)
     \node (personality_header) [headerbox, below=0.75cm of abilities_content] {PERSONALITY (choose two)};
-    \node (personality_content) [smalllistbox, below=0mm of personality_header] {
-         \begin{tabularx}{\linewidth}{@{}XX@{}} % Reverted tabularx spec
+    \node (personality_content) [smalllistbox, minimum height=3cm, below=0mm of personality_header] {
+        {\parbox[t]{\linewidth}{%
+         \begin{tabularx}{\linewidth}{@{}XX@{}}
             Empathic & Coward \\
             Nervous & Pacifist
         \end{tabularx}
+        }%
+        }%
     };
 
     % Equipment Box (Below Personality)
     \node (equipment_header) [headerbox, below=0.75cm of personality_content] {EQUIPMENT (choose four)};
-    \node (equipment_content) [smalllistbox, below=0mm of equipment_header] {
-         \begin{tabularx}{\linewidth}{@{}ll@{}} % Reverted tabularx spec
+    \node (equipment_content) [smalllistbox, minimum height=4cm, below=0mm of equipment_header] {
+        {\parbox[t]{\linewidth}{%
+         \begin{tabularx}{\linewidth}{@{}ll@{}}
             Crowbar & Flashlight \\
             Gasmask & Local map \\
             Locksmith's tools & Loot bag \\
             Revolver & Toolkit
         \end{tabularx}
+        }%
+        }%
     };
 
 \end{tikzpicture}
