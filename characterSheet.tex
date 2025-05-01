@@ -6,10 +6,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{helvet} % Use Helvetica font (or similar sans-serif)
+\usepackage{amssymb} % For checkmarks/circles
 \renewcommand{\familydefault}{\sfdefault} % Set default font to sans-serif
 
 \usepackage{geometry}
-\geometry{a4paper, margin=1.5cm, top=2cm, bottom=1cm} % Adjust margins
+\geometry{a4paper, landscape, margin=1.5cm, top=1cm, bottom=1cm} % Adjust margins and set landscape
 
 \usepackage{xcolor}
 \definecolor{boxheaderbg}{HTML}{000000} % Black background for headers
@@ -41,18 +42,36 @@
 \end{tikzpicture}
 
 \begin{tikzpicture}[node distance=5mm]
-    % Define styles for the boxes - Reverted padding/size changes
-    \tikzstyle{headerbox} = [draw=boxborder, fill=boxheaderbg, text=boxheaderfg, minimum height=0.8cm, text width=8cm, anchor=west, font=\bfseries\sffamily\small]
-    \tikzstyle{contentbox} = [draw=boxborder, fill=boxcontentbg, minimum height=1.5cm, text width=8cm, anchor=north west, font=\sffamily\large]
-    \tikzstyle{largecontentbox} = [draw=boxborder, fill=boxcontentbg, minimum height=10cm, text width=8cm, anchor=north west, font=\sffamily, text anchor=north]
-    \tikzstyle{smalllistbox} = [draw=boxborder, fill=boxcontentbg, minimum height=3cm, text width=8cm, anchor=north west, font=\sffamily, text anchor=north]
+    % Define styles for the boxes
+    \tikzstyle{headerbox} = [draw=boxborder, fill=boxheaderbg, text=boxheaderfg, minimum height=0.8cm, text width=12cm, anchor=west, font=\bfseries\sffamily\small]
+    \tikzstyle{contentbox} = [draw=boxborder, fill=boxcontentbg, minimum height=1.5cm, text width=12cm, anchor=north west, font=\sffamily\large]
+    \tikzstyle{largecontentbox} = [draw=boxborder, fill=boxcontentbg, minimum height=10cm, text width=12cm, anchor=north west, font=\sffamily]
+    \tikzstyle{smalllistbox} = [draw=boxborder, fill=boxcontentbg, minimum height=3cm, text width=12cm, anchor=north west, font=\sffamily]
+    \tikzstyle{sanitybox} = [draw=boxborder, fill=boxcontentbg, minimum height=1.5cm, text width=12cm, anchor=north west, font=\sffamily] % Style for Sanity box
 
     % Character Name Box
     \node (charname_header) [headerbox] {CHARACTER NAME};
-    \node (charname_content) [contentbox, minimum height=1.2cm, below=0mm of charname_header, font=\sffamily\huge] {Mr/Mrs Blue}; % Removed hspace
+    \node (charname_content) [contentbox, minimum height=1.2cm, below=0mm of charname_header, font=\sffamily\huge] {Mr/Mrs Blue};
 
-    % Abilities Box (Positioned to the right)
-    \node (abilities_header) [headerbox, right=0.5cm of charname_header] {ABILITIES (choose three)};
+    % Sanity Box (Positioned top right)
+    \node (sanity_header) [headerbox, right=1cm of charname_header] {SANITY};
+    \node (sanity_content) [sanitybox, minimum height=2.5cm, below=0mm of sanity_header] { % Increased height for instruction
+        \large \hspace*{2mm} % Add some horizontal space
+        $\bigcirc$ \hspace{1em} % Level 1
+        $\bigcirc$ \hspace{1em} % Level 2
+        $\bigcirc$ \hspace{1em} % Level 3
+        $\bigcirc$ \hspace{1em} % Level 4
+        $\bigcirc$ \hspace{1em} % Level 5
+        $\bigcirc$ % Level 6
+        \\ % New line for parenthesized text
+        \textit{\footnotesize \hspace*{2mm} (6 = Mielenterveys pettää)}
+        \\
+        \vspace{2mm} % Add space before instruction
+        \textit{\footnotesize \hspace*{2mm} Ruksaa yksi ympyrä aina kun Mielenterveys laskee.}
+    };
+
+    % Abilities Box (Positioned below Sanity)
+    \node (abilities_header) [headerbox, below=0.75cm of sanity_content] {ABILITIES (choose three)};
     \node (abilities_content) [smalllistbox, minimum height=3cm, below=0mm of abilities_header] {
         \begin{tabularx}{\linewidth}{@{}XXX@{}}
             Athletics & Driving & Locks \\
