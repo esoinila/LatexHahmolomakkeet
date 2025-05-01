@@ -1,0 +1,91 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet} % Use Helvetica font (or similar sans-serif)
+\renewcommand{\familydefault}{\sfdefault} % Set default font to sans-serif
+
+\usepackage{geometry}
+\geometry{a4paper, margin=1.5cm, top=2cm, bottom=1cm} % Adjust margins
+
+\usepackage{xcolor}
+\definecolor{boxheaderbg}{HTML}{000000} % Black background for headers
+\definecolor{boxheaderfg}{HTML}{FFFFFF} % White text for headers
+\definecolor{boxcontentbg}{HTML}{FFFFFF} % White content background
+\definecolor{boxborder}{HTML}{000000} % Black border
+
+\usepackage{tikz}
+\usetikzlibrary{positioning, calc}
+
+\usepackage{fancyhdr} % For headers and footers
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\renewcommand{\headrulewidth}{0pt} % no header rule
+\renewcommand{\footrulewidth}{0pt} % no footer rule
+\fancyfoot[R]{\footnotesize "Fail Forward character sheet" by Visa Lampi is licensed under CC BY-NC 4.0.} % Footer text on the right
+
+\usepackage{lipsum} % For dummy text, remove later if not needed
+\usepackage{tabularx} % For better tables
+
+\begin{document}
+
+{\centering \fontsize{36}{40}\selectfont FAIL FORWARD \par}
+\vspace*{1cm} % Add some space below the title
+
+\noindent % Prevent indentation
+\begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=north west] at (current page.north west) {}; % Reference point
+\end{tikzpicture}
+
+\begin{tikzpicture}[node distance=5mm]
+    % Define styles for the boxes - Reverted padding/size changes
+    \tikzstyle{headerbox} = [draw=boxborder, fill=boxheaderbg, text=boxheaderfg, minimum height=0.8cm, text width=8cm, anchor=west, font=\bfseries\sffamily\small]
+    \tikzstyle{contentbox} = [draw=boxborder, fill=boxcontentbg, minimum height=1.5cm, text width=8cm, anchor=north west, font=\sffamily\large]
+    \tikzstyle{largecontentbox} = [draw=boxborder, fill=boxcontentbg, text width=8cm, anchor=north west, font=\sffamily]
+    \tikzstyle{smalllistbox} = [draw=boxborder, fill=boxcontentbg, text width=8cm, anchor=north west, font=\sffamily]
+
+    % Character Name Box
+    \node (charname_header) [headerbox] {CHARACTER NAME};
+    \node (charname_content) [contentbox, minimum height=1.2cm, below=0mm of charname_header, font=\sffamily\huge] {Mr/Mrs Blue}; % Removed hspace
+
+    % Abilities Box (Positioned to the right)
+    \node (abilities_header) [headerbox, right=0.5cm of charname_header] {ABILITIES (choose three)};
+    \node (abilities_content) [smalllistbox, below=0mm of abilities_header] {
+        \begin{tabularx}{\linewidth}{@{}XXX@{}} % Reverted tabularx spec
+            Athletics & Driving & Locks \\
+            Perception & Stealth & Technology
+        \end{tabularx}
+    };
+
+    % Character Bio & Notes Box (Below Character Name)
+    \node (bio_header) [headerbox, below=0.75cm of charname_content] {CHARACTER BIO \& NOTES};
+    \node (bio_content) [largecontentbox, below=0mm of bio_header] {%
+        They told it was an easy job, they told it would go all quietly and nice without any gunfire or trouble. But the very moment you got into the lobby, the cops came sirens blazing and now you are stuck here. You aren't even a hardened criminal like the rest – you are just a locksmith looking for a way to save your business from bankruptcy...
+    };
+
+    % Personality Box (Below Abilities)
+    \node (personality_header) [headerbox, below=0.75cm of abilities_content] {PERSONALITY (choose two)};
+    \node (personality_content) [smalllistbox, below=0mm of personality_header] {
+         \begin{tabularx}{\linewidth}{@{}XX@{}} % Reverted tabularx spec
+            Empathic & Coward \\
+            Nervous & Pacifist
+        \end{tabularx}
+    };
+
+    % Equipment Box (Below Personality)
+    \node (equipment_header) [headerbox, below=0.75cm of personality_content] {EQUIPMENT (choose four)};
+    \node (equipment_content) [smalllistbox, below=0mm of equipment_header] {
+         \begin{tabularx}{\linewidth}{@{}ll@{}} % Reverted tabularx spec
+            Crowbar & Flashlight \\
+            Gasmask & Local map \\
+            Locksmith's tools & Loot bag \\
+            Revolver & Toolkit
+        \end{tabularx}
+    };
+
+\end{tikzpicture}
+
+\end{document}
