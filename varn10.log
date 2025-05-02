@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  2 MAY 2025 19:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  2 MAY 2025 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,16 +23,6 @@ File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen146
 )
-
-! LaTeX Error: Two \documentclass or \documentstyle commands.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \documentclass[10pt, a4paper]{
-                                  article}
-? 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
@@ -759,7 +749,7 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \TX@cols=\count327
 \TX@ftn=\toks44
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 47
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 42
 .
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
@@ -772,24 +762,24 @@ File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
 ) (varn10.aux)
 \openout1 = `varn10.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -850,12 +840,12 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 42.
 (varn10.out) (varn10.out)
 \@outlinefile=\write4
 \openout4 = `varn10.out'.
 
-LaTeX Font Info:    Trying to load font information for U+pzd on input line 51.
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 46.
 
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
@@ -865,50 +855,50 @@ os/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 <varn_picture.jpg, id=17, 1027.84pt x 770.88pt>
 File: varn_picture.jpg Graphic file (type jpg)
 <use varn_picture.jpg>
-Package pdftex.def Info: varn_picture.jpg  used on input line 70.
+Package pdftex.def Info: varn_picture.jpg  used on input line 65.
 (pdftex.def)             Requested size: 71.34448pt x 53.50836pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 77.
+(hyperref)                removing `subscript' on input line 71.
 
 
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 96--97
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 90--91
 [][][][][] 
  []
 
 
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 114--115
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 108--109
 [][][][][] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 135
+LaTeX Font Info:    Trying to load font information for U+msa on input line 129
 .
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 135
+LaTeX Font Info:    Trying to load font information for U+msb on input line 129
 .
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 141.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 135.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 141.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 135.
 
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 162--163
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 156--157
 [][][][][] 
  []
 
 
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 180--181
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 174--175
 [][][][][] 
  []
 
 
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 198--199
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 192--193
 [][][][][] 
  []
 
@@ -925,10 +915,10 @@ Package rerunfilecheck Info: File `varn10.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25625 strings out of 469958
- 516779 string characters out of 5469814
+ 25624 strings out of 469958
+ 516760 string characters out of 5469814
  910644 words of memory out of 5000000
- 52013 multiletter control sequences out of 15000+600000
+ 52012 multiletter control sequences out of 15000+600000
  649287 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,11n,101p,474b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -938,7 +928,7 @@ ic/uhvb8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvr8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvro8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/zapfding/uzdr.pfb>
-Output written on varn10.pdf (1 page, 123623 bytes).
+Output written on varn10.pdf (1 page, 123624 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
