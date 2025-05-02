@@ -1,0 +1,105 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet} % Use Helvetica font (or similar sans-serif)
+\usepackage{amssymb} % For checkmarks/circles
+\usepackage{graphicx} % For including images
+\renewcommand{\familydefault}{\sfdefault} % Set default font to sans-serif
+
+\usepackage{geometry}
+\geometry{a4paper, landscape, margin=1cm, top=1cm, bottom=1cm} % Adjust margins
+
+\usepackage{xcolor}
+\definecolor{boxheaderbg}{HTML}{000000} % Black background for headers
+\definecolor{boxheaderfg}{HTML}{FFFFFF} % White text for headers
+\definecolor{boxcontentbg}{HTML}{F0F0F0} % Light gray content background
+\definecolor{boxborder}{HTML}{000000} % Black border
+
+\usepackage{tikz}
+\usetikzlibrary{positioning, calc}
+
+\usepackage{fancyhdr} % For headers and footers
+\pagestyle{empty} % No headers or footers
+\fancyhf{} % clear all header and footer fields
+\renewcommand{\headrulewidth}{0pt} % no header rule
+\renewcommand{\footrulewidth}{0pt} % no footer rule
+
+\usepackage{lipsum} % For dummy text, remove later if not needed
+\usepackage{tabularx} % For better tables
+
+\begin{document}
+
+\begin{tikzpicture}[node distance=4mm and 7mm] % Adjust node distance for spacing
+    % Define styles for the boxes
+    \tikzstyle{headerbox} = [draw=boxborder, fill=boxheaderbg, text=boxheaderfg, minimum height=0.7cm, text width=12.5cm, anchor=west, font=\bfseries\sffamily\small]
+    \tikzstyle{contentbox} = [draw=boxborder, fill=boxcontentbg, text depth=0pt, text height=0.8\baselineskip, minimum height=3.5cm, text width=12.5cm, anchor=north west, font=\sffamily\normalsize, align=left] % Adjusted height, alignment
+    \tikzstyle{largecontentbox} = [draw=boxborder, fill=boxcontentbg, text depth=0pt, text height=0.8\baselineskip, minimum height=6.5cm, text width=12.5cm, anchor=north west, font=\sffamily\normalsize, align=left] % Adjusted height, alignment
+    \tikzstyle{sanityboxcontent} = [draw=boxborder, fill=boxcontentbg, minimum height=2.5cm, text width=12.5cm, anchor=north west, font=\sffamily]
+    \tikzstyle{equipmentbox} = [largecontentbox, minimum height=6cm] % New style for Equipment
+
+    % --- Column 1 ---
+
+    % Character Box (From characterSheet2.tex)
+    \node (char_header) [headerbox] {CHARACTER};
+    \node (char_content) [contentbox, minimum height=3.8cm, below=0mm of char_header] { % Adjusted height
+        \begin{minipage}[c][3.3cm][c]{0.23\linewidth} % Minipage for picture (adjust width/height as needed)
+            \centering
+            \includegraphics[width=\linewidth]{picture.jpg} % Placeholder - uncomment and use your image
+            \vspace{0pt} % Ensure minipage aligns correctly
+        \end{minipage}%
+        \begin{minipage}[c][3.3cm][c]{0.75\linewidth} % Minipage for name (adjust width/height as needed)
+            \centering
+            {\fontsize{24}{28}\selectfont Mr/Mrs Blue \par} % Larger font for name
+             \vspace{0pt} % Ensure minipage aligns correctly
+        \end{minipage}
+    };
+
+    % Abilities Box
+    \node (abil_header) [headerbox, below=of char_content] {ABILITIES (choose 3)};
+    \node (abil_content) [contentbox, below=0mm of abil_header] {};
+
+    % Background Box
+    \node (back_header) [headerbox, below=of abil_content] {BACKGROUND};
+    \node (back_content) [largecontentbox, below=0mm of back_header] {};
+
+
+    % --- Column 2 --- (Positioned relative to Column 1)
+
+    % Sanity Box (Top Right, from characterSheet2.tex) - Positioned above Personality
+    \node (sanity_header) [headerbox, right=of char_header] {SANITY};
+    \node (sanity_content) [sanityboxcontent, below=0mm of sanity_header] {
+        \large \hspace*{2mm} % Add some horizontal space
+        $\bigcirc$ \hspace{1em} % Level 1
+        $\bigcirc$ \hspace{1em} % Level 2
+        $\bigcirc$ \hspace{1em} % Level 3
+        $\bigcirc$ \hspace{1em} % Level 4
+        $\bigcirc$ \hspace{1em} % Level 5
+        $\bigcirc$ % Level 6
+        \\ % New line for parenthesized text
+        \textit{\footnotesize \hspace*{2mm} (6 = Mielenterveys pettää)}
+        \\
+        \vspace{2mm} % Add space before instruction
+        \textit{\footnotesize \hspace*{2mm} Ruksaa yksi ympyrä aina kun Mielenterveys laskee.}
+    };
+
+
+    % Personality Box (Below Sanity)
+    \node (pers_header) [headerbox, below=of sanity_content] {PERSONALITY (choose 2)};
+    \node (pers_content) [contentbox, below=0mm of pers_header] {};
+
+    % Handicaps Box
+    \node (hand_header) [headerbox, anchor=north west, at=(pers_content.south west), yshift=-4mm] {HANDICAPS (choose 2)}; % Positioned below Personality using 'at' and 'yshift'
+    \node (hand_content) [contentbox, below=0mm of hand_header] {};
+
+    % Equipment Box
+    \node (equip_header) [headerbox, anchor=north west, at=(hand_content.south west), yshift=-4mm] {EQUIPMENT (choose 4)}; % Positioned below Handicaps
+    \node (equip_content) [equipmentbox, below=0mm of equip_header] {};
+
+
+\end{tikzpicture}
+
+\end{document} 
