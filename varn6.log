@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  2 MAY 2025 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  2 MAY 2025 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./varn5.tex
-(varn5.tex
+**./varn6.tex
+(varn6.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -759,8 +759,9 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 tex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count328
-) (varn5.aux)
-\openout1 = `varn5.aux'.
+)
+No file varn6.aux.
+\openout1 = `varn6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
@@ -815,14 +816,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape 
 * h-part:(L,W,R)=(28.45274pt, 788.14136pt, 28.45274pt)
-* v-part:(T,H,B)=(14.22636pt, 569.05515pt, 14.22636pt)
+* v-part:(T,H,B)=(28.45274pt, 526.376pt, 42.67912pt)
 * \paperwidth=845.04684pt
 * \paperheight=597.50787pt
 * \textwidth=788.14136pt
-* \textheight=569.05515pt
+* \textheight=526.376pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
-* \topmargin=-95.04362pt
+* \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -841,12 +842,10 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 42.
-(varn5.out) (varn5.out)
 \@outlinefile=\write4
-\openout4 = `varn5.out'.
+\openout4 = `varn6.out'.
 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 46.
-
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
@@ -855,50 +854,50 @@ os/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 <varn_picture.jpg, id=17, 1027.84pt x 770.88pt>
 File: varn_picture.jpg Graphic file (type jpg)
 <use varn_picture.jpg>
-Package pdftex.def Info: varn_picture.jpg  used on input line 63.
+Package pdftex.def Info: varn_picture.jpg  used on input line 65.
 (pdftex.def)             Requested size: 71.34448pt x 53.50836pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 71.
+
+
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 92--93
+[][][][][] 
+ []
+
+
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 112--113
+[][][][][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 133
+.
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 133
+.
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 69.
-
-
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 88--89
-[][][][][] 
- []
-
-
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 106--107
-[][][][][] 
- []
-
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 131.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 139.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 131.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 139.
 
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 151--152
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 162--163
 [][][][][] 
  []
 
 
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 169--170
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 182--183
 [][][][][] 
  []
 
 
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 188--189
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 202--203
 [][][][][] 
  []
 
@@ -906,33 +905,38 @@ Overfull \hbox (2.84518pt too wide) in paragraph at lines 188--189
 
 [1
 
- <./varn_picture.jpg>]
-
-[2] (varn5.aux)
+ <./varn_picture.jpg>] (varn6.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
-Package rerunfilecheck Info: File `varn5.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `varn6.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `varn6.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25635 strings out of 469958
- 516852 string characters out of 5469814
- 906647 words of memory out of 5000000
- 52020 multiletter control sequences out of 15000+600000
- 650986 words of font info for 79 fonts, out of 8000000 for 9000
+ 25616 strings out of 469958
+ 516549 string characters out of 5469814
+ 910592 words of memory out of 5000000
+ 52010 multiletter control sequences out of 15000+600000
+ 649287 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,11n,101p,422b,870s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,11n,101p,422b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
 ic/uhvb8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvr8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvro8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/zapfding/uzdr.pfb>
-Output written on varn5.pdf (2 pages, 125073 bytes).
+Output written on varn6.pdf (1 page, 124216 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
+ 57 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
  52 words of extra memory for PDF output out of 10000 (max. 10000000)
 

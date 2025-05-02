@@ -13,7 +13,7 @@
 
 % Page geometry for landscape layout
 \usepackage{geometry}
-\geometry{a4paper, landscape, margin=1cm, top=0.5cm, bottom=0.5cm}
+\geometry{a4paper, landscape, margin=1cm, top=1cm, bottom=1.5cm}
 
 % Colors for box styling
 \usepackage{xcolor}
@@ -46,60 +46,66 @@
 
 % Two-column layout with minipages
 \begin{minipage}[t]{0.48\textwidth}
+    \vspace{0pt}
     % Character box
     \begin{tcolorbox}[
         width=12.5cm,
-        height=3.5cm,
+        height=3.8cm,
         title=CHARACTER,
         colback=boxcontentbg,
         colframe=boxborder,
         coltitle=boxheaderfg,
         colbacktitle=boxheaderbg,
         fonttitle=\bfseries\sffamily\small,
-        clip upper
+        clip upper,
+        before skip=0pt
     ]
-        \begin{minipage}[c][3.3cm][c]{0.22\linewidth}
+        \begin{minipage}[t][3.3cm]{0.22\linewidth}
             \centering
             \includegraphics[width=\linewidth, height=3.3cm, keepaspectratio=true]{varn_picture.jpg}
             \vspace{0pt}
         \end{minipage}%
         \hspace{0.2cm}%
-        \begin{minipage}[c][3.3cm][c]{0.74\linewidth}
+        \begin{minipage}[t][3.3cm]{0.74\linewidth}
             \centering
             \TextField[name=character_name, width=8cm, height=1cm, multiline=true, default={Dr Varn}]{}
         \end{minipage}
     \end{tcolorbox}
 
+    \vspace{3mm}
 
     % Abilities box
     \begin{tcolorbox}[
         width=12.5cm,
-        height=5.5cm,
+        height=4cm,
         title=ABILITIES (choose 3),
         colback=boxcontentbg,
         colframe=boxborder,
         coltitle=boxheaderfg,
         colbacktitle=boxheaderbg,
         fonttitle=\bfseries\sffamily\small,
-        clip upper
+        clip upper,
+        before skip=0pt
     ]
         \TextField[name=abilities, width=11.5cm, height=3cm, multiline=true, default={
 Ancient Tech \hspace{1em} Social Media \hspace{1em} Pyramid Explorer \hspace{1em} Electrical Eng \hspace{1em} Persuasion \hspace{1em} Stealth
         }]{}
     \end{tcolorbox}
 
+    \vspace{3mm}
 
     % Background box
     \begin{tcolorbox}[
         width=12.5cm,
-        height=8.0cm,
+        height=6.5cm,
         title=BACKGROUND,
         colback=boxcontentbg,
         colframe=boxborder,
         coltitle=boxheaderfg,
         colbacktitle=boxheaderbg,
         fonttitle=\bfseries\sffamily\small,
-        clip upper
+        clip upper,
+        before skip=0pt
     ]
         \TextField[name=background, width=11.5cm, height=5.5cm, multiline=true, default={
 Ancient technology expertise, social media influencer. Born in the dusty sands of Egypt, Varn has spent his life studying the pyramids and the ancient technology hidden within. He’s now a social media influencer, using his platform to raise funds for the expedition.
@@ -108,6 +114,7 @@ Ancient technology expertise, social media influencer. Born in the dusty sands o
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.48\textwidth}
+    \vspace{0pt}
     % Sanity box
     \begin{tcolorbox}[
         width=12.5cm,
@@ -118,69 +125,77 @@ Ancient technology expertise, social media influencer. Born in the dusty sands o
         coltitle=boxheaderfg,
         colbacktitle=boxheaderbg,
         fonttitle=\bfseries\sffamily\small,
-        clip upper
+        clip upper,
+        before skip=0pt
     ]
-        \large \hspace*{2mm}
-        $\bigcirc$ \hspace{1em}
-        $\bigcirc$ \hspace{1em}
-        $\bigcirc$ \hspace{1em}
-        $\bigcirc$ \hspace{1em}
-        $\bigcirc$ \hspace{1em}
-        $\bigcirc$ \\
-        \textit{\footnotesize \hspace*{2mm} (6 = Sanity breaks)} \\
-        \vspace{2mm}
-        \textit{\footnotesize \hspace*{2mm} Check one circle each time sanity decreases.}
+        \begin{minipage}[t]{\linewidth}
+            \large \hspace*{2mm}
+            $\bigcirc$ \hspace{1em}
+            $\bigcirc$ \hspace{1em}
+            $\bigcirc$ \hspace{1em}
+            $\bigcirc$ \hspace{1em}
+            $\bigcirc$ \hspace{1em}
+            $\bigcirc$ \\
+            \textit{\footnotesize \hspace*{2mm} (6 = Sanity breaks)} \\
+            \vspace{2mm}
+            \textit{\footnotesize \hspace*{2mm} Check one circle each time sanity decreases.}
+        \end{minipage}
     \end{tcolorbox}
 
-   
+    \vspace{3mm}
+
     % Personality box
     \begin{tcolorbox}[
         width=12.5cm,
-        height=4.5cm,
+        height=3.5cm,
         title=PERSONALITY (choose 2),
         colback=boxcontentbg,
         colframe=boxborder,
         coltitle=boxheaderfg,
         colbacktitle=boxheaderbg,
         fonttitle=\bfseries\sffamily\small,
-        clip upper
+        clip upper,
+        before skip=0pt
     ]
         \TextField[name=personality, width=11.5cm, height=2.5cm, multiline=true, default={
 Adventurous \hspace{1em} Analytical \hspace{1em} Charismatic \hspace{1em} Cautious
         }]{}
     \end{tcolorbox}
 
-   
+    \vspace{3mm}
+
     % Handicaps box
     \begin{tcolorbox}[
         width=12.5cm,
-        height=4.5cm,
+        height=3.5cm,
         title=HANDICAPS (choose 2),
         colback=boxcontentbg,
         colframe=boxborder,
         coltitle=boxheaderfg,
         colbacktitle=boxheaderbg,
         fonttitle=\bfseries\sffamily\small,
-        clip upper
+        clip upper,
+        before skip=0pt
     ]
         \TextField[name=handicaps, width=11.5cm, height=2.5cm, multiline=true, default={
 Claustrophobia \hspace{1em} Dust Allergy \hspace{1em} Technophobia \hspace{1em} Night Blindness
         }]{}
     \end{tcolorbox}
 
-   
+    \vspace{3mm}
 
     % Equipment box
     \begin{tcolorbox}[
         width=12.5cm,
-        height=4.5cm,
+        height=5cm,
         title=EQUIPMENT (choose 4),
         colback=boxcontentbg,
         colframe=boxborder,
         coltitle=boxheaderfg,
         colbacktitle=boxheaderbg,
         fonttitle=\bfseries\sffamily\small,
-        clip upper
+        clip upper,
+        before skip=0pt
     ]
         \TextField[name=equipment, width=11.5cm, height=4cm, multiline=true, default={
 Power Generator \hspace{1em} Sat Comm \hspace{1em} EMF Detector \hspace{1em} Night Goggles \hspace{1em} Digging Tools \hspace{1em} Smartphone \hspace{1em} Smoke Grenades \hspace{1em} First Aid
