@@ -61,11 +61,18 @@
 
     % Abilities Box
     \node (abil_header) [headerbox, below=of char_content] {ABILITIES (choose 3)};
-    \node (abil_content) [contentbox, below=0mm of abil_header] {};
+    \node (abil_content) [contentbox, below=0mm of abil_header] {
+        \begin{tabularx}{\linewidth}{@{}X X X@{}}
+            Social Media & Lock Picking & Athletic \\
+             & Shooting & \\
+        \end{tabularx}
+    };
 
     % Background Box
     \node (back_header) [headerbox, below=of abil_content] {BACKGROUND};
-    \node (back_content) [largecontentbox, below=0mm of back_header] {};
+    \node (back_content) [largecontentbox, below=0mm of back_header] {
+        You're a rising star on the influencer scene, headed to Egypt for the ultimate streaming challenge: activating ancient Atlantean tech hidden within the pyramids! The catch? It runs on Tesla Coil power, beamed remotely, and that costs serious cash. Your stream's success directly funds the energy transfer – more views, more power, bigger tech activation. Fail to impress your audience, and you might only power up a toaster... ancient Atlantean toaster, but still. Time to go live!
+    };
 
 
     % --- Column 2 --- (Positioned relative to Column 1)
@@ -90,15 +97,30 @@
 
     % Personality Box (Below Sanity)
     \node (pers_header) [headerbox, below=of sanity_content] {PERSONALITY (choose 2)};
-    \node (pers_content) [contentbox, below=0mm of pers_header] {};
+    \node (pers_content) [contentbox, below=0mm of pers_header] {
+        \begin{tabularx}{\linewidth}{@{}X X@{}}
+            Gun-ho & Timid \\
+            & \\
+        \end{tabularx}
+    };
 
     % Handicaps Box
     \node (hand_header) [headerbox, anchor=north west, at=(pers_content.south west), yshift=-4mm] {HANDICAPS (choose 2)}; % Positioned below Personality using 'at' and 'yshift'
-    \node (hand_content) [contentbox, below=0mm of hand_header] {};
+    \node (hand_content) [contentbox, below=0mm of hand_header] {
+        \begin{tabularx}{\linewidth}{@{}X X@{}}
+            Tight Spaces & Fear of Heights \\
+             & \\
+        \end{tabularx}
+    };
 
     % Equipment Box
     \node (equip_header) [headerbox, anchor=north west, at=(hand_content.south west), yshift=-4mm] {EQUIPMENT (choose 4)}; % Positioned below Handicaps
-    \node (equip_content) [equipmentbox, below=0mm of equip_header] {};
+    \node (equip_content) [equipmentbox, below=0mm of equip_header] {
+        \begin{tabularx}{\linewidth}{@{}X X@{}}
+            Crowbar & Smoke Grenades \\
+            Lock-picks & Tesla Comm-Terminal \\
+        \end{tabularx}
+    };
 
 
 \end{tikzpicture}

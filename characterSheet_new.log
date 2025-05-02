@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.1)  2 MAY 2025 11:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.1)  2 MAY 2025 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -582,9 +582,9 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 84.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 91.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 84.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 91.
 
 [1
 
@@ -597,19 +597,19 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14344 strings out of 474485
- 293316 string characters out of 5743735
- 1933542 words of memory out of 5000000
- 36374 multiletter control sequences out of 15000+600000
- 580716 words of font info for 73 fonts, out of 8000000 for 9000
+ 14347 strings out of 474485
+ 293382 string characters out of 5743735
+ 1938542 words of memory out of 5000000
+ 36376 multiletter control sequences out of 15000+600000
+ 581870 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,10n,93p,435b,845s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,13n,93p,525b,845s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
 ic/uhvb8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvr8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvro8a.pfb>
-Output written on characterSheet_new.pdf (1 page, 134894 bytes).
+Output written on characterSheet_new.pdf (1 page, 139948 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
