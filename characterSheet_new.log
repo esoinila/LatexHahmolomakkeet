@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.1)  2 MAY 2025 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.1)  2 MAY 2025 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -588,13 +588,9 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
 
 [1
 
-]
-Overfull \vbox (17.42583pt too high) has occurred while \output is active []
-
-
-[2{C:/Users/ernos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/er
-nos/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./picture.jpg>]
-(characterSheet_new.aux)
+{C:/Users/ernos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/erno
+s/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./picture.jpg>] (
+characterSheet_new.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -613,9 +609,9 @@ cmsy10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
 ic/uhvb8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvr8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvro8a.pfb>
-Output written on characterSheet_new.pdf (2 pages, 135270 bytes).
+Output written on characterSheet_new.pdf (1 page, 134895 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
