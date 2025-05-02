@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  2 MAY 2025 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  2 MAY 2025 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -874,7 +874,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 68.
 
 
-Overfull \hbox (41.25644pt too wide) in paragraph at lines 68--69
+Overfull \hbox (12.80368pt too wide) in paragraph at lines 68--69
  [][][][][] 
  []
 
@@ -915,131 +915,131 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 97.
 
 
-Overfull \hbox (17.07156pt too wide) in paragraph at lines 97--98
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 97--98
 [][][][][] 
  []
 
 
-Overfull \hbox (17.07156pt too wide) in paragraph at lines 114--115
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 116--117
 [][][][][] 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 138.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 140.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 138.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 140.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 166.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 166.
+(hyperref)                removing `\newline' on input line 168.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 166.
+(hyperref)                removing `\newline' on input line 168.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 166.
+(hyperref)                removing `\newline' on input line 168.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 166.
+(hyperref)                removing `\newline' on input line 168.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 166.
+(hyperref)                removing `\newline' on input line 168.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 166.
+(hyperref)                removing `\newline' on input line 168.
 
 
-Overfull \hbox (17.07156pt too wide) in paragraph at lines 166--167
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newline' on input line 168.
+
+
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 168--169
 [][][][][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 192.
+(hyperref)                removing `\newline' on input line 194.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 192.
+(hyperref)                removing `\newline' on input line 194.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 192.
+(hyperref)                removing `\newline' on input line 194.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 192.
+(hyperref)                removing `\newline' on input line 194.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 192.
+(hyperref)                removing `\newline' on input line 194.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 192.
+(hyperref)                removing `\newline' on input line 194.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 192.
+(hyperref)                removing `\newline' on input line 194.
 
 
-Overfull \hbox (17.07156pt too wide) in paragraph at lines 192--193
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 194--195
 [][][][][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 222.
+(hyperref)                removing `\newline' on input line 224.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 222.
+(hyperref)                removing `\newline' on input line 224.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 222.
+(hyperref)                removing `\newline' on input line 224.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 222.
+(hyperref)                removing `\newline' on input line 224.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 222.
+(hyperref)                removing `\newline' on input line 224.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 222.
+(hyperref)                removing `\newline' on input line 224.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 222.
+(hyperref)                removing `\newline' on input line 224.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 222.
+(hyperref)                removing `\newline' on input line 224.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 222.
+(hyperref)                removing `\newline' on input line 224.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 222.
+(hyperref)                removing `\newline' on input line 224.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 222.
+(hyperref)                removing `\newline' on input line 224.
 
 
-Overfull \hbox (17.07156pt too wide) in paragraph at lines 222--223
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 224--225
 [][][][][] 
  []
 
@@ -1058,7 +1058,7 @@ Package rerunfilecheck Info: File `varn2.out' has not changed.
 Here is how much of TeX's memory you used:
  25636 strings out of 469958
  516876 string characters out of 5469814
- 910639 words of memory out of 5000000
+ 913499 words of memory out of 5000000
  52022 multiletter control sequences out of 15000+600000
  650986 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1069,7 +1069,7 @@ ic/uhvb8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvr8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvro8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/zapfding/uzdr.pfb>
-Output written on varn2.pdf (1 page, 124890 bytes).
+Output written on varn2.pdf (1 page, 127936 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
