@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  2 MAY 2025 19:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  2 MAY 2025 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -759,8 +759,7 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 tex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count328
-)
-No file varn9.aux.
+) (varn9.aux)
 \openout1 = `varn9.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -842,10 +841,12 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 42.
+(varn9.out) (varn9.out)
 \@outlinefile=\write4
 \openout4 = `varn9.out'.
 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 46.
+
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
@@ -862,59 +863,42 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 71.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 93.
-
-
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 93--94
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 90--91
 [][][][][] 
  []
 
 
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 113--114
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 108--109
 [][][][][] 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 134
+LaTeX Font Info:    Trying to load font information for U+msa on input line 129
 .
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 134
+LaTeX Font Info:    Trying to load font information for U+msb on input line 129
 .
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 140.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 135.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 140.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 135.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 164.
-
-
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 164--165
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 156--157
 [][][][][] 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 185.
-
-
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 185--186
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 174--175
 [][][][][] 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 206.
-
-
-Overfull \hbox (2.84518pt too wide) in paragraph at lines 206--207
+Overfull \hbox (2.84518pt too wide) in paragraph at lines 192--193
 [][][][][] 
  []
 
@@ -927,31 +911,24 @@ Overfull \hbox (2.84518pt too wide) in paragraph at lines 206--207
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
-
-
-Package rerunfilecheck Warning: File `varn9.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `varn9.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `varn9.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25617 strings out of 469958
- 516554 string characters out of 5469814
- 910592 words of memory out of 5000000
- 52011 multiletter control sequences out of 15000+600000
+ 25624 strings out of 469958
+ 516740 string characters out of 5469814
+ 910639 words of memory out of 5000000
+ 52012 multiletter control sequences out of 15000+600000
  649287 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,11n,101p,422b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,11n,101p,473b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
 ic/uhvb8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvr8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvro8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/zapfding/uzdr.pfb>
-Output written on varn9.pdf (1 page, 124224 bytes).
+Output written on varn9.pdf (1 page, 123624 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
