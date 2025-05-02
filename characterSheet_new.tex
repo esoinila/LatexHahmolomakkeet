@@ -11,7 +11,7 @@
 \renewcommand{\familydefault}{\sfdefault} % Set default font to sans-serif
 
 \usepackage{geometry}
-\geometry{a4paper, landscape, margin=1cm, top=1cm, bottom=1cm} % Adjust margins
+\geometry{a4paper, landscape, margin=1cm, top=1cm, bottom=1.5cm} % Adjust margins
 
 \usepackage{xcolor}
 \definecolor{boxheaderbg}{HTML}{000000} % Black background for headers
@@ -23,8 +23,9 @@
 \usetikzlibrary{positioning, calc}
 
 \usepackage{fancyhdr} % For headers and footers
-\pagestyle{empty} % No headers or footers
+\pagestyle{fancy} % Use fancy page style to allow footers
 \fancyhf{} % clear all header and footer fields
+\fancyfoot[R]{\footnotesize "Fail Forward character sheet" by Visa Lampi is licensed under CC BY-NC 4.0.} % Add footer text to the right
 \renewcommand{\headrulewidth}{0pt} % no header rule
 \renewcommand{\footrulewidth}{0pt} % no footer rule
 
@@ -33,7 +34,7 @@
 
 \begin{document}
 
-\vspace*{\fill} % Add vertical space before
+% \vspace*{\fill} % Remove vertical space before
 \begin{tikzpicture}[node distance=3mm and 7mm] % Adjust node distance for spacing
     % Define styles for the boxes
     \tikzstyle{headerbox} = [draw=boxborder, fill=boxheaderbg, text=boxheaderfg, minimum height=0.7cm, text width=12.5cm, anchor=west, font=\bfseries\sffamily\small]
@@ -124,6 +125,6 @@
 
 
 \end{tikzpicture}
-\vspace*{\fill} % Add vertical space after
+% \vspace*{\fill} % Remove vertical space after
 
 \end{document} 
