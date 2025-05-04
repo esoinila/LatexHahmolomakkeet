@@ -1,6 +1,7 @@
 % !TEX TS-program = pdflatex
 % !TEX encoding = UTF-8 Unicode
 
+% Setting up the document class for a character sheet
 \documentclass[10pt, a4paper]{article}
 
 % Including essential packages for encoding and font setup
@@ -11,24 +12,24 @@
 \usepackage{graphicx}
 \renewcommand{\familydefault}{\sfdefault}
 
-% Setting up page geometry for a landscape layout with specified margins
+% Configuring page geometry for a landscape layout
 \usepackage{geometry}
 \geometry{a4paper, landscape, margin=1cm, top=1cm, bottom=1.5cm}
 
-% Defining colors for box styling using HTML color codes
+% Defining colors for box styling
 \usepackage{xcolor}
 \definecolor{boxheaderbg}{HTML}{000000}
 \definecolor{boxheaderfg}{HTML}{FFFFFF}
 \definecolor{boxcontentbg}{HTML}{F0F0F0}
 \definecolor{boxborder}{HTML}{000000}
 
-% Including tcolorbox for creating fixed-size, styled boxes
+% Setting up tcolorbox for styled, fixed-size boxes
 \usepackage[many]{tcolorbox}
 
 % Adding hyperref for interactive form fields
 \usepackage{hyperref}
 
-% Configuring headers and footers with fancyhdr
+% Configuring headers and footers
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
@@ -36,7 +37,7 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
-% Including tabularx for table formatting (though not used here, kept for compatibility)
+% Including tabularx for potential table formatting
 \usepackage{tabularx}
 
 \begin{document}
@@ -47,7 +48,7 @@
 % Creating a two-column layout using minipages
 \begin{minipage}[t]{0.48\textwidth}
     \vspace{0pt}
-    % Defining the CHARACTER box with an image placeholder and name field
+    % Defining the CHARACTER box with a placeholder image and name field
     \begin{tcolorbox}[
         width=12.5cm,
         height=4.5cm,
