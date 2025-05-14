@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  14 MAY 2025 21:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  14 MAY 2025 21:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -184,20 +184,20 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <Karl.jpeg, id=1, 1027.84pt x 1027.84pt>
 File: Karl.jpeg Graphic file (type jpg)
 <use Karl.jpeg>
-Package pdftex.def Info: Karl.jpeg  used on input line 23.
-(pdftex.def)             Requested size: 199.16547pt x 199.16928pt.
+Package pdftex.def Info: Karl.jpeg  used on input line 24.
+(pdftex.def)             Requested size: 147.94298pt x 147.95424pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 24.
+(Font)              <12> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 24.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 24.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <17.28> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 28.
+(Font)              <6> on input line 25.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 29.
 File: Karl.jpeg Graphic file (type jpg)
 <use Karl.jpeg>
-Package pdftex.def Info: Karl.jpeg  used on input line 41.
-(pdftex.def)             Requested size: 199.16547pt x 199.16928pt.
+Package pdftex.def Info: Karl.jpeg  used on input line 44.
+(pdftex.def)             Requested size: 147.94298pt x 147.95424pt.
 
 
 [1
@@ -212,16 +212,16 @@ L3 programming layer <2025-03-26>
  ) 
 Here is how much of TeX's memory you used:
  2322 strings out of 469958
- 36344 string characters out of 5469814
+ 36341 string characters out of 5469814
  425121 words of memory out of 5000000
  29116 multiletter control sequences out of 15000+600000
  639703 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,213b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,213b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a
 .pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 ro8a.pfb>
-Output written on namesign_Karl.pdf (1 page, 113936 bytes).
+Output written on namesign_Karl.pdf (1 page, 113933 bytes).
 PDF statistics:
  18 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
