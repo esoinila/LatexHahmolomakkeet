@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  4 MAY 2025 16:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  14 MAY 2025 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./SageBrook.tex
-(SageBrook.tex
+**./Sagebrook.tex
+(Sagebrook.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -759,9 +759,8 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 tex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count328
-)
-No file SageBrook.aux.
-\openout1 = `SageBrook.aux'.
+) (Sagebrook.aux)
+\openout1 = `Sagebrook.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
@@ -842,10 +841,12 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 42.
+(Sagebrook.out) (Sagebrook.out)
 \@outlinefile=\write4
-\openout4 = `SageBrook.out'.
+\openout4 = `Sagebrook.out'.
 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 46.
+
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
@@ -954,26 +955,19 @@ Overfull \hbox (2.84518pt too wide) in paragraph at lines 192--193
 
 [1
 
- <./SageBrook.jpg>] (SageBrook.aux)
+ <./SageBrook.jpg>] (Sagebrook.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
-
-
-Package rerunfilecheck Warning: File `SageBrook.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `SageBrook.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Sagebrook.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25618 strings out of 469958
- 516606 string characters out of 5469814
- 911538 words of memory out of 5000000
- 52012 multiletter control sequences out of 15000+600000
+ 25626 strings out of 469958
+ 516829 string characters out of 5469814
+ 911565 words of memory out of 5000000
+ 52014 multiletter control sequences out of 15000+600000
  649287 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,11n,101p,609b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -983,7 +977,7 @@ ic/uhvb8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvr8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvro8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/zapfding/uzdr.pfb>
-Output written on SageBrook.pdf (1 page, 193427 bytes).
+Output written on Sagebrook.pdf (1 page, 193427 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
