@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  14 MAY 2025 21:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  14 MAY 2025 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -82,48 +82,60 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@dimlist=\toks20
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 14
+(C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count274
+\rotFPtop=\skip51
+\rotFPbot=\skip52
+\rot@float@box=\box53
+\rot@mess@toks=\toks21
+)
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 15
 .
+
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count274
-)
-No file namesign_Karl.aux.
+\l__color_backend_stack_int=\count275
+) (namesign_Karl.aux)
 \openout1 = `namesign_Karl.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count275
+\scratchcounter=\count276
 \scratchdimen=\dimen157
-\scratchbox=\box53
-\nofMPsegments=\count276
-\nofMParguments=\count277
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count278
+\scratchbox=\box54
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count279
 \MPscratchDim=\dimen158
-\MPnumerator=\count279
-\makeMPintoPDFobject=\count280
-\everyMPtoPDFconversion=\toks22
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks23
 )
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -172,24 +184,20 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <Karl.jpeg, id=1, 1027.84pt x 1027.84pt>
 File: Karl.jpeg Graphic file (type jpg)
 <use Karl.jpeg>
-Package pdftex.def Info: Karl.jpeg  used on input line 19.
-(pdftex.def)             Requested size: 170.7155pt x 170.71652pt.
+Package pdftex.def Info: Karl.jpeg  used on input line 23.
+(pdftex.def)             Requested size: 199.16547pt x 199.16928pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 24.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <17.28> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 23.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 17--25
-[][] 
- []
-
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 28.
 File: Karl.jpeg Graphic file (type jpg)
 <use Karl.jpeg>
-Package pdftex.def Info: Karl.jpeg  used on input line 31.
-(pdftex.def)             Requested size: 170.7155pt x 170.71652pt.
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 29--37
-[][] 
- []
-
+Package pdftex.def Info: Karl.jpeg  used on input line 41.
+(pdftex.def)             Requested size: 199.16547pt x 199.16928pt.
 
 
 [1
@@ -203,17 +211,17 @@ L3 programming layer <2025-03-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2158 strings out of 469958
- 33744 string characters out of 5469814
+ 2322 strings out of 469958
+ 36344 string characters out of 5469814
  425121 words of memory out of 5000000
- 28968 multiletter control sequences out of 15000+600000
- 637265 words of font info for 48 fonts, out of 8000000 for 9000
+ 29116 multiletter control sequences out of 15000+600000
+ 639703 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,213b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,213b,327s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a
 .pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 ro8a.pfb>
-Output written on namesign_Karl.pdf (1 page, 113886 bytes).
+Output written on namesign_Karl.pdf (1 page, 113936 bytes).
 PDF statistics:
  18 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
