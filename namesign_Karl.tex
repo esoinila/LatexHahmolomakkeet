@@ -7,48 +7,54 @@
 \usepackage{helvet}
 \usepackage{graphicx}
 \usepackage{geometry}
-\usepackage{rotating}
+\usepackage{xcolor}
+\usepackage[many]{tcolorbox}
 \geometry{a4paper, landscape, margin=1.5cm}
 \renewcommand{\familydefault}{\sfdefault}
 \pagestyle{empty}
 
+% Colors for box styling
+\definecolor{boxheaderbg}{HTML}{000000}
+\definecolor{boxheaderfg}{HTML}{FFFFFF}
+\definecolor{boxcontentbg}{HTML}{F0F0F0}
+\definecolor{boxborder}{HTML}{000000}
+\definecolor{namebg}{HTML}{D6DEF7}
+
 \begin{document}
 
-% Top half (upside down, at the very top)
-\vspace*{0pt}
+\vspace*{2cm}
 \begin{center}
-  \begin{rotate}{180}
-    \begin{minipage}[c][0.38\textheight][c]{0.95\textwidth}
-      \begin{minipage}[c][0.38\textheight][c]{0.5\textwidth}
-        \centering
-        \includegraphics[height=5.2cm,keepaspectratio]{Karl.jpeg}
-      \end{minipage}%
-      \begin{minipage}[c][0.38\textheight][c]{0.5\textwidth}
-        \centering
-        {\fontsize{36}{44}\selectfont Field Technician Karl} \\[0.7cm]
-        {\large\itshape "If duct tape can't fix it, you didn't use enough duct tape."}
-      \end{minipage}
-    \end{minipage}
-  \end{rotate}
-\end{center}
-
-% Large space to keep content away from fold
-\vspace*{0.24\textheight}
-
-% Bottom half (right side up, at the very bottom)
-\vspace*{0.02\textheight}
-\begin{center}
-  \begin{minipage}[c][0.38\textheight][c]{0.95\textwidth}
-    \begin{minipage}[c][0.38\textheight][c]{0.5\textwidth}
-      \centering
-      \includegraphics[height=5.2cm,keepaspectratio]{Karl.jpeg}
-    \end{minipage}%
-    \begin{minipage}[c][0.38\textheight][c]{0.5\textwidth}
-      \centering
-      {\fontsize{36}{44}\selectfont Field Technician Karl} \\[0.7cm]
-      {\large\itshape "If duct tape can't fix it, you didn't use enough duct tape."}
-    \end{minipage}
+\begin{tcolorbox}[
+    width=0.9\textwidth,
+    colback=boxcontentbg,
+    colframe=boxborder,
+    coltitle=boxheaderfg,
+    colbacktitle=boxheaderbg,
+    fonttitle=\bfseries\sffamily\large,
+    title=CHARACTER,
+    arc=10pt,
+    boxrule=2pt,
+    left=8mm,
+    right=8mm,
+    top=2mm,
+    bottom=2mm,
+    enhanced,
+]
+  \begin{minipage}[c]{0.28\textwidth}
+    \centering
+    \includegraphics[width=\linewidth, height=6cm, keepaspectratio]{Karl.jpeg}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[c]{0.68\textwidth}
+    \centering
+    \vspace{0.5cm}
+    \begin{tcolorbox}[colback=namebg, boxrule=0pt, arc=2pt, width=\textwidth, left=0pt, right=0pt, top=2mm, bottom=2mm]
+      {\fontsize{38}{44}\selectfont Field Technician Karl}
+    \end{tcolorbox}
+    \vspace{0.7cm}
+    {\large\itshape "If duct tape can't fix it, you didn't use enough duct tape."}
   \end{minipage}
+\end{tcolorbox}
 \end{center}
 
 \end{document} 
