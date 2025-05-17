@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  18 MAY 2025 00:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  18 MAY 2025 00:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -58,7 +58,7 @@ L3 programming layer <2025-03-26>
 Here is how much of TeX's memory you used:
  424 strings out of 469958
  8175 string characters out of 5469814
- 425121 words of memory out of 5000000
+ 426121 words of memory out of 5000000
  27295 multiletter control sequences out of 15000+600000
  627738 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -67,7 +67,7 @@ Here is how much of TeX's memory you used:
 cmbx10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmr10.pfb>
-Output written on site_inka_andes.pdf (1 page, 47875 bytes).
+Output written on site_inka_andes.pdf (1 page, 49223 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
