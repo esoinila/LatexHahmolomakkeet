@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  18 MAY 2025 12:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  18 MAY 2025 12:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -400,8 +400,7 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 tex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
-)
-No file monster_cards.aux.
+) (monster_cards.aux)
 \openout1 = `monster_cards.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -418,6 +417,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -483,31 +483,29 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
 {C:/Users/ernos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-[2]
-
-[3] (monster_cards.aux)
+[2] (monster_cards.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12349 strings out of 469958
- 258736 string characters out of 5469814
- 622601 words of memory out of 5000000
- 38958 multiletter control sequences out of 15000+600000
+ 12354 strings out of 469958
+ 258891 string characters out of 5469814
+ 628592 words of memory out of 5000000
+ 38961 multiletter control sequences out of 15000+600000
  628419 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,91p,415b,583s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,8n,91p,415b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ernos\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on monster_cards.pdf (3 pages, 72822 bytes).
+Output written on monster_cards.pdf (2 pages, 71842 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 37 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
