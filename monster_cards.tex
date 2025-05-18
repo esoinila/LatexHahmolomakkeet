@@ -4,39 +4,61 @@
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{xcolor}
+\usepackage{enumitem} % Required for customizing lists
+\usepackage[many]{tcolorbox} % Required for tcolorbox
 
 \geometry{a4paper, margin=1in}
 
-% Define colors
-\definecolor{cardbg}{RGB}{240, 240, 240}
-\definecolor{titlebg}{RGB}{50, 50, 50}
-\definecolor{titletext}{RGB}{255, 255, 255}
+% Define colors (Copied from namesign_Kate.tex and adjusted)
+\definecolor{boxheaderbg}{HTML}{000000}
+\definecolor{boxheaderfg}{HTML}{FFFFFF}
+\definecolor{boxcontentbg}{HTML}{F0F0F0}
+\definecolor{boxborder}{HTML}{000000}
 
-% Card style
-\newcommand{\monstercard}[8]{
-    \begin{tikzpicture}
-        % Card background
-        \fill[cardbg] (0,0) rectangle (6,9);
-        % Title bar
-        \fill[titlebg] (0,8) rectangle (6,9);
-        \node[text=titletext, font=\bfseries] at (3,8.5) {#1};
+% Card style using tcolorbox
+\newcommand{\monstercard}[8]{%
+    \begin{tcolorbox}[
+        width=5.8cm, % Adjust width to fit in minipage
+        colback=boxcontentbg,
+        colframe=boxborder,
+        coltitle=boxheaderfg,
+        colbacktitle=boxheaderbg,
+        fonttitle=\bfseries\sffamily\large,
+        title=#1, % Monster name as title
+        arc=10pt, % Rounded corners
+        boxrule=2pt, % Thick border
+        left=3mm,
+        right=3mm,
+        top=2mm,
+        bottom=2mm,
+        enhanced,
+        nobeforeafter,
+    ]%
+        % Content (Type, HP, Abilities, etc.)
+        \textbf{Type:} #2\\
+        \textbf{HP:} #3\\
+        \vspace{0.1cm} % Reduced space before abilities
+        \textbf{Abilities:}
+        \begin{itemize}[nosep, leftmargin=*, itemsep=0pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+            #4
+        \end{itemize}
+        \vspace{0.1cm} % Reduced space before weaknesses
+        \textbf{Weaknesses:}
+        \begin{itemize}[nosep, leftmargin=*, itemsep=0pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+            #5
+        \end{itemize}
+         \vspace{0.1cm} % Reduced space before resistances
+        \textbf{Resistances:}
+        \begin{itemize}[nosep, leftmargin=*, itemsep=0pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+            #6
+        \end{itemize}
+         \vspace{0.1cm} % Reduced space before special
+        \textbf{Special:} #7
         
-        % Content - Adjusting vertical position and spacing
-        \node[align=left, text width=5.5cm] at (3,6.8) {
-            \textbf{Type:} #2\\
-            \textbf{HP:} #3\\
-            \textbf{Abilities:} #4\\
-            \textbf{Weaknesses:} #5\\
-            \textbf{Resistances:} #6\\
-            \textbf{Special:} #7
-        };
-        
-        % Slogan
-        \node[align=center, text width=5.5cm, font=\itshape] at (3,2) {
-            "#8"
-        };
-    \end{tikzpicture}
-}
+        \vspace{0.3cm} % Space before slogan
+        \centering\itshape "#8"% Slogan
+    \end{tcolorbox}%
+}%
 
 \begin{document}
 
@@ -48,15 +70,15 @@
 \monstercard{Ancient Guardian Mummy}
 {Undead}
 {45 HP}
-{• Mindless obedience to commands\\
-• Enhanced strength\\
-• Resistance to physical damage}
-{• Fire\\
-• Holy symbols\\
-• Decapitation}
-{• Blunt weapons\\
-• Cold damage\\
-• Poison}
+{\item Mindless obedience to commands
+\item Enhanced strength
+\item Resistance to physical damage}
+{\item Fire
+\item Holy symbols
+\item Decapitation}
+{\item Blunt weapons
+\item Cold damage
+\item Poison}
 {Controlled by the Eagle Faction's priests. Will follow commands without question.}
 {"The dead serve the living, but only the chosen ones."}
 \end{minipage}
@@ -66,16 +88,16 @@
 \monstercard{Eagle Faction Cardinal}
 {Human}
 {60 HP}
-{• Master of manipulation\\
-• Ancient knowledge\\
-• Mind control abilities\\
-• Ritual magic}
-{• Direct confrontation\\
-• Physical combat\\
-• Truth}
-{• Mental attacks\\
-• Illusions\\
-• Deception}
+{\item Master of manipulation
+\item Ancient knowledge
+\item Mind control abilities
+\item Ritual magic}
+{\item Direct confrontation
+\item Physical combat
+\item Truth}
+{\item Mental attacks
+\item Illusions
+\item Deception}
 {Can attempt to gaslight players into serving the Eagle Faction's goals.}
 {"Knowledge is power, and power must be controlled."}
 \end{minipage}
@@ -88,15 +110,15 @@
 \monstercard{Separatist Guerrilla}
 {Human}
 {35 HP}
-{• Modern weapons\\
-• Tactical training\\
-• Knowledge of local terrain}
-{• Close combat\\
-• Surprise attacks\\
-• Ancient technology}
-{• Ranged attacks\\
-• Modern technology\\
-• Numbers}
+{\item Modern weapons
+\item Tactical training
+\item Knowledge of local terrain}
+{\item Close combat
+\item Surprise attacks
+\item Ancient technology}
+{\item Ranged attacks
+\item Modern technology
+\item Numbers}
 {Works in groups of 3-5. Will use force to drive players toward specific locations.}
 {"The past must stay buried, for the future belongs to us."}
 \end{minipage}
@@ -106,19 +128,18 @@
 \monstercard{Repository Guardian Bot}
 {Construct}
 {80 HP}
-{• Energy weapons\\
-• Advanced sensors\\
-• Self-repair systems}
-{• EMP attacks\\
-• Power disruption\\
-• Ancient technology}
-{• Physical damage\\
-• Energy weapons\\
-• Environmental hazards}
+{\item Energy weapons
+\item Advanced sensors
+\item Self-repair systems}
+{\item EMP attacks
+\item Power disruption
+\item Ancient technology}
+{\item Physical damage
+\item Energy weapons
+\item Environmental hazards}
 {Operating at 30\% power. Will prioritize protecting the repository's seals.}
 {"Error: Containment protocol active. Unauthorized access denied."}
 \end{minipage}
-
 \vspace{1cm} % Add vertical space between rows
 
 \noindent % Prevent indentation
@@ -127,15 +148,15 @@
 \monstercard{Thoth's Echo}
 {Spirit}
 {50 HP}
-{• Reality manipulation\\
-• Knowledge transfer\\
-• Portal creation}
-{• Physical attacks\\
-• Modern technology\\
-• Containment fields}
-{• Mental attacks\\
-• Ancient magic\\
-• Knowledge-based attacks}
+{\item Reality manipulation
+\item Knowledge transfer
+\item Portal creation}
+{\item Physical attacks
+\item Modern technology
+\item Containment fields}
+{\item Mental attacks
+\item Ancient magic
+\item Knowledge-based attacks}
 {Manifestation of Thoth's consciousness. Can guide players but may be unstable.}
 {"The truth lies beyond the veil of time, seek and ye shall find."}
 \end{minipage}
