@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  18 MAY 2025 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  18 MAY 2025 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -713,10 +713,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--179
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+
+ []
+
+
 
 [1
 
 {C:/Users/ernos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 216--216
 []\OT1/cmr/m/n/10 High san-ity (wit-ness-ing
  []
@@ -737,6 +747,11 @@ Underfull \hbox (badness 1460) in paragraph at lines 236--236
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
+
+ []
+
+
 Underfull \hbox (badness 7486) in paragraph at lines 236--236
 \OT1/cmr/bx/n/10 Special: \OT1/cmr/m/n/10 Mostly harm-less,
  []
@@ -749,6 +764,26 @@ Underfull \hbox (badness 2922) in paragraph at lines 236--236
 
 Underfull \hbox (badness 1377) in paragraph at lines 252--252
 []\OT1/cmss/bx/n/12 British Mu-seum Cus-to-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
+
  []
 
 
@@ -933,6 +968,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 345--345
  []
 
 
+Underfull \hbox (badness 1661) in paragraph at lines 345--345
+\OT1/cmr/m/n/10 helps play-ers un-der-stand the
+ []
+
+
 
 [5]
 
@@ -957,7 +997,7 @@ ic/amsfonts/cm/cmbx12.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/ernos/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on monster_cards.pdf (6 pages, 100233 bytes).
+Output written on monster_cards.pdf (6 pages, 101643 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
