@@ -1,0 +1,126 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xcolor}
+
+\geometry{a4paper, margin=1in}
+
+% Define colors
+\definecolor{cardbg}{RGB}{240, 240, 240}
+\definecolor{titlebg}{RGB}{50, 50, 50}
+\definecolor{titletext}{RGB}{255, 255, 255}
+
+% Card style
+\newcommand{\monstercard}[8]{
+    \begin{tikzpicture}
+        % Card background
+        \fill[cardbg] (0,0) rectangle (6,9);
+        % Title bar
+        \fill[titlebg] (0,8) rectangle (6,9);
+        \node[text=titletext, font=\bfseries] at (3,8.5) {#1};
+        
+        % Content
+        \node[align=left, text width=5.5cm] at (3,7) {
+            \textbf{Type:} #2\\
+            \textbf{HP:} #3\\
+            \textbf{Abilities:} #4\\
+            \textbf{Weaknesses:} #5\\
+            \textbf{Resistances:} #6\\
+            \textbf{Special:} #7
+        };
+        
+        % Slogan
+        \node[align=center, text width=5.5cm, font=\itshape] at (3,2) {
+            "#8"
+        };
+    \end{tikzpicture}
+}
+
+\begin{document}
+
+\section*{Monster Cards}
+
+% Card 1: Ancient Guardian Mummy
+\monstercard{Ancient Guardian Mummy}
+{Undead}
+{45 HP}
+{• Mindless obedience to commands\\
+• Enhanced strength\\
+• Resistance to physical damage}
+{• Fire\\
+• Holy symbols\\
+• Decapitation}
+{• Blunt weapons\\
+• Cold damage\\
+• Poison}
+{Controlled by the Eagle Faction's priests. Will follow commands without question.}
+{"The dead serve the living, but only the chosen ones."}
+
+% Card 2: Eagle Faction Cardinal
+\monstercard{Eagle Faction Cardinal}
+{Human}
+{60 HP}
+{• Master of manipulation\\
+• Ancient knowledge\\
+• Mind control abilities\\
+• Ritual magic}
+{• Direct confrontation\\
+• Physical combat\\
+• Truth}
+{• Mental attacks\\
+• Illusions\\
+• Deception}
+{Can attempt to gaslight players into serving the Eagle Faction's goals.}
+{"Knowledge is power, and power must be controlled."}
+
+% Card 3: Separatist Guerrilla
+\monstercard{Separatist Guerrilla}
+{Human}
+{35 HP}
+{• Modern weapons\\
+• Tactical training\\
+• Knowledge of local terrain}
+{• Close combat\\
+• Surprise attacks\\
+• Ancient technology}
+{• Ranged attacks\\
+• Modern technology\\
+• Numbers}
+{Works in groups of 3-5. Will use force to drive players toward specific locations.}
+{"The past must stay buried, for the future belongs to us."}
+
+% Card 4: Repository Guardian Bot
+\monstercard{Repository Guardian Bot}
+{Construct}
+{80 HP}
+{• Energy weapons\\
+• Advanced sensors\\
+• Self-repair systems}
+{• EMP attacks\\
+• Power disruption\\
+• Ancient technology}
+{• Physical damage\\
+• Energy weapons\\
+• Environmental hazards}
+{Operating at 30\% power. Will prioritize protecting the repository's seals.}
+{"Error: Containment protocol active. Unauthorized access denied."}
+
+% Card 5: Thoth's Echo
+\monstercard{Thoth's Echo}
+{Spirit}
+{50 HP}
+{• Reality manipulation\\
+• Knowledge transfer\\
+• Portal creation}
+{• Physical attacks\\
+• Modern technology\\
+• Containment fields}
+{• Mental attacks\\
+• Ancient magic\\
+• Knowledge-based attacks}
+{Manifestation of Thoth's consciousness. Can guide players but may be unstable.}
+{"The truth lies beyond the veil of time, seek and ye shall find."}
+
+\end{document} 
