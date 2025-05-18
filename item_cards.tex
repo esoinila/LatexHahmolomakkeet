@@ -1,0 +1,483 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{enumitem} % Required for customizing lists
+\usepackage[many]{tcolorbox} % Required for tcolorbox
+
+\geometry{a4paper, margin=1in}
+
+% Define colors (Copied from namesign_Kate.tex and adjusted)
+\definecolor{boxheaderbg}{HTML}{000000}
+\definecolor{boxheaderfg}{HTML}{FFFFFF}
+\definecolor{boxcontentbg}{HTML}{F0F0F0}
+\definecolor{boxborder}{HTML}{000000}
+
+% Card style using tcolorbox (Item)
+\newcommand{\itemcard}[4]{%
+    \begin{tcolorbox}[
+        width=5.8cm, % Adjust width to fit in minipage
+        colback=boxcontentbg,
+        colframe=boxborder,
+        coltitle=boxheaderfg,
+        colbacktitle=boxheaderbg,
+        fonttitle=\bfseries\sffamily\large,
+        title=#1, % Item name as title
+        arc=10pt, % Rounded corners
+        boxrule=2pt, % Thick border
+        left=3mm,
+        right=3mm,
+        top=2mm,
+        bottom=2mm,
+        enhanced,
+        nobeforeafter,
+    ]%
+        % Content (Description, Usage, etc.)
+        \textbf{Description:} #2\\
+        \vspace{0.2cm}
+        \textbf{Usage:} #3\\
+        \vspace{0.3cm} % Space before flavor text
+        \centering\itshape "#4"% Flavor text
+    \end{tcolorbox}%
+}%
+
+\begin{document}
+
+\section*{Item Cards}
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 1: Molotov Cocktail
+\itemcard{Molotov Cocktail}
+{A makeshift incendiary device. Effective against creatures vulnerable to fire.}
+{Consumed on use. Deals significant fire damage in an area. Particularly effective against Undead types like Mummies.}
+{"Light 'em up!"}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 2: Atlantian Stun Grenade
+\itemcard{Atlantian Stun Grenade}
+{Ancient Atlantian technology designed for non-lethal crowd control.}
+{Single use. Detonates in a burst of disorienting energy. Targets in the area must pass a Sanity check or suffer short-term memory loss (forgetting events of the past few minutes) and be stunned for 1-2 rounds.}
+{"What was I just doing?"}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 3: Atlantian Battery
+\itemcard{Atlantian Battery}
+{A power source for ancient Atlantian devices.}
+{Has 1d6 charges remaining when found. Each charge can activate an Atlantian device (e.g., opening the Repository portal). A successful Technology or Lore check might allow a character to estimate remaining charges.}
+{"Still got some juice left... I hope."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 4: Atlantian Guiding Crystal
+\itemcard{Atlantian Guiding Crystal}
+{A small crystal that resonates with Atlantian energy flows.}
+{Can be held against a solid barrier (like the granite door) to get a brief, fuzzy psychic impression of what is immediately on the other side (e.g., air quality, immediate hazards, presence of large objects). Consumes 1 charge from an Atlantian Battery per use.}
+{"A window into the stone."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 5: Eagle Feather of Discernment
+\itemcard{Eagle Feather of Discernment}
+{A dark feather imbued with subtle energy, often associated with the Eagle Faction.}
+{Can be held or focused upon. Grants advantage on a single check related to seeing through illusions, detecting lies, or resisting gaslighting attempts. Crumbles to dust after use.}
+{"Do not be deceived."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 6: Grappling Hook
+\itemcard{Grappling Hook}
+{A sturdy hook and rope for climbing or traversing gaps.}
+{Requires a successful Athletics check to use effectively. Can be anchored to suitable surfaces. Useful for bypassing physical obstacles.}
+{"Up and over."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 7: High-Powered Flashlight
+\itemcard{High-Powered Flashlight}
+{A modern tactical flashlight with an intensely bright beam.}
+{Requires batteries. Can provide ample illumination in dark areas. Can be shone in an opponent's eyes; target must pass a Dexterity or Constitution check (GM's discretion) or be momentarily blinded (disadvantage on attacks/checks) for one round. Particularly effective against creatures sensitive to light.}
+{"Let there be light... blinding light."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 8: Voice Mimicry Device
+\itemcard{Voice Mimicry Device}
+{A small electronic device that can record and play back short audio snippets, or distort existing sounds.}
+{Requires batteries. Can be used to create distractions, mimic voices (with a successful Deception check), or amplify small noises. Effective for leading enemies away or creating diversions.}
+{"Did you hear that?"}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 9: Field Medic Kit
+\itemcard{Field Medic Kit}
+{A standard kit containing medical supplies for treating injuries.}
+{Single use per kit (or multiple uses with limited healing per use, GM's discretion). Allows a character to attempt a Medicine check to heal a certain amount of HP or stabilize a dying character.}
+{"Hold still, this might sting a bit."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 10: Eagle Faction Communicator
+\itemcard{Eagle Faction Communicator}
+{A standard communication device used by Eagle Faction personnel.}
+{Requires batteries. Can intercept unencrypted Eagle Faction communications within range. With a successful Technology or Investigation check, players might be able to send simple spoofed messages or triangulate enemy positions. Risk of being traced if used improperly.}
+{"Whispers on the airwaves."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 11: Ancient Map Fragment
+\itemcard{Ancient Map Fragment}
+{A brittle piece of papyrus or aged vellum with a section of a map.}%
+{Can be pieced together with other fragments or studied with a successful Lore or Investigation check to reveal hidden passages, locations of interest, or the layout of ancient structures.}%
+{"X marks the spot... if only I had the rest of it."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 12: Cipher Wheel
+\itemcard{Cipher Wheel}
+{A small, intricate disc or set of rings with symbols.}
+{Requires a successful Lore or Investigation check to understand its use. Can be used to decode encrypted messages found on enemies or in ancient texts, or potentially encode messages for safe communication.}%
+{"The key lies in the pattern."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 13: Water Filtration Tablets
+\itemcard{Water Filtration Tablets}
+{Small tablets that purify contaminated water.}
+{Each tablet can purify a liter of water, making it safe to drink. Essential for extended exploration in areas without clean water sources.}%
+{"A taste of civilization in the wilderness."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 14: Blessed Scarab
+\itemcard{Blessed Scarab}
+{A small, stone scarab carving, cool to the touch.}
+{Once per session, the holder can invoke its blessing to gain advantage on a single saving throw against a supernatural effect or a Sanity check.}%
+{"Protection from the ancient ones."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 15: Research Notes
+\itemcard{Research Notes}
+{A messy bundle of papers, sketches, and cryptic annotations.}
+{Studying the notes with a successful Investigation or Lore check can reveal clues about puzzles, creature weaknesses, historical events, or the location of items. The information is fragmented and may contain inaccuracies.}%
+{"Someone was here before us... what did they find?"}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 16: Lockpick Set
+\itemcard{Lockpick Set}
+{A standard set of tools for manipulating mechanical locks.}
+{Allows a character to attempt to pick locks with a successful Dexterity or Security check. The difficulty depends on the complexity of the lock.}
+{"Jiggling and hoping."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 17: Binoculars
+\itemcard{Binoculars}
+{Optical devices for viewing distant objects.}
+{Grants advantage on visual Perception checks when observing things far away. Useful for scouting or surveillance.}
+{"Seeing is believing... or at least confirming."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 18: First Aid Spray
+\itemcard{First Aid Spray}
+{A quick-application medical spray for treating minor injuries.}
+{Heals a small amount of HP instantly. Can be used on oneself or others. A quick fix when a full medic kit isn't available or practical.}
+{"Just a little sting."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 19: Ancient Coin
+\itemcard{Ancient Coin}
+{A heavy coin made of an unfamiliar alloy, bearing strange symbols.}
+{Its historical or monetary value is significant. Can be used as a bribe, traded for goods or information, or potentially serve as a minor artifact in specific circumstances (GM's discretion).}
+{"Looks valuable..."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 20: Dust Mask
+\itemcard{Dust Mask}
+{A simple mask designed to filter airborne particles.}
+{Provides protection against inhaled dust, spores, or mild non-magical gases. Useful in tombs, dusty archives, or areas with poor air quality.}%
+{"Better safe than coughing."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 21: Crowbar
+\itemcard{Crowbar}
+{A sturdy metal bar, good for leverage.}
+{Can be used to force open stuck doors, pry lids off crates, or as a makeshift weapon (low damage). Provides advantage on Strength checks for breaking objects.}
+{"Sometimes brute force is the answer."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 22: Rope
+\itemcard{Rope}
+{Fifty feet of durable rope.}
+{Essential for climbing, rappelling, or tying things up. Can be used in conjunction with a grappling hook or other anchor points.}
+{"Never leave home without it."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 23: Lighter
+\itemcard{Lighter}
+{A simple, refillable lighter.}
+{Provides a small flame for illumination in very close quarters, lighting candles or torches, or setting flammable objects alight. Limited fuel.}
+{"A little light in the darkness."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 24: Journal/Notebook
+\itemcard{Journal/Notebook}
+{A blank notebook and pen, or one already partially filled.}
+{Players can use it to take notes, sketch maps, or record observations. If found, it may contain clues, lore, or personal entries from a previous owner.}%
+{"Thoughts and observations, for posterity."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 25: Strange Idol
+\itemcard{Strange Idol}
+{A small, unsettling carving of unknown origin.}
+{Holding or studying the idol may cause minor Sanity loss (GM's discretion). It might be a key to an ancient puzzle, a focus for certain rituals, or simply a disturbing curiosity.}%
+{"It watches you when you're not looking."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 26: Tablet Fragment
+\itemcard{Tablet Fragment}
+{A piece of a stone or clay tablet inscribed with ancient script.}
+{Requires a successful Lore or Linguistics check to decipher. May contain fragments of spells, historical records, or clues to puzzles. Can potentially be combined with other fragments.}
+{"Words from a forgotten age."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 27: Lucky Charm
+\itemcard{Lucky Charm}
+{A small, seemingly ordinary object that brings a sense of comfort or familiarity.}
+{When held or focused upon during a moment of stress, the holder can make a Sanity check with advantage.}%
+{"A small comfort in unsettling times."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 28: Miniature EMP Device
+\itemcard{Miniature EMP Device}
+{A compact electronic device emitting a focused electromagnetic pulse.}
+{Single use. Can disable electronic devices (security cameras, simple bots, electronic locks) in a small radius for 1d4 rounds. Does not affect ancient Atlantian technology.}%
+{"Lights out."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 29: Graveyard Dust
+\itemcard{Graveyard Dust}
+{Soil gathered from an ancient burial site, it feels unnaturally cold.}
+{Can be used in certain rituals (requires Lore check). May have minor negative effects on living creatures (GM's discretion). Particularly effective against certain types of Undead or spiritual entities.}%
+{"The earth remembers."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 30: Polaroid Camera
+\itemcard{Polaroid Camera}
+{An old instant camera with a few film packs remaining.}
+{Can take pictures that develop instantly. May reveal details or entities not visible to the naked eye, or capture spectral phenomena. Each picture consumes one film pack.}%
+{"A different perspective."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 31: Ancient Compass
+\itemcard{Ancient Compass}
+{A compass that doesn't point north, but towards a significant source of ancient energy or a hidden location.}
+{Requires a successful Lore or Investigation check to interpret. Its needle might react to nearby Atlantian technology or points of power.}
+{"Not all who wander are lost, but this helps."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 32: Chemical Analyzer
+\itemcard{Chemical Analyzer}
+{A small, handheld electronic device for identifying chemical substances.}
+{Requires a successful Science check to operate. Can analyze small samples of liquids, powders, or residues to identify poisons, strange compounds, or the composition of materials.}
+{"Just a little sample... for science."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 33: Whispering Jar
+\itemcard{Whispering Jar}
+{A ceramic jar with a tightly fitted lid, covered in faded symbols.}
+{When the lid is opened, it faintly replays sounds that occurred in its vicinity in the past, up to a few minutes (GM's discretion). Useful for overhearing past conversations or events in a location.}
+{"Echoes of what was."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 34: Glow Sticks
+\itemcard{Glow Sticks}
+{Sealed plastic tubes containing chemicals that produce light when mixed.}
+{Crack to activate. Provides a reliable, if not very bright, light source for several hours. Can be used to mark paths or leave simple visual signals.}
+{"Crack, shake, illuminate."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 35: Symbolic Key
+\itemcard{Symbolic Key}
+{Not a physical key, but an object or symbol that resonates with ancient locks and mechanisms.}
+{Requires mental focus and potentially a successful Lore or Concentration check to activate. Can bypass certain ancient Atlantian or magically sealed locks, but may have limited uses or require specific conditions.}
+{"The lock is not of metal, but of mind."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 36: Lockpick Set
+\itemcard{Lockpick Set}
+{Tools for bypassing simple locks.}
+{Allows a character to attempt to pick locks with a successful Dexterity or Security check. The difficulty depends on the complexity of the lock.}
+{"Jiggling and hoping."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 37: Binoculars
+\itemcard{Binoculars}
+{Provides enhanced vision at a distance.}
+{Grants advantage on visual Perception checks when observing things far away. Useful for scouting or surveillance.}
+{"Seeing is believing... or at least confirming."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 38: First Aid Spray
+\itemcard{First Aid Spray}
+{A quick application for minor wounds.}
+{Heals a small amount of HP instantly. Can be used on oneself or others. A quick fix when a full medic kit isn't available or practical.}
+{"Just a little sting."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 39: Ancient Coin
+\itemcard{Ancient Coin}
+{A coin with strange markings, potentially useful for bartering or identifying locations.}
+{Its historical or monetary value is significant. Can be used as a bribe, traded for goods or information, or potentially serve as a minor artifact in specific circumstances (GM's discretion).}
+{"Looks valuable..."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 40: Dust Mask
+\itemcard{Dust Mask}
+{Protects against airborne particles in dusty environments.}
+{Provides protection against inhaled dust, spores, or mild non-magical gases. Useful in tombs, dusty archives, or areas with poor air quality.}%
+{"Better safe than coughing."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 41: Portable Alchemical Lab
+\itemcard{Portable Alchemical Lab}
+{Allows for on-the-fly crafting of minor potions or compounds.}
+{Can be used to create simple potions, oils, or compounds. Useful for improvising in a pinch or for creating unique effects.}
+{"A portable laboratory in your pocket."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 42: Toth's Whispering Reeds
+\itemcard{Toth's Whispering Reeds}
+{Ancient reeds that, when played, can soothe or confuse certain creatures or mechanisms.}
+{Can be used to create a calming or disorienting effect on certain creatures or mechanisms. Useful for stealth or distraction.}
+{"The reeds whisper secrets..."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 43: Symbolic Decoder Ring
+\itemcard{Symbolic Decoder Ring}
+{A ring inscribed with symbols that can help decipher ancient texts or unlock simple mechanisms.}
+{Can be worn or held to gain advantage on checks related to understanding ancient languages or deciphering simple mechanisms. The symbols change with each use.}
+{"The symbols speak..."}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.48\textwidth}
+% Item 44: Concealment Cloak
+\itemcard{Concealment Cloak}
+{A simple cloak woven with special threads that aids in stealth.}
+{Provides advantage on Stealth checks when worn. Can be used to blend into shadows or avoid detection.}
+{"In the shadows, you are safe."}
+\end{minipage}
+
+\vspace{1cm} % Add vertical space between rows
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{.48\textwidth}
+% Item 45: Field Repair Kit
+\itemcard{Field Repair Kit}
+{Basic tools and materials for quick fixes of equipment or simple structures.}
+{Contains a variety of tools and materials for repairing or constructing simple items. Useful for improvising repairs or creating makeshift tools.}
+{"A kit for the adventurer in all of us."}
+\end{minipage}
+
+\end{document} 
