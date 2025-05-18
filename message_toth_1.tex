@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+\newtcolorbox{emeraldbox}{% Box style for black and white printing
+  colframe=black, % Frame color in black
+  colback=gray!10, % Light gray background
+  colbacktitle=black, % Title background in black
+  coltitle=white, % Title text color in white (will appear as white text on black background)
+  title={A Message from Thoth the Atlantean}, % Box title
+  enhanced, % enable enhanced features
+  attach boxed title to top center={yshift=-0.2mm,yshifttext=-1mm}, % Position of the title
+  boxed title style={size=small,boxrule=0.5pt}, % Title Box Style
+  sharp corners, % sharp corners
+  boxrule=1pt, % Frame thickness
+  fonttitle=\bfseries, % Title font
+  fontupper=\small % Text font
+}
+
+\begin{document}
+
+\begin{emeraldbox}
+Listen, seeker of ancient lore, whose spirit yearns for truths of yore.\\
+Below the sun-kissed, mortal ground, where silent knowledge can be found.\\
+The Repository lies in wait, guarded by shadows, sealed by fate.\\
+To reach my chamber, deep within, a path of trials must begin.\\
+Seek first the gate, where whispers guide, and shadows lengthen, side by side.\\
+Unravel riddles, test your will, ascend the passages, dark and still.\\
+Through chambers echoing with time, ascend to wisdom's peak sublime.\\
+Then shall you find the place I keep, where timeless mysteries softly sleep.\\
+Come, brave one, the journey calls, beyond these transient, earthly walls.
+\end{emeraldbox}
+
+\end{document}
