@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  18 MAY 2025 12:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  18 MAY 2025 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -693,18 +693,23 @@ Underfull \hbox (badness 1681) in paragraph at lines 141--141
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/cmr/bx/n/10 Special: \OT1/cmr/m/n/10 Man-i-fes-ta-tion of
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 161--161
+Underfull \hbox (badness 1783) in paragraph at lines 162--162
 \OT1/cmr/m/n/10 Thoth's con-scious-ness. Can
  []
 
 
-Underfull \hbox (badness 7099) in paragraph at lines 161--161
+Underfull \hbox (badness 7099) in paragraph at lines 162--162
 \OT1/cmr/m/n/10 guide play-ers but may be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+[]\OT1/cmr/m/n/10 Melee weapons (dag-gers,
  []
 
 
@@ -712,18 +717,55 @@ Underfull \hbox (badness 7099) in paragraph at lines 161--161
 [1
 
 {C:/Users/ernos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[]\OT1/cmr/m/n/10 High san-ity (wit-ness-ing
+ []
 
-[2] (monster_cards.aux)
+
+Underfull \hbox (badness 1502) in paragraph at lines 216--216
+\OT1/cmr/m/n/10 panic un-der ex-treme cir-cum-
+ []
+
+
+Underfull \hbox (badness 8000) in paragraph at lines 236--236
+[]\OT1/cmss/bx/n/12 Retired Giza Mu-seum
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 236--236
+[]\OT1/cmr/m/n/10 Old-fashioned re-volver (low
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 236--236
+\OT1/cmr/bx/n/10 Special: \OT1/cmr/m/n/10 Mostly harm-less,
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 236--236
+\OT1/cmr/m/n/10 sion and fin-ish-ing his shift.
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 252--252
+[]\OT1/cmss/bx/n/12 British Mu-seum Cus-to-
+ []
+
+
+
+[2]
+
+[3] (monster_cards.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18480 strings out of 469958
- 409593 string characters out of 5469814
- 820965 words of memory out of 5000000
- 44984 multiletter control sequences out of 15000+600000
+ 18485 strings out of 469958
+ 409669 string characters out of 5469814
+ 823965 words of memory out of 5000000
+ 44989 multiletter control sequences out of 15000+600000
  629007 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,8n,93p,415b,969s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -734,9 +776,9 @@ ic/amsfonts/cm/cmbx12.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/ernos/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on monster_cards.pdf (2 pages, 82818 bytes).
+Output written on monster_cards.pdf (3 pages, 91468 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
