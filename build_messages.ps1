@@ -1,0 +1,1 @@
+Get-ChildItem .\message_*.tex | ForEach-Object { pdflatex $_.FullName } 

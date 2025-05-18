@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**C:/repos11/LatexHahmolomakkeet/message_toth_1.tex
-(C:/repos11/LatexHahmolomakkeet/message_toth_1.tex
+**C:/repos11/LatexHahmolomakkeet/message_conspiracy_guard.tex
+(C:/repos11/LatexHahmolomakkeet/message_conspiracy_guard.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -453,8 +453,8 @@ Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
 tex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count299
-) (message_toth_1.aux)
-\openout1 = `message_toth_1.aux'.
+) (message_conspiracy_guard.aux)
+\openout1 = `message_conspiracy_guard.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -535,25 +535,25 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 [1
 
 {C:/Users/ernos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(message_toth_1.aux)
+(message_conspiracy_guard.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15843 strings out of 469958
- 351672 string characters out of 5469814
- 739956 words of memory out of 5000000
- 42420 multiletter control sequences out of 15000+600000
+ 15845 strings out of 469958
+ 351839 string characters out of 5469814
+ 740013 words of memory out of 5000000
+ 42422 multiletter control sequences out of 15000+600000
  627432 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,7n,121p,481b,1249s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,7n,121p,491b,1249s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr9.pfb>
-Output written on message_toth_1.pdf (1 page, 40637 bytes).
+Output written on message_conspiracy_guard.pdf (1 page, 40942 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
