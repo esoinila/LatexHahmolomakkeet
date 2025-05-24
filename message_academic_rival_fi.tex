@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+\newtcolorbox{infobox}{% Box style for black and white printing
+  colframe=black, % Frame color in black
+  colback=gray!10, % Light gray background
+  colbacktitle=black, % Title background in black
+  coltitle=white, % Title text color in white (will appear as white text on black background)
+  title={Vihje akateemisesta kilpailijasta}, % Updated title to show origin/topic translated to Finnish
+  enhanced, % enable enhanced features
+  attach boxed title to top center={yshift=-0.2mm,yshifttext=-1mm}, % Position of the title
+  boxed title style={size=small,boxrule=0.5pt}, % Title Box Style
+  sharp corners, % sharp corners
+  boxrule=1pt, % Frame thickness
+  fonttitle=\bfseries, % Title font
+  fontupper=\small % Text font
+}
+
+\begin{document}
+
+\begin{infobox}
+Mieli on taistelukenttä, ja tieto on ase.\\
+Vastustajasi arvostaa älyä yli kaiken muun.\\
+Kohtaa hänet ei voimalla, vaan järjellä, todisteilla ja kiistämättömällä logiikalla.\\
+Parempi argumentti tai syvempi ymmärrys aiheesta voi riisua hänet aseista tehokkaammin kuin mikään fyysinen isku.
+\end{infobox}
+
+\end{document} 

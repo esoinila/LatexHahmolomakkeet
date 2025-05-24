@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+\newtcolorbox{infobox}{% Box style for black and white printing
+  colframe=black, % Frame color in black
+  colback=gray!10, % Light gray background
+  colbacktitle=black, % Title background in black
+  coltitle=white, % Title text color in white (will appear as white text on black background)
+  title={Katkelma Thothilta (5)}, % Box title translated to Finnish
+  enhanced, % enable enhanced features
+  attach boxed title to top center={yshift=-0.2mm,yshifttext=-1mm}, % Position of the title
+  boxed title style={size=small,boxrule=0.5pt}, % Title Box Style
+  sharp corners, % sharp corners
+  boxrule=1pt, % Frame thickness
+  fonttitle=\bfseries, % Title font
+  fontupper=\large % Text font
+}
+
+\begin{document}
+
+\begin{infobox}
+Repo sydän sykkii hitaasti ja syvällä, missä ikätön ymmärrys nukkuu.\\
+Totuuden ja koetusten labyrintti, niille joiden henget ovat siunatut.\\
+Sisäänkäynti piilotettu, kuitenkin näkyvissä, paljastettu viisauden sisäisellä valolla.
+\end{infobox}
+
+\end{document} 

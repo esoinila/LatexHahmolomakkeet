@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+\newtcolorbox{infobox}{% Box style for black and white printing
+  colframe=black, % Frame color in black
+  colback=gray!10, % Light gray background
+  colbacktitle=black, % Title background in black
+  coltitle=white, % Title text color in white (will appear as white text on black background)
+  title={Vihje museon arkistonhoitajasta}, % Updated title to show origin/topic translated to Finnish
+  enhanced, % enable enhanced features
+  attach boxed title to top center={yshift=-0.2mm,yshifttext=-1mm}, % Position of the title
+  boxed title style={size=small,boxrule=0.5pt}, % Title Box Style
+  sharp corners, % sharp corners
+  boxrule=1pt, % Frame thickness
+  fonttitle=\bfseries, % Title font
+  fontupper=\small % Text font
+}
+
+\begin{document}
+
+\begin{infobox}
+Muinaisten esineiden vartija arvostaa niiden historiaa yli kaiken. Osoita aitoa kiinnostusta menneisyyden jäännöksiä kohtaan, puhu kunnioituksella tiedosta, jota he vartioivat, ja saatat löytää liittolaisen sieltä, missä odotit estettä. Jaettu intohimo voi avata ovia, joita voima ei voi.
+\end{infobox}
+
+\end{document} 
