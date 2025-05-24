@@ -75,6 +75,24 @@
 
     \vspace{3mm}
 
+    % Defining the BACKGROUND box
+    \begin{tcolorbox}[
+        width=12.5cm,
+        height=6.5cm,
+        title=BACKGROUND,
+        colback=boxcontentbg,
+        colframe=boxborder,
+        coltitle=boxheaderfg,
+        colbacktitle=boxheaderbg,
+        fonttitle=\bfseries\sffamily\small,
+        clip upper,
+        before skip=0pt
+    ]
+        \TextField[name=background, width=11.5cm, height=5.5cm, multiline=true, default={\newlinechar  Former astrophysicist obsessed with ancient alien theories. Believes megalithic sites are stargates. Travels the globe in search of proof. Funds expeditions through a popular conspiracy blog. Known for dramatic reveals and a flair for the theatrical. Wears a tinfoil hat unironically in public. Carries a custom-made device he claims can detect ancient energies. Often speaks in cryptic pronouncements about celestial alignments and cosmic energies.}, backgroundcolor=boxcontentbg, borderwidth=0, bordercolor=boxcontentbg]{}
+    \end{tcolorbox}
+
+    \vspace{3mm}
+
     % Abilities box
     \begin{tcolorbox}[
         width=12.5cm,
@@ -88,25 +106,7 @@
         clip upper,
         before skip=0pt
     ]
-        \TextField[name=abilities, width=11.5cm, height=3cm, multiline=true, default={\newlinechar Ancient Tech \qquad \hspace{10mm} Social Media \newline \qquad \newline Pyramid Explorer \qquad Electrical Eng Persuasion Stealth Yoga & Meditation}, backgroundcolor=boxcontentbg, borderwidth=0, bordercolor=boxcontentbg]{}
-    \end{tcolorbox}
-
-    \vspace{3mm}
-
-    % Background box
-    \begin{tcolorbox}[
-        width=12.5cm,
-        height=6.5cm,
-        title=BACKGROUND,
-        colback=boxcontentbg,
-        colframe=boxborder,
-        coltitle=boxheaderfg,
-        colbacktitle=boxheaderbg,
-        fonttitle=\bfseries\sffamily\small,
-        clip upper,
-        before skip=0pt
-    ]
-        \TextField[name=background, width=11.5cm, height=5.5cm, multiline=true, default={Ancient tech expert, social media influencer. Born in Egypt, Varn has studied the pyramids his whole life. Lately, vivid dreams of Atlantis plague his sleep, filled with whispers from Thoth urging him to seek hidden knowledge. He suspects a secretive order watches his progress. Varn uses his influencer status to fund expeditions, gathering both artifacts and unwitting participants for purposes only he truly understands.}, backgroundcolor=boxcontentbg, borderwidth=0, bordercolor=boxcontentbg]{}
+        \TextField[name=abilities, width=11.5cm, height=3cm, multiline=true, default={\newlinechar Ancient Tech \qquad \hspace{10mm} Social Media \newline \qquad \newline Pyramid Explorer \qquad Electrical Eng Persuasion Ste}, backgroundcolor=boxcontentbg, borderwidth=0, bordercolor=boxcontentbg]{}
     \end{tcolorbox}
 \end{minipage}
 \hfill

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  18 MAY 2025 13:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  24 MAY 2025 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./item_cards.tex
-(item_cards.tex
+**C:/repos11/LatexHahmolomakkeet/item_cards.tex
+(C:/repos11/LatexHahmolomakkeet/item_cards.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -574,8 +574,7 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.1'
 tex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count318
-)
-No file item_cards.aux.
+) (item_cards.aux)
 \openout1 = `item_cards.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
@@ -592,6 +591,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
 LaTeX Font Info:    ... okay on input line 46.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -704,13 +704,13 @@ L3 programming layer <2025-03-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 18504 strings out of 469958
- 409770 string characters out of 5469814
- 818606 words of memory out of 5000000
- 45011 multiletter control sequences out of 15000+600000
+ 18509 strings out of 469958
+ 409949 string characters out of 5469814
+ 818597 words of memory out of 5000000
+ 45012 multiletter control sequences out of 15000+600000
  628672 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,93p,412b,969s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,8n,93p,441b,969s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/p

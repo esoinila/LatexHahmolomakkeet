@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  18 MAY 2025 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  24 MAY 2025 22:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./Nova.tex
-(Nova.tex
+**C:/repos11/LatexHahmolomakkeet/Nova.tex
+(C:/repos11/LatexHahmolomakkeet/Nova.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -863,58 +863,58 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 72.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newlinechar' on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 20.0pt
-(hyperref)                replaced by space on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 20.0pt
-(hyperref)                replaced by space on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 20.0pt
-(hyperref)                replaced by space on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 20.0pt
-(hyperref)                replaced by space on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 20.0pt
-(hyperref)                replaced by space on input line 91.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `alignment tab' on input line 91.
-
-
 Overfull \hbox (2.84518pt too wide) in paragraph at lines 91--92
 [][][][][] 
  []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newlinechar' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 20.0pt
+(hyperref)                replaced by space on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newline' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 20.0pt
+(hyperref)                replaced by space on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newline' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 20.0pt
+(hyperref)                replaced by space on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newline' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 20.0pt
+(hyperref)                replaced by space on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newline' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 20.0pt
+(hyperref)                replaced by space on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `alignment tab' on input line 109.
 
 
 Overfull \hbox (2.84518pt too wide) in paragraph at lines 109--110
@@ -964,20 +964,20 @@ Package rerunfilecheck Info: File `Nova.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25626 strings out of 469958
- 516694 string characters out of 5469814
+ 25628 strings out of 469958
+ 516787 string characters out of 5469814
  911957 words of memory out of 5000000
  52014 multiletter control sequences out of 15000+600000
  649287 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,11n,101p,586b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,11n,101p,615b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
 ic/uhvb8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvr8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvro8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/zapfding/uzdr.pfb>
-Output written on Nova.pdf (1 page, 229923 bytes).
+Output written on Nova.pdf (1 page, 229926 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
