@@ -19,6 +19,8 @@
 \usepackage[many]{tcolorbox}
 \tcbuselibrary{skins}
 
+\usepackage{multicol} % Add multicol package for multiple columns
+
 % Define a box style for the site symbols
 \newtcolorbox{sitesymbolbox}[1]{%
   colframe=boxborder,
@@ -34,10 +36,13 @@
   fonttitle=\bfseries\sffamily\small,
   clip upper,
   before skip=3mm,
-  after skip=3mm
+  after skip=3mm,
+  width=8.5cm % Adjusted width for three columns
 }
 
 \begin{document}
+
+\begin{multicols}{3}
 
 \begin{sitesymbolbox}{Atlantian Symbol for Abydos Osireion}
   % Placeholder for Graphical Symbol
@@ -291,4 +296,6 @@
   {\small Placeholder text for Western Cemetery symbol description.}
 \end{sitesymbolbox}
 
-\end{document} 
+\end{multicols}
+
+\end{document}

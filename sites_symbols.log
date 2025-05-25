@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  25 MAY 2025 21:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  25 MAY 2025 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -579,80 +579,124 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.1'
 \tcb@lowerfitdim=\dimen274
 \tcb@upperfitdim=\dimen275
 \tcb@cur@hbadness=\count315
-))
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 40
+)) (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count316
+\mult@box=\box79
+\multicol@leftmargin=\dimen276
+\c@unbalance=\count317
+\c@collectmore=\count318
+\doublecol@number=\count319
+\multicoltolerance=\count320
+\multicolpretolerance=\count321
+\full@width=\dimen277
+\page@free=\dimen278
+\premulticols=\dimen279
+\postmulticols=\dimen280
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box80
+\last@line=\box81
+\mc@boxedresult=\box82
+\maxbalancingoverflow=\dimen281
+\mult@rightbox=\box83
+\mult@grightbox=\box84
+\mult@firstbox=\box85
+\mult@gfirstbox=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\c@minrows=\count322
+\c@columnbadness=\count323
+\c@finalcolumnbadness=\count324
+\last@try=\dimen282
+\multicolovershoot=\dimen283
+\multicolundershoot=\dimen284
+\mult@nat@firstbox=\box123
+\colbreak@box=\box124
+\mc@col@check@num=\count325
+)
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 43
 .
- (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+
+(C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count316
+\l__color_backend_stack_int=\count326
 ) (sites_symbols.aux)
 \openout1 = `sites_symbols.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen276
-\scratchbox=\box79
-\nofMPsegments=\count318
-\nofMParguments=\count319
+\scratchcounter=\count327
+\scratchdimen=\dimen285
+\scratchbox=\box125
+\nofMPsegments=\count328
+\nofMParguments=\count329
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen277
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
+\MPscratchCnt=\count330
+\MPscratchDim=\dimen286
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
 \everyMPtoPDFconversion=\toks43
 )
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-))
-(C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))
-(C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
@@ -695,164 +739,154 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <symbol_abydos_osireion.png, id=4, 1027.84pt x 1027.84pt>
 File: symbol_abydos_osireion.png Graphic file (type png)
 <use symbol_abydos_osireion.png>
-Package pdftex.def Info: symbol_abydos_osireion.png  used on input line 45.
+Package pdftex.def Info: symbol_abydos_osireion.png  used on input line 50.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
 <symbol_boat_pits.png, id=5, 1027.84pt x 1027.84pt>
 File: symbol_boat_pits.png Graphic file (type png)
 <use symbol_boat_pits.png>
-Package pdftex.def Info: symbol_boat_pits.png  used on input line 57.
+Package pdftex.def Info: symbol_boat_pits.png  used on input line 62.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
 <symbol_builders_quarters.png, id=6, 1027.84pt x 1027.84pt>
 File: symbol_builders_quarters.png Graphic file (type png)
 <use symbol_builders_quarters.png>
-Package pdftex.def Info: symbol_builders_quarters.png  used on input line 69.
+Package pdftex.def Info: symbol_builders_quarters.png  used on input line 74.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
 <symbol_dendera_temple.png, id=7, 1027.84pt x 1027.84pt>
 File: symbol_dendera_temple.png Graphic file (type png)
 <use symbol_dendera_temple.png>
-Package pdftex.def Info: symbol_dendera_temple.png  used on input line 81.
+Package pdftex.def Info: symbol_dendera_temple.png  used on input line 86.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-
-
+<symbol_east_cemetery.png, id=8, 1027.84pt x 1027.84pt>
+File: symbol_east_cemetery.png Graphic file (type png)
+<use symbol_east_cemetery.png>
+Package pdftex.def Info: symbol_east_cemetery.png  used on input line 98.
+(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
+<symbol_eridu_ruins.png, id=9, 1027.84pt x 1027.84pt>
+File: symbol_eridu_ruins.png Graphic file (type png)
+<use symbol_eridu_ruins.png>
+Package pdftex.def Info: symbol_eridu_ruins.png  used on input line 110.
+(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
+<symbol_giza_repository.png, id=10, 1027.84pt x 1027.84pt>
+File: symbol_giza_repository.png Graphic file (type png)
+<use symbol_giza_repository.png>
+Package pdftex.def Info: symbol_giza_repository.png  used on input line 122.
+(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
+<symbol_hetepheres_tombs.png, id=11, 1027.84pt x 1027.84pt>
+File: symbol_hetepheres_tombs.png Graphic file (type png)
+<use symbol_hetepheres_tombs.png>
+Package pdftex.def Info: symbol_hetepheres_tombs.png  used on input line 134.
+(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
+<symbol_inka_andes.png, id=12, 1027.84pt x 1027.84pt>
+File: symbol_inka_andes.png Graphic file (type png)
+<use symbol_inka_andes.png>
+Package pdftex.def Info: symbol_inka_andes.png  used on input line 146.
+(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
+<symbol_iran_ziggurat.png, id=13, 1027.84pt x 1027.84pt>
+File: symbol_iran_ziggurat.png Graphic file (type png)
+<use symbol_iran_ziggurat.png>
+Package pdftex.def Info: symbol_iran_ziggurat.png  used on input line 158.
+(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
 [1
 
 {C:/Users/ernos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/erno
 s/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./symbol_abydos_o
 sireion.png (PNG copy)> <./symbol_boat_pits.png (PNG copy)> <./symbol_builders_
-quarters.png (PNG copy)>]
-<symbol_east_cemetery.png, id=14, 1027.84pt x 1027.84pt>
-File: symbol_east_cemetery.png Graphic file (type png)
-<use symbol_east_cemetery.png>
-Package pdftex.def Info: symbol_east_cemetery.png  used on input line 93.
-(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-<symbol_eridu_ruins.png, id=15, 1027.84pt x 1027.84pt>
-File: symbol_eridu_ruins.png Graphic file (type png)
-<use symbol_eridu_ruins.png>
-Package pdftex.def Info: symbol_eridu_ruins.png  used on input line 105.
-(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-<symbol_giza_repository.png, id=16, 1027.84pt x 1027.84pt>
-File: symbol_giza_repository.png Graphic file (type png)
-<use symbol_giza_repository.png>
-Package pdftex.def Info: symbol_giza_repository.png  used on input line 117.
-(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-
-
-[2 <./symbol_dendera_temple.png (PNG copy)> <./symbol_east_cemetery.png (PNG co
-py)> <./symbol_eridu_ruins.png (PNG copy)>]
-<symbol_hetepheres_tombs.png, id=20, 1027.84pt x 1027.84pt>
-File: symbol_hetepheres_tombs.png Graphic file (type png)
-<use symbol_hetepheres_tombs.png>
-Package pdftex.def Info: symbol_hetepheres_tombs.png  used on input line 129.
-(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-<symbol_inka_andes.png, id=21, 1027.84pt x 1027.84pt>
-File: symbol_inka_andes.png Graphic file (type png)
-<use symbol_inka_andes.png>
-Package pdftex.def Info: symbol_inka_andes.png  used on input line 141.
-(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-<symbol_iran_ziggurat.png, id=22, 1027.84pt x 1027.84pt>
-File: symbol_iran_ziggurat.png Graphic file (type png)
-<use symbol_iran_ziggurat.png>
-Package pdftex.def Info: symbol_iran_ziggurat.png  used on input line 153.
-(pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-
-
-[3 <./symbol_giza_repository.png (PNG copy)> <./symbol_hetepheres_tombs.png (PN
-G copy)> <./symbol_inka_andes.png (PNG copy)>]
-<symbol_mars_face_mountain.png, id=26, 1027.84pt x 1027.84pt>
+quarters.png (PNG copy)> <./symbol_dendera_temple.png (PNG copy)> <./symbol_eas
+t_cemetery.png (PNG copy)> <./symbol_eridu_ruins.png (PNG copy)> <./symbol_giza
+_repository.png (PNG copy)>]
+<symbol_mars_face_mountain.png, id=20, 1027.84pt x 1027.84pt>
 File: symbol_mars_face_mountain.png Graphic file (type png)
 <use symbol_mars_face_mountain.png>
-Package pdftex.def Info: symbol_mars_face_mountain.png  used on input line 165.
+Package pdftex.def Info: symbol_mars_face_mountain.png  used on input line 170.
 
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-<symbol_ocean_giza_clone.png, id=27, 1027.84pt x 1027.84pt>
+<symbol_ocean_giza_clone.png, id=21, 1027.84pt x 1027.84pt>
 File: symbol_ocean_giza_clone.png Graphic file (type png)
 <use symbol_ocean_giza_clone.png>
-Package pdftex.def Info: symbol_ocean_giza_clone.png  used on input line 177.
+Package pdftex.def Info: symbol_ocean_giza_clone.png  used on input line 182.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-<symbol_office_pyramid_studies.png, id=28, 1027.84pt x 1027.84pt>
+<symbol_office_pyramid_studies.png, id=22, 1027.84pt x 1027.84pt>
 File: symbol_office_pyramid_studies.png Graphic file (type png)
 <use symbol_office_pyramid_studies.png>
 Package pdftex.def Info: symbol_office_pyramid_studies.png  used on input line 
-189.
+194.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-
-
-[4 <./symbol_iran_ziggurat.png (PNG copy)> <./symbol_mars_face_mountain.png (PN
-G copy)> <./symbol_ocean_giza_clone.png (PNG copy)>]
-<symbol_queen_khentkawes.png, id=32, 1027.84pt x 1027.84pt>
+<symbol_queen_khentkawes.png, id=23, 1027.84pt x 1027.84pt>
 File: symbol_queen_khentkawes.png Graphic file (type png)
 <use symbol_queen_khentkawes.png>
-Package pdftex.def Info: symbol_queen_khentkawes.png  used on input line 201.
+Package pdftex.def Info: symbol_queen_khentkawes.png  used on input line 206.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-<symbol_rock_cut_tombs_khafre.png, id=33, 1027.84pt x 1027.84pt>
+<symbol_rock_cut_tombs_khafre.png, id=24, 1027.84pt x 1027.84pt>
 File: symbol_rock_cut_tombs_khafre.png Graphic file (type png)
 <use symbol_rock_cut_tombs_khafre.png>
 Package pdftex.def Info: symbol_rock_cut_tombs_khafre.png  used on input line 2
-13.
+18.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-<symbol_saqqara_step_pyramid.png, id=34, 1027.84pt x 1027.84pt>
+<symbol_saqqara_step_pyramid.png, id=25, 1027.84pt x 1027.84pt>
 File: symbol_saqqara_step_pyramid.png Graphic file (type png)
 <use symbol_saqqara_step_pyramid.png>
-Package pdftex.def Info: symbol_saqqara_step_pyramid.png  used on input line 22
-5.
+Package pdftex.def Info: symbol_saqqara_step_pyramid.png  used on input line 23
+0.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-
-
-[5 <./symbol_office_pyramid_studies.png (PNG copy)> <./symbol_queen_khentkawes.
-png (PNG copy)> <./symbol_rock_cut_tombs_khafre.png (PNG copy)>]
-<symbol_sphinx.png, id=38, 1027.84pt x 1027.84pt>
+ [2 <./symbol_hetepheres_tombs.png (PNG copy)> <./symbol_inka_andes.png (PNG co
+py)> <./symbol_iran_ziggurat.png (PNG copy)> <./symbol_mars_face_mountain.png (
+PNG copy)> <./symbol_ocean_giza_clone.png (PNG copy)> <./symbol_office_pyramid_
+studies.png (PNG copy)> <./symbol_queen_khentkawes.png (PNG copy)>]
+<symbol_sphinx.png, id=29, 1027.84pt x 1027.84pt>
 File: symbol_sphinx.png Graphic file (type png)
 <use symbol_sphinx.png>
-Package pdftex.def Info: symbol_sphinx.png  used on input line 237.
+Package pdftex.def Info: symbol_sphinx.png  used on input line 242.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-<symbol_sphinx_shadow_chamber.png, id=39, 1027.84pt x 1027.84pt>
+<symbol_sphinx_shadow_chamber.png, id=30, 1027.84pt x 1027.84pt>
 File: symbol_sphinx_shadow_chamber.png Graphic file (type png)
 <use symbol_sphinx_shadow_chamber.png>
 Package pdftex.def Info: symbol_sphinx_shadow_chamber.png  used on input line 2
-49.
+54.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-<symbol_valley_khafre.png, id=40, 1027.84pt x 1027.84pt>
+<symbol_valley_khafre.png, id=31, 1027.84pt x 1027.84pt>
 File: symbol_valley_khafre.png Graphic file (type png)
 <use symbol_valley_khafre.png>
-Package pdftex.def Info: symbol_valley_khafre.png  used on input line 261.
+Package pdftex.def Info: symbol_valley_khafre.png  used on input line 266.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-
-
-[6 <./symbol_saqqara_step_pyramid.png (PNG copy)> <./symbol_sphinx.png (PNG cop
-y)> <./symbol_sphinx_shadow_chamber.png (PNG copy)>]
-<symbol_valley_queens.png, id=44, 1027.84pt x 1027.84pt>
+<symbol_valley_queens.png, id=32, 1027.84pt x 1027.84pt>
 File: symbol_valley_queens.png Graphic file (type png)
 <use symbol_valley_queens.png>
-Package pdftex.def Info: symbol_valley_queens.png  used on input line 273.
+Package pdftex.def Info: symbol_valley_queens.png  used on input line 278.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
-<symbol_western_cemetery.png, id=45, 1027.84pt x 1027.84pt>
+<symbol_western_cemetery.png, id=33, 1027.84pt x 1027.84pt>
 File: symbol_western_cemetery.png Graphic file (type png)
 <use symbol_western_cemetery.png>
-Package pdftex.def Info: symbol_western_cemetery.png  used on input line 285.
+Package pdftex.def Info: symbol_western_cemetery.png  used on input line 290.
 (pdftex.def)             Requested size: 85.3499pt x 85.3499pt.
 
+Overfull \vbox (0.16827pt too high) has occurred while \output is active []
 
-[7 <./symbol_valley_khafre.png (PNG copy)> <./symbol_valley_queens.png (PNG cop
-y)> <./symbol_western_cemetery.png (PNG copy)>] (sites_symbols.aux)
+
+
+[3 <./symbol_rock_cut_tombs_khafre.png (PNG copy)> <./symbol_saqqara_step_pyram
+id.png (PNG copy)> <./symbol_sphinx.png (PNG copy)> <./symbol_sphinx_shadow_cha
+mber.png (PNG copy)> <./symbol_valley_khafre.png (PNG copy)> <./symbol_valley_q
+ueens.png (PNG copy)> <./symbol_western_cemetery.png (PNG copy)>]
+(sites_symbols.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19132 strings out of 469958
- 418146 string characters out of 5469814
- 802071 words of memory out of 5000000
- 45621 multiletter control sequences out of 15000+600000
+ 18947 strings out of 469958
+ 413582 string characters out of 5469814
+ 835182 words of memory out of 5000000
+ 45453 multiletter control sequences out of 15000+600000
  642197 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,7n,101p,451b,1321s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,7n,101p,451b,1392s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a
 .pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 r8a.pfb>
-Output written on sites_symbols.pdf (7 pages, 8837856 bytes).
+Output written on sites_symbols.pdf (3 pages, 8833444 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
