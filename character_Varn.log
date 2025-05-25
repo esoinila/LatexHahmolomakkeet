@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  25 MAY 2025 18:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  25 MAY 2025 19:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**C:/repos11/LatexHahmolomakkeet/character_Varn.tex
-(C:/repos11/LatexHahmolomakkeet/character_Varn.tex
+**./character_Varn.tex
+(character_Varn.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -942,13 +942,13 @@ Package rerunfilecheck Info: File `character_Varn.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25628 strings out of 469958
- 517043 string characters out of 5469814
+ 25626 strings out of 469958
+ 516950 string characters out of 5469814
  913023 words of memory out of 5000000
  52014 multiletter control sequences out of 15000+600000
  649287 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,11n,101p,787b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,11n,101p,758b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
 ic/uhvb8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
