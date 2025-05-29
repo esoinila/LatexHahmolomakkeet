@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  29 MAY 2025 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  29 MAY 2025 21:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1086,7 +1086,7 @@ L3 programming layer <2025-03-26>
 Here is how much of TeX's memory you used:
  19090 strings out of 469958
  424993 string characters out of 5469814
- 817647 words of memory out of 5000000
+ 817674 words of memory out of 5000000
  45598 multiletter control sequences out of 15000+600000
  634841 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1094,7 +1094,7 @@ Here is how much of TeX's memory you used:
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a
 .pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 r8a.pfb>
-Output written on sites_symbols.pdf (4 pages, 38172638 bytes).
+Output written on sites_symbols.pdf (4 pages, 38172625 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
