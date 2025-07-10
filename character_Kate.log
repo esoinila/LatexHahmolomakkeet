@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  10 JUL 2025 15:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  10 JUL 2025 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -988,7 +988,7 @@ Package rerunfilecheck Info: File `character_Kate.out' has not changed.
 Here is how much of TeX's memory you used:
  25626 strings out of 469958
  516907 string characters out of 5469814
- 917539 words of memory out of 5000000
+ 917540 words of memory out of 5000000
  52014 multiletter control sequences out of 15000+600000
  649287 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -999,7 +999,7 @@ ic/uhvb8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvr8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvro8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/zapfding/uzdr.pfb>
-Output written on character_Kate.pdf (1 page, 213020 bytes).
+Output written on character_Kate.pdf (1 page, 213024 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
