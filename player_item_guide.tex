@@ -1,0 +1,214 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[many]{tcolorbox}
+
+\geometry{a4paper, margin=0.5in}
+
+% Define colors
+\definecolor{boxheaderbg}{HTML}{000000}
+\definecolor{boxheaderfg}{HTML}{FFFFFF}
+\definecolor{boxcontentbg}{HTML}{F0F0F0}
+\definecolor{boxborder}{HTML}{000000}
+
+% Card style using tcolorbox
+\newcommand{\itemguidecard}[3]{%
+    \begin{tcolorbox}[
+        width=8.5cm, % Width for two columns on A4
+        height=5.5cm, % Fixed height for consistency
+        colback=boxcontentbg,
+        colframe=boxborder,
+        coltitle=boxheaderfg,
+        colbacktitle=boxheaderbg,
+        fonttitle=\bfseries\sffamily\large,
+        title=#1, % Item name
+        arc=5pt,
+        boxrule=1pt,
+        left=3mm,
+        right=3mm,
+        top=2mm,
+        bottom=2mm,
+        enhanced,
+        nobeforeafter,
+        valign=top % Align content to the top
+    ]
+        \textbf{Description:} #2\par
+        \vspace{0.2cm}
+        \textbf{Usage:} #3
+    \end{tcolorbox}%
+}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% Use minipages to create a grid that can be cut
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Mentor's Research Notes}
+{A messy bundle of papers, sketches, and cryptic annotations left by a trusted mentor.}
+{Studying the notes with a successful Investigation or Lore check can reveal clues about puzzles, creature weaknesses, historical events, or the location of items. The information is fragmented and may contain inaccuracies.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Vance's Research Papers}
+{Classified research papers from a disappeared mentor, focusing on advanced Zenith Wave theory.}
+{Studying the papers with a successful Investigation or Physics check can reveal flaws in Zenith Wave tech, hidden functionalities, or clues to your mentor's disappearance.}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Father's Research Notes}
+{A collection of notes from a vanished family member, detailing strange celestial events and ancient technology.}
+{Studying the notes with a successful Investigation or Lore check can reveal information about celestial alignments, the location of specific artifacts, or the nature of the event that caused the disappearance.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Disgraced Research Journal}
+{Your own journal, filled with controversial theories and research that led to your academic ruin.}
+{Reviewing your journal can help you recall a specific, obscure fact, granting a bonus to a Lore or History check. It may also trigger a Sanity check as you relive past failures.}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Atlantian Stun Grenade}
+{Ancient Atlantian technology designed for non-lethal crowd control.}
+{Single use. Detonates in a burst of disorienting energy. Targets in the area must pass a Sanity check or suffer short-term memory loss and be stunned for 1-2 rounds.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Atlantian Battery}
+{A power source for ancient Atlantian devices.}
+{Has 1d6 charges remaining when found. Each charge can activate an Atlantian device. A successful Technology or Lore check might allow a character to estimate remaining charges.}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Atlantian Guiding Crystal}
+{A small crystal that resonates with Atlantian energy flows.}
+{Can be held against a solid barrier to get a brief, fuzzy psychic impression of what is immediately on the other side. Consumes 1 charge from an Atlantian Battery per use.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Eagle Feather of Discernment}
+{A dark feather imbued with subtle energy, often associated with the Eagle Faction.}
+{Grants advantage on a single check related to seeing through illusions, detecting lies, or resisting gaslighting attempts. Crumbles to dust after use.}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Voice Mimicry Device}
+{A small electronic device that can record and play back short audio snippets, or distort existing sounds.}
+{Requires batteries. Can be used to create distractions, mimic voices (with a successful Deception check), or amplify small noises.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Eagle Faction Communicator}
+{A standard communication device used by Eagle Faction personnel.}
+{Requires batteries. Can intercept unencrypted Eagle Faction communications. With a successful Technology check, players might be able to send spoofed messages or triangulate enemy positions.}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Ancient Map Fragment}
+{A brittle piece of papyrus or aged vellum with a section of a map.}
+{Can be pieced together with other fragments or studied with a successful Lore or Investigation check to reveal hidden passages or locations of interest.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Cipher Wheel}
+{A small, intricate disc or set of rings with symbols.}
+{Requires a successful Lore or Investigation check to understand its use. Can be used to decode encrypted messages found in ancient texts.}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Blessed Scarab}
+{A small, stone scarab carving, cool to the touch.}
+{Once per session, the holder can invoke its blessing to gain advantage on a single saving throw against a supernatural effect or a Sanity check.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Strange Idol}
+{A small, unsettling carving of unknown origin.}
+{Holding or studying the idol may cause minor Sanity loss. It might be a key to an ancient puzzle, a focus for certain rituals, or simply a disturbing curiosity.}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Miniature EMP Device}
+{A compact electronic device emitting a focused electromagnetic pulse.}
+{Single use. Can disable electronic devices (security cameras, simple bots, electronic locks) in a small radius for 1d4 rounds. Does not affect ancient Atlantian technology.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Ancient Compass}
+{A compass that doesn't point north, but towards a significant source of ancient energy or a hidden location.}
+{Requires a successful Lore or Investigation check to interpret. Its needle might react to nearby Atlantian technology or points of power.}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Whispering Jar}
+{A ceramic jar with a tightly fitted lid, covered in faded symbols.}
+{When the lid is opened, it faintly replays sounds that occurred in its vicinity in the past, up to a few minutes.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Toth's Whispering Reeds}
+{Ancient reeds that, when played, can soothe or confuse certain creatures or mechanisms.}
+{Can be used to create a calming or disorienting effect on certain creatures or mechanisms. Useful for stealth or distraction.}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Glowing Scroll}
+{A scroll that emits a soft light, covered in shifting, cryptic text.}
+{Once per session, you can study the scroll to ask the GM a single, specific question about an ancient location, artifact, or entity. The answer will be a short, cryptic clue.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Crystal Pendant}
+{A crystal that hums faintly and glows with a soft light in the presence of strong supernatural or technological energy.}
+{Can be used to dowse for active artifacts or hidden power sources. The intensity of the glow indicates proximity.}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Mystic Monocle}
+{A strange monocle with a lens made of polished obsidian.}
+{When looking through the monocle, you can see faint magical glyphs, residues, or structural weaknesses invisible to the naked eye. Requires concentration.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Glowing Map}
+{A map that appears blank until brought near a ley line or place of power.}
+{When activated by proximity to a powerful location, it reveals glowing pathways, hidden chambers, or the flow of energy in the area.}
+\end{minipage}
+
+\vspace{0.5cm}
+
+\noindent
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{Quartz Crystal}
+{A large, unusually clear quartz crystal, perfectly cut.}
+{Can be used as a focus for meditation or rituals. Once per session, you can use it to grant yourself or an ally advantage on a single Sanity check.}
+\end{minipage}%
+\begin{minipage}[t]{.5\textwidth}
+\itemguidecard{LED Bodysuit}
+{A suit with programmable LEDs, controlled by a small wrist device.}
+{Can be used to create dazzling light displays for distraction (disadvantage to onlookers), or mimic the light patterns of certain technological devices to bypass simple sensors (requires a Technology check).}
+\end{minipage}
+
+\end{document}
