@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  11 JUL 2025 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  11 JUL 2025 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,7 +649,7 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \colbreak@box=\box124
 \mc@col@check@num=\count325
 )
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 45
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 39
 .
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
@@ -662,20 +662,20 @@ File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
 ) (sites_symbols.aux)
 \openout1 = `sites_symbols.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -736,24 +736,13 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
-
-(C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
-
-
-(C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 <sites_symbols_assets/symbolSiteIconFiles/symbol_abydos_osireion.png, id=4, 102
 7.84pt x 1027.84pt>
 File: sites_symbols_assets/symbolSiteIconFiles/symbol_abydos_osireion.png Graph
 ic file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_abydos_osireion.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_abydos
-_osireion.png  used on input line 52.
+_osireion.png  used on input line 46.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_abydos_osireion_text.png, id=5
 , 1027.84pt x 331.2375pt>
@@ -761,7 +750,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_abydos_osireion_text.png
 Graphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_abydos_osireion_text.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_abydos
-_osireion_text.png  used on input line 57.
+_osireion_text.png  used on input line 51.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_boat_pits.png, id=7, 1027.84pt
  x 1027.84pt>
@@ -769,7 +758,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_boat_pits.png Graphic fil
 e (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_boat_pits.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_boat_p
-its.png  used on input line 63.
+its.png  used on input line 57.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_boat_pits_text.png, id=8, 1027
 .84pt x 331.2375pt>
@@ -777,7 +766,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_boat_pits_text.png Graphi
 c file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_boat_pits_text.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_boat_p
-its_text.png  used on input line 68.
+its_text.png  used on input line 62.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_builders_quarters.png, id=9, 1
 027.84pt x 1027.84pt>
@@ -785,7 +774,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_builders_quarters.png Gra
 phic file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_builders_quarters.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_builde
-rs_quarters.png  used on input line 74.
+rs_quarters.png  used on input line 68.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_builders_quarters_text.png, id
 =10, 1027.84pt x 331.2375pt>
@@ -794,7 +783,7 @@ g Graphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_builders_quarters_text.png
 >
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_builde
-rs_quarters_text.png  used on input line 79.
+rs_quarters_text.png  used on input line 73.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_dendera_temple.png, id=11, 102
 7.84pt x 1027.84pt>
@@ -802,7 +791,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_dendera_temple.png Graphi
 c file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_dendera_temple.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_dender
-a_temple.png  used on input line 85.
+a_temple.png  used on input line 79.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_dendera_temple_text.png, id=12
 , 1027.84pt x 331.2375pt>
@@ -810,7 +799,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_dendera_temple_text.png G
 raphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_dendera_temple_text.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_dender
-a_temple_text.png  used on input line 90.
+a_temple_text.png  used on input line 84.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_east_cemetery.png, id=13, 1027
 .84pt x 1027.84pt>
@@ -818,7 +807,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_east_cemetery.png Graphic
  file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_east_cemetery.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_east_c
-emetery.png  used on input line 96.
+emetery.png  used on input line 90.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_east_cemetery_text.png, id=14,
  1027.84pt x 331.2375pt>
@@ -826,7 +815,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_east_cemetery_text.png Gr
 aphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_east_cemetery_text.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_east_c
-emetery_text.png  used on input line 100.
+emetery_text.png  used on input line 94.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_eridu_ruins.png, id=15, 1027.8
 4pt x 1027.84pt>
@@ -834,7 +823,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_eridu_ruins.png Graphic f
 ile (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_eridu_ruins.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_eridu_
-ruins.png  used on input line 106.
+ruins.png  used on input line 100.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_eridu_ruins_text.png, id=16, 1
 027.84pt x 331.2375pt>
@@ -842,7 +831,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_eridu_ruins_text.png Grap
 hic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_eridu_ruins_text.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_eridu_
-ruins_text.png  used on input line 111.
+ruins_text.png  used on input line 105.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_giza_repository.png, id=17, 10
 27.84pt x 1027.84pt>
@@ -850,7 +839,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_giza_repository.png Graph
 ic file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_giza_repository.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_giza_r
-epository.png  used on input line 117.
+epository.png  used on input line 111.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_giza_repository_text.png, id=1
 8, 1027.84pt x 331.2375pt>
@@ -858,9 +847,8 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_giza_repository_text.png
 Graphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_giza_repository_text.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_giza_r
-epository_text.png  used on input line 122.
+epository_text.png  used on input line 116.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
-
 [1
 
 {C:/Users/ernos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/erno
@@ -883,7 +871,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_hetepheres_tombs.png Grap
 hic file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_hetepheres_tombs.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_heteph
-eres_tombs.png  used on input line 128.
+eres_tombs.png  used on input line 122.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_hetepheres_tombs_text.png, id=
 32, 1027.84pt x 331.2375pt>
@@ -892,7 +880,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_hetepheres_tombs_text.png
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_hetepheres_tombs_text.png>
 
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_heteph
-eres_tombs_text.png  used on input line 133.
+eres_tombs_text.png  used on input line 127.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_inka_andes.png, id=33, 1027.84
 pt x 1027.84pt>
@@ -900,7 +888,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_inka_andes.png Graphic fi
 le (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_inka_andes.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_inka_a
-ndes.png  used on input line 139.
+ndes.png  used on input line 133.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_inka_andes_text.png, id=34, 10
 27.84pt x 331.2375pt>
@@ -908,7 +896,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_inka_andes_text.png Graph
 ic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_inka_andes_text.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_inka_a
-ndes_text.png  used on input line 144.
+ndes_text.png  used on input line 138.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_iran_ziggurat.png, id=35, 1027
 .84pt x 1027.84pt>
@@ -916,7 +904,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_iran_ziggurat.png Graphic
  file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_iran_ziggurat.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_iran_z
-iggurat.png  used on input line 150.
+iggurat.png  used on input line 144.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_iran_ziggurat_text.png, id=36,
  1027.84pt x 331.2375pt>
@@ -924,7 +912,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_iran_ziggurat_text.png Gr
 aphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_iran_ziggurat_text.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_iran_z
-iggurat_text.png  used on input line 155.
+iggurat_text.png  used on input line 149.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_mars_face_mountain.png, id=37,
  1027.84pt x 1027.84pt>
@@ -932,7 +920,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_mars_face_mountain.png Gr
 aphic file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_mars_face_mountain.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_mars_f
-ace_mountain.png  used on input line 161.
+ace_mountain.png  used on input line 155.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_mars_face_mountain_text.png, i
 d=38, 1027.84pt x 331.2375pt>
@@ -941,7 +929,7 @@ ng Graphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_mars_face_mountain_text.pn
 g>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_mars_f
-ace_mountain_text.png  used on input line 166.
+ace_mountain_text.png  used on input line 160.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_ocean_giza_clone.png, id=39, 1
 027.84pt x 1027.84pt>
@@ -949,7 +937,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_ocean_giza_clone.png Grap
 hic file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_ocean_giza_clone.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_ocean_
-giza_clone.png  used on input line 172.
+giza_clone.png  used on input line 166.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_ocean_giza_clone_text.png, id=
 40, 1027.84pt x 331.2375pt>
@@ -958,7 +946,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_ocean_giza_clone_text.png
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_ocean_giza_clone_text.png>
 
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_ocean_
-giza_clone_text.png  used on input line 177.
+giza_clone_text.png  used on input line 171.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_office_pyramid_studies.png, id
 =41, 1027.84pt x 1027.84pt>
@@ -967,7 +955,7 @@ g Graphic file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_office_pyramid_studies.png
 >
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_office
-_pyramid_studies.png  used on input line 183.
+_pyramid_studies.png  used on input line 177.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_office_pyramid_studies_text.pn
 g, id=42, 1027.84pt x 331.2375pt>
@@ -976,7 +964,7 @@ xt.png Graphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_office_pyramid_studies_tex
 t.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_office
-_pyramid_studies_text.png  used on input line 188.
+_pyramid_studies_text.png  used on input line 182.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
  [2 <./sites_symbols_assets/symbolSiteIconFiles/symbol_giza_repository.png (PNG
  copy)> <./sites_symbols_assets/symbolSiteTextFiles/symbol_giza_repository_text
@@ -997,7 +985,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_queen_khentkawes.png Grap
 hic file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_queen_khentkawes.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_queen_
-khentkawes.png  used on input line 194.
+khentkawes.png  used on input line 188.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_queen_khentkawes_text.png, id=
 53, 1027.84pt x 331.2375pt>
@@ -1006,7 +994,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_queen_khentkawes_text.png
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_queen_khentkawes_text.png>
 
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_queen_
-khentkawes_text.png  used on input line 199.
+khentkawes_text.png  used on input line 193.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_rock_cut_tombs_khafre.png, id=
 54, 1027.84pt x 1027.84pt>
@@ -1015,7 +1003,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_rock_cut_tombs_khafre.png
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_rock_cut_tombs_khafre.png>
 
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_rock_c
-ut_tombs_khafre.png  used on input line 205.
+ut_tombs_khafre.png  used on input line 199.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_rock_cut_tombs_khafre_text.png
 , id=55, 1027.84pt x 331.2375pt>
@@ -1024,7 +1012,7 @@ t.png Graphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_rock_cut_tombs_khafre_text
 .png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_rock_c
-ut_tombs_khafre_text.png  used on input line 210.
+ut_tombs_khafre_text.png  used on input line 204.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_saqqara_step_pyramid.png, id=5
 6, 1027.84pt x 1027.84pt>
@@ -1032,7 +1020,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_saqqara_step_pyramid.png
 Graphic file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_saqqara_step_pyramid.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_saqqar
-a_step_pyramid.png  used on input line 216.
+a_step_pyramid.png  used on input line 210.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_saqqara_step_pyramid_text.png,
  id=57, 1027.84pt x 331.2375pt>
@@ -1041,7 +1029,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_saqqara_step_pyramid_text
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_saqqara_step_pyramid_text.
 png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_saqqar
-a_step_pyramid_text.png  used on input line 221.
+a_step_pyramid_text.png  used on input line 215.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_sphinx.png, id=58, 1027.84pt x
  1027.84pt>
@@ -1049,7 +1037,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_sphinx.png Graphic file (
 type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_sphinx.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_sphinx
-.png  used on input line 227.
+.png  used on input line 221.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_sphinx_text.png, id=59, 1027.8
 4pt x 331.2375pt>
@@ -1057,7 +1045,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_sphinx_text.png Graphic f
 ile (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_sphinx_text.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_sphinx
-_text.png  used on input line 232.
+_text.png  used on input line 226.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_sphinx_shadow_chamber.png, id=
 60, 1027.84pt x 1027.84pt>
@@ -1066,7 +1054,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_sphinx_shadow_chamber.png
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_sphinx_shadow_chamber.png>
 
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_sphinx
-_shadow_chamber.png  used on input line 238.
+_shadow_chamber.png  used on input line 232.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_sphinx_shadow_chamber_text.png
 , id=61, 1027.84pt x 331.2375pt>
@@ -1075,7 +1063,7 @@ t.png Graphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_sphinx_shadow_chamber_text
 .png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_sphinx
-_shadow_chamber_text.png  used on input line 243.
+_shadow_chamber_text.png  used on input line 237.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_valley_khafre.png, id=62, 1027
 .84pt x 1027.84pt>
@@ -1083,7 +1071,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_valley_khafre.png Graphic
  file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_valley_khafre.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_valley
-_khafre.png  used on input line 249.
+_khafre.png  used on input line 243.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_valley_khafre_text.png, id=63,
  1027.84pt x 331.2375pt>
@@ -1091,7 +1079,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_valley_khafre_text.png Gr
 aphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_valley_khafre_text.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_valley
-_khafre_text.png  used on input line 254.
+_khafre_text.png  used on input line 248.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
  [3 <./sites_symbols_assets/symbolSiteIconFiles/symbol_office_pyramid_studies.p
 ng (PNG copy)> <./sites_symbols_assets/symbolSiteTextFiles/symbol_office_pyrami
@@ -1112,7 +1100,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_valley_queens.png Graphic
  file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_valley_queens.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_valley
-_queens.png  used on input line 260.
+_queens.png  used on input line 254.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_valley_queens_text.png, id=74,
  1027.84pt x 331.2375pt>
@@ -1120,7 +1108,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_valley_queens_text.png Gr
 aphic file (type png)
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_valley_queens_text.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_valley
-_queens_text.png  used on input line 265.
+_queens_text.png  used on input line 259.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 <sites_symbols_assets/symbolSiteIconFiles/symbol_western_cemetery.png, id=75, 1
 027.84pt x 1027.84pt>
@@ -1128,7 +1116,7 @@ File: sites_symbols_assets/symbolSiteIconFiles/symbol_western_cemetery.png Grap
 hic file (type png)
 <use sites_symbols_assets/symbolSiteIconFiles/symbol_western_cemetery.png>
 Package pdftex.def Info: sites_symbols_assets/symbolSiteIconFiles/symbol_wester
-n_cemetery.png  used on input line 271.
+n_cemetery.png  used on input line 265.
 (pdftex.def)             Requested size: 170.7155pt x 170.7155pt.
 <sites_symbols_assets/symbolSiteTextFiles/symbol_western_cemetery_text.png, id=
 76, 1027.84pt x 331.2375pt>
@@ -1137,7 +1125,7 @@ File: sites_symbols_assets/symbolSiteTextFiles/symbol_western_cemetery_text.png
 <use sites_symbols_assets/symbolSiteTextFiles/symbol_western_cemetery_text.png>
 
 Package pdftex.def Info: sites_symbols_assets/symbolSiteTextFiles/symbol_wester
-n_cemetery_text.png  used on input line 276.
+n_cemetery_text.png  used on input line 270.
 (pdftex.def)             Requested size: 104.69786pt x 33.73724pt.
 
 
@@ -1154,17 +1142,17 @@ L3 programming layer <2025-03-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19137 strings out of 469958
- 431905 string characters out of 5469814
- 818851 words of memory out of 5000000
- 45625 multiletter control sequences out of 15000+600000
- 638588 words of font info for 61 fonts, out of 8000000 for 9000
+ 19017 strings out of 469958
+ 429758 string characters out of 5469814
+ 796743 words of memory out of 5000000
+ 45525 multiletter control sequences out of 15000+600000
+ 634841 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,7n,101p,451b,1390s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,6n,101p,451b,645s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a
 .pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 r8a.pfb>
-Output written on sites_symbols.pdf (4 pages, 38171069 bytes).
+Output written on sites_symbols.pdf (4 pages, 38169506 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
