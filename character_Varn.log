@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  11 JUL 2025 21:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  12 JUL 2025 10:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -852,10 +852,10 @@ LaTeX Font Info:    Trying to load font information for U+pzd on input line 46.
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 ){C:/Users/ernos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ern
 os/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-<varn_picture.jpg, id=17, 1027.84pt x 770.88pt>
-File: varn_picture.jpg Graphic file (type jpg)
-<use varn_picture.jpg>
-Package pdftex.def Info: varn_picture.jpg  used on input line 65.
+<images/varn_picture.jpg, id=17, 1027.84pt x 770.88pt>
+File: images/varn_picture.jpg Graphic file (type jpg)
+<use images/varn_picture.jpg>
+Package pdftex.def Info: images/varn_picture.jpg  used on input line 65.
 (pdftex.def)             Requested size: 71.34448pt x 53.50836pt.
 
 
@@ -1041,7 +1041,7 @@ Overfull \hbox (2.84518pt too wide) in paragraph at lines 193--194
 
 [1
 
- <./varn_picture.jpg>] (character_Varn.aux)
+ <./images/varn_picture.jpg>] (character_Varn.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
@@ -1051,7 +1051,7 @@ Package rerunfilecheck Info: File `character_Varn.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  25626 strings out of 469958
- 516956 string characters out of 5469814
+ 517005 string characters out of 5469814
  918603 words of memory out of 5000000
  52014 multiletter control sequences out of 15000+600000
  649287 words of font info for 71 fonts, out of 8000000 for 9000
