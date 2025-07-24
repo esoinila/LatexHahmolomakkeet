@@ -1,0 +1,42 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{eso-pic}
+\usepackage{tikz}
+
+% Page geometry: A4 landscape, no margins
+\geometry{a4paper, landscape, margin=0cm}
+\pagestyle{empty}
+
+\begin{document}
+
+% Place the background image to fill the entire page
+\AddToShipoutPictureBG*{%
+  \put(0,0){%
+    \includegraphics[width=\paperwidth,height=\paperheight]{images/GameTableSign.png}%
+  }%
+}
+
+% Overlay text using TikZ for precise placement and styling
+\begin{tikzpicture}[remember picture, overlay]
+
+    % Place text node at the center of the page
+    % The text is large, bold, and white with a black shadow for readability
+    \node[anchor=west] at (current page.west) {
+        \fontsize{65}{78}\sffamily\bfseries
+        % Shadow layer (black text, slightly offset)
+        \color{black}\put(2pt,-2pt){Somevaikuttajat Egyptissä}
+        % Main layer (white text)
+        \color{white}\put(0,0){Somevaikuttajat Egyptissä}
+    };
+
+\end{tikzpicture}
+
+\end{document}
