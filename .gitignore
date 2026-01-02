@@ -4,3 +4,20 @@ fulcrum.png
 full_assembly.png
 rectangle.png
 seesaw.png
+
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.pdb
+*.cache
+project.lock.json
+project.fragment.lock.json
+Package.restore.dependency.json
+*.dll
+*.exe
+*.obj
+*.swp
+.vscode/
