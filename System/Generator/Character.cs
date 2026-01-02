@@ -8,6 +8,7 @@ namespace RPGCharacterGenerator
         public string Name { get; set; } = "";
         public string Handle { get; set; } = "";
         public string Image { get; set; } = "";
+        public string ImagePrompt { get; set; } = "";
         public string Quote { get; set; } = "";
         public string Role { get; set; } = "";
         public string PersonalQuest { get; set; } = "";

@@ -57,6 +57,9 @@ namespace RPGCharacterGenerator
                 case "image":
                     c.Image = line;
                     break;
+                case "image prompt":
+                    c.ImagePrompt = AppendText(c.ImagePrompt, line);
+                    break;
                 case "quote":
                     c.Quote = AppendText(c.Quote, line);
                     break;
