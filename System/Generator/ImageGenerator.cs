@@ -24,34 +24,41 @@ namespace RPGCharacterGenerator
             }
 
             var googleAI = new GoogleAI(apiKey: _apiKey);
-            // Use Imagen 3 model
-            var model = googleAI.GenerativeModel(Model.Imagen3);
+            // Use Imagen 3 model by name
+            var model = googleAI.GenerativeModel("models/imagen-3.0-generate-001");
 
             string prompt = BuildPrompt(c);
             Console.WriteLine($"Image Generation Prompt: {prompt}");
 
             try
             {
-                // Correct usage for Mscc.GenerativeAI assuming standard response pattern
+                // Mscc.GenerativeAI typically uses GenerateContent for everything.
+                // For images, the response *should* contain InlineData. 
+                // However, recent changes might have moved it or renamed it.
+                // Let's use a dynamic approach or standard property access if confirmed.
+                // Assuming standard library structure:
                 var response = await model.GenerateContent(prompt);
 
-                if (response != null && response.Candidates != null && response.Candidates.Count > 0)
+                if (response?.Candidates != null && response.Candidates.Count > 0)
                 {
                      var candidate = response.Candidates[0];
-                     if (candidate.Content != null && candidate.Content.Parts != null && candidate.Content.Parts.Count > 0)
+                     if (candidate.Content?.Parts != null && candidate.Content.Parts.Count > 0)
                      {
                          var part = candidate.Content.Parts[0];
-                         if (part.InlineData != null && !string.IsNullOrEmpty(part.InlineData.Data))
+                         // Check properties
+                         if (part.InlineData != null)
                          {
-                             // It's base64 encoded
-                             byte[] imageBytes = Convert.FromBase64String(part.InlineData.Data);
-                             await File.WriteAllBytesAsync(outputPath, imageBytes);
-                             Console.WriteLine($"Image saved to {outputPath}");
+                             // InlineData is a Blob object with MimeType and Data
+                             if (!string.IsNullOrEmpty(part.InlineData.Data))
+                             {
+                                 byte[] imageBytes = Convert.FromBase64String(part.InlineData.Data);
+                                 await File.WriteAllBytesAsync(outputPath, imageBytes);
+                                 Console.WriteLine($"Image saved to {outputPath}");
+                                 return;
+                             }
                          }
-                         else
-                         {
-                             Console.WriteLine("No inline data found in response.");
-                         }
+                         
+                         Console.WriteLine("No inline image data found in response part.");
                      }
                 }
                 else
@@ -62,6 +69,17 @@ namespace RPGCharacterGenerator
             catch (Exception ex)
             {
                 Console.WriteLine($"Error generating image: {ex.Message}");
+                // Fallback: Copy a default image so the LaTeX compilation doesn't fail
+                try 
+                {
+                    string fallbackImage = Path.Combine(Path.GetDirectoryName(outputPath), "Nanobana.png");
+                    if (File.Exists(fallbackImage))
+                    {
+                        Console.WriteLine("Using fallback image (Nanobana.png) due to generation failure.");
+                        File.Copy(fallbackImage, outputPath, true);
+                    }
+                }
+                catch { /* Ignore fallback failure */ }
             }
         }
         

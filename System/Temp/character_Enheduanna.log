@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./character_Nanobana.tex
-(character_Nanobana.tex
+**./character_Enheduanna.tex
+(character_Enheduanna.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
 (C:\Users\ernos\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -759,8 +759,8 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 tex.def
 File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count328
-) (character_Nanobana.aux)
-\openout1 = `character_Nanobana.aux'.
+) (character_Enheduanna.aux)
+\openout1 = `character_Enheduanna.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
@@ -841,9 +841,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 43.
-(character_Nanobana.out) (character_Nanobana.out)
+(character_Enheduanna.out) (character_Enheduanna.out)
 \@outlinefile=\write4
-\openout4 = `character_Nanobana.out'.
+\openout4 = `character_Enheduanna.out'.
 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 47.
 
@@ -852,10 +852,10 @@ LaTeX Font Info:    Trying to load font information for U+pzd on input line 47.
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 ){C:/Users/ernos/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ern
 os/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-<../../images/Nanobana.png, id=17, 616.3025pt x 429.605pt>
-File: ../../images/Nanobana.png Graphic file (type png)
-<use ../../images/Nanobana.png>
-Package pdftex.def Info: ../../images/Nanobana.png  used on input line 66.
+<../../images/Enheduanna.png, id=17, 616.3025pt x 429.605pt>
+File: ../../images/Enheduanna.png Graphic file (type png)
+<use ../../images/Enheduanna.png>
+Package pdftex.def Info: ../../images/Enheduanna.png  used on input line 66.
 (pdftex.def)             Requested size: 64.21996pt x 44.7657pt.
 
 
@@ -910,11 +910,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 109.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 20.0pt
-(hyperref)                replaced by space on input line 109.
-
-
 Overfull \hbox (2.84518pt too wide) in paragraph at lines 109--110
 [][][][][] 
  []
@@ -954,30 +949,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                replaced by space on input line 157.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 157.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 157.
-
-
 Overfull \hbox (2.84518pt too wide) in paragraph at lines 157--158
 [][][][][] 
  []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 20.0pt
-(hyperref)                replaced by space on input line 175.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 175.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 175.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1016,24 +990,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\newline' on input line 193.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 20.0pt
-(hyperref)                replaced by space on input line 193.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 193.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 193.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 20.0pt
-(hyperref)                replaced by space on input line 193.
-
-
 Overfull \hbox (2.84518pt too wide) in paragraph at lines 193--194
 [][][][][] 
  []
@@ -1042,29 +998,29 @@ Overfull \hbox (2.84518pt too wide) in paragraph at lines 193--194
 
 [1
 
- <../../images/Nanobana.png>] (character_Nanobana.aux)
+ <../../images/Enheduanna.png>] (character_Enheduanna.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
-Package rerunfilecheck Info: File `character_Nanobana.out' has not changed.
+Package rerunfilecheck Info: File `character_Enheduanna.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  25626 strings out of 469958
- 517171 string characters out of 5469814
- 916193 words of memory out of 5000000
+ 517225 string characters out of 5469814
+ 914463 words of memory out of 5000000
  52014 multiletter control sequences out of 15000+600000
  649287 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,11n,101p,906b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,11n,101p,860b,877s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
 ic/uhvb8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvr8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 helvetic/uhvro8a.pfb><C:/Users/ernos/AppData/Local/Programs/MiKTeX/fonts/type1/
 urw/zapfding/uzdr.pfb>
-Output written on character_Nanobana.pdf (1 page, 80618 bytes).
+Output written on character_Enheduanna.pdf (1 page, 78922 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
