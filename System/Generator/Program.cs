@@ -11,10 +11,12 @@ namespace RPGCharacterGenerator
             Console.WriteLine("RPG Character Generator");
 
             string currentDir = Directory.GetCurrentDirectory();
-            string rootDir = Path.GetFullPath(Path.Combine(currentDir, ".."));
+            // Assuming running from System/Generator or pointing to it. 
+            // If running "dotnet run" inside System/Generator, root is two levels up.
+            string rootDir = Path.GetFullPath(Path.Combine(currentDir, "..", ".."));
             string inputDir = Path.Combine(rootDir, "Characters");
             string templatesDir = Path.Combine(currentDir, "Templates");
-            string outputDir = rootDir;
+            string outputDir = Path.Combine(rootDir, "System", "Temp");
 
             if (!Directory.Exists(inputDir))
             {

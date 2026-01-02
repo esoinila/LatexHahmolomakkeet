@@ -14,7 +14,30 @@ namespace RPGCharacterGenerator
         {
             var content = File.ReadAllText(templatePath);
 
-            content = ReplaceTag(content, "IMAGE", c.Image);
+            // Resolve absolute path for image. 
+            // We assume images are in C:\repos11\LatexHahmolomakkeet_\images
+            // Since we don't pass the root dir here easily without changing signature, 
+            // lets do a quick hack or change signature.
+            // Better: update signature to accept rootDir.
+            // OR checks if path is absolute.
+            // Let's rely on the assumption that valid relative path in tex works if we use absolute path.
+            
+            string imagePath = c.Image; 
+            // We need to resolve this. Let's assume the Generator is running from System/Generator
+            // and images are in ../../images/
+            // BUT TexGenerator doesn't know where it runs. 
+            // Let's fix this by updating the Program.cs to pass resolved image path?
+            // No, the c.Image property is what's used.
+            // Let's try to fix it right here using a helper or just relative to known structure.
+            
+            // Actually, simplest is to use forward slashes and absolute path if possible.
+            // But latex hates spaces in paths sometimes.
+            // Let's use relative path from the TEX file location.
+            // TEX file is in System/Temp. Images are in ../../images.
+            
+            string relPath = $"../../images/{c.Image}";
+            content = ReplaceTag(content, "IMAGE", relPath.Replace("\\", "/"));
+            
             content = ReplaceTag(content, "NAME_AND_HANDLE", Escape(c.FullName));
             
             // Construct Background
@@ -48,7 +71,8 @@ namespace RPGCharacterGenerator
         {
             var content = File.ReadAllText(templatePath);
 
-            content = ReplaceTag(content, "IMAGE", c.Image);
+            string relPath = $"../../images/{c.Image}";
+            content = ReplaceTag(content, "IMAGE", relPath.Replace("\\", "/"));
             content = ReplaceTag(content, "NAME", Escape(c.Name));
             content = ReplaceTag(content, "QUOTE", Escape(c.Quote));
 
