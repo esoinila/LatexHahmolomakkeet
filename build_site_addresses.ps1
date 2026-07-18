@@ -18,7 +18,14 @@ Write-Host "=== Compiling site_addresses_gm.tex (pass 2) ===" -ForegroundColor C
 pdflatex -interaction=nonstopmode -output-directory=Output site_addresses_gm.tex | Out-Null
 if ($LASTEXITCODE -ne 0) { throw "pdflatex GM failed" }
 
+Write-Host "=== Building Aziz decipher keys ===" -ForegroundColor Cyan
+python HieroGlyphs\build_decipher_keys.py
+if ($LASTEXITCODE -ne 0) { throw "Decipher key build failed" }
+pdflatex -interaction=nonstopmode -output-directory=Output hieroglyph_decipher_keys.tex | Out-Null
+if ($LASTEXITCODE -ne 0) { throw "pdflatex decipher keys failed" }
+
 Write-Host ""
 Write-Host "Done:" -ForegroundColor Green
 Write-Host "  Output\site_addresses_player.pdf"
 Write-Host "  Output\site_addresses_gm.pdf"
+Write-Host "  Output\hieroglyph_decipher_keys.pdf"
