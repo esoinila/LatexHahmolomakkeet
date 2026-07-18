@@ -513,8 +513,9 @@ def write_alphabet_json() -> None:
     data = {
         "glyphs": {L: f"glyphs/{L}.png" for L in SOURCE_LETTERS},
         "aliases": LETTER_ALIASES,
-        "style": "clean B/W silhouettes matching tourist papyrus shapes",
+        "style": "GenAI woodcut from Alphabet_for_hieroglyph.jpg + ink_sketch_bw filter",
         "source_reference": "Alphabet_for_hieroglyph.jpg",
+        "color_masters": "glyphs_color/named/",
     }
     (HIERO / "alphabet.json").write_text(json.dumps(data, indent=2), encoding="utf-8")
 
@@ -723,14 +724,18 @@ Direction: bird faces the start. LTR = left-to-right; RTL = right-to-left (glyph
 def main() -> int:
     ensure_dirs()
 
-    print("Processing GenAI place emblems → laser B/W (line art)...")
     sys.path.insert(0, str(HIERO))
+
+    print("Processing GenAI place emblems → laser B/W (line art)...")
     from process_icons_bw import main as process_icons_main  # noqa: E402
 
     process_icons_main()
 
-    print("Drawing clean B/W glyphs (papyrus-matched shapes)...")
-    build_glyphs()
+    print("Processing GenAI hieroglyph letters (from papyrus) → laser B/W...")
+    from process_glyphs_bw import main as process_glyphs_main  # noqa: E402
+
+    process_glyphs_main()
+    # Note: programmatic build_glyphs() is skipped when GenAI glyph masters exist.
     write_alphabet_json()
     write_site_json()
     write_reference_alphabet_sheet()

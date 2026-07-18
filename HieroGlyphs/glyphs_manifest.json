@@ -1,0 +1,129 @@
+{
+  "sources": {
+    "C": {
+      "raw": "raw_22.jpg",
+      "color": "named/C.jpg",
+      "bw": "C.png"
+    },
+    "A": {
+      "raw": "raw_23.jpg",
+      "color": "named/A.jpg",
+      "bw": "A.png"
+    },
+    "B": {
+      "raw": "raw_24.jpg",
+      "color": "named/B.jpg",
+      "bw": "B.png"
+    },
+    "F": {
+      "raw": "raw_25.jpg",
+      "color": "named/F.jpg",
+      "bw": "F.png"
+    },
+    "D": {
+      "raw": "raw_26.jpg",
+      "color": "named/D.jpg",
+      "bw": "D.png"
+    },
+    "E": {
+      "raw": "raw_27.jpg",
+      "color": "named/E.jpg",
+      "bw": "E.png"
+    },
+    "G": {
+      "raw": "raw_28.jpg",
+      "color": "named/G.jpg",
+      "bw": "G.png"
+    },
+    "L": {
+      "raw": "raw_29.jpg",
+      "color": "named/L.jpg",
+      "bw": "L.png"
+    },
+    "K": {
+      "raw": "raw_30.jpg",
+      "color": "named/K.jpg",
+      "bw": "K.png"
+    },
+    "H": {
+      "raw": "raw_31.jpg",
+      "color": "named/H.jpg",
+      "bw": "H.png"
+    },
+    "J": {
+      "raw": "raw_32.jpg",
+      "color": "named/J.jpg",
+      "bw": "J.png"
+    },
+    "I": {
+      "raw": "raw_33.jpg",
+      "color": "named/I.jpg",
+      "bw": "I.png"
+    },
+    "P": {
+      "raw": "raw_34.jpg",
+      "color": "named/P.jpg",
+      "bw": "P.png"
+    },
+    "O": {
+      "raw": "raw_35.jpg",
+      "color": "named/O.jpg",
+      "bw": "O.png"
+    },
+    "Q": {
+      "raw": "raw_36.jpg",
+      "color": "named/Q.jpg",
+      "bw": "Q.png"
+    },
+    "R": {
+      "raw": "raw_37.jpg",
+      "color": "named/R.jpg",
+      "bw": "R.png"
+    },
+    "M": {
+      "raw": "raw_38.jpg",
+      "color": "named/M.jpg",
+      "bw": "M.png"
+    },
+    "N": {
+      "raw": "raw_39.jpg",
+      "color": "named/N.jpg",
+      "bw": "N.png"
+    },
+    "X": {
+      "raw": "raw_40.jpg",
+      "color": "named/X.jpg",
+      "bw": "X.png"
+    },
+    "S": {
+      "raw": "raw_41.jpg",
+      "color": "named/S.jpg",
+      "bw": "S.png"
+    },
+    "U": {
+      "raw": "raw_42.jpg",
+      "color": "named/U.jpg",
+      "bw": "U.png"
+    },
+    "Z": {
+      "raw": "raw_43.jpg",
+      "color": "named/Z.jpg",
+      "bw": "Z.png"
+    },
+    "W": {
+      "raw": "raw_44.jpg",
+      "color": "named/W.jpg",
+      "bw": "W.png"
+    },
+    "T": {
+      "raw": "raw_45.jpg",
+      "color": "named/T.jpg",
+      "bw": "T.png"
+    }
+  },
+  "aliases": {
+    "Y": "E",
+    "V": "F"
+  },
+  "style": "genai_from_papyrus + ink_sketch_bw"
+}

@@ -32,7 +32,9 @@ Or: `.\build_site_addresses.ps1`
 |------|------|
 | `site_addresses.json` | Codes, directions, icons |
 | `alphabet.json` | Glyph file map + Y→E, V→F |
-| `glyphs/` | Clean B/W letter silhouettes (match papyrus shapes) |
+| `glyphs/` | GenAI→B/W letter glyphs (from papyrus photo) |
+| `glyphs_color/` | Color GenAI masters for each letter |
+| `process_glyphs_bw.py` | Letter GenAI → B/W filter |
 | `site_icons_color/` | GenAI woodcut masters (cream parchment) |
 | `site_icons/` | Laser B/W processed emblems (line art, not solid fill) |
 | `process_icons_bw.py` | GenAI → B/W filter + site mapping |

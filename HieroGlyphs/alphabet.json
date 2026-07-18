@@ -29,6 +29,7 @@
     "Y": "E",
     "V": "F"
   },
-  "style": "clean B/W silhouettes matching tourist papyrus shapes",
-  "source_reference": "Alphabet_for_hieroglyph.jpg"
+  "style": "GenAI woodcut from Alphabet_for_hieroglyph.jpg + ink_sketch_bw filter",
+  "source_reference": "Alphabet_for_hieroglyph.jpg",
+  "color_masters": "glyphs_color/named/"
 }
