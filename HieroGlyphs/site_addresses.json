@@ -1,0 +1,160 @@
+{
+  "cipher_notes": {
+    "source": "Alphabet_for_hieroglyph.jpg (Egypt tourist papyrus)",
+    "aliases": {
+      "Y": "E",
+      "V": "F"
+    },
+    "direction_rule": "Figures face the beginning of the text. LTR: bird faces left. RTL: bird faces right; glyph order is reversed on the tile.",
+    "spaces": "Omitted from addresses."
+  },
+  "sites": [
+    {
+      "id": "abydos_osireion",
+      "full_name": "Osireion (Abydos)",
+      "address": "OSIREION",
+      "direction": "LTR",
+      "icon": "HieroGlyphs/site_icons/symbol_abydos_osireion.png"
+    },
+    {
+      "id": "boat_pits",
+      "full_name": "Boat Pits",
+      "address": "BOATPITS",
+      "direction": "RTL",
+      "icon": "HieroGlyphs/site_icons/symbol_boat_pits.png"
+    },
+    {
+      "id": "builders_quarters",
+      "full_name": "Builders' Quarters",
+      "address": "BUILDERS",
+      "direction": "LTR",
+      "icon": "HieroGlyphs/site_icons/symbol_builders_quarters.png"
+    },
+    {
+      "id": "dendera_temple",
+      "full_name": "Dendera Temple",
+      "address": "DENDERA",
+      "direction": "RTL",
+      "icon": "HieroGlyphs/site_icons/symbol_dendera_temple.png"
+    },
+    {
+      "id": "east_cemetery",
+      "full_name": "Eastern Cemetery",
+      "address": "EASTCEM",
+      "direction": "LTR",
+      "icon": "HieroGlyphs/site_icons/symbol_east_cemetery.png"
+    },
+    {
+      "id": "eridu_ruins",
+      "full_name": "Eridu Ruins",
+      "address": "ERIDU",
+      "direction": "RTL",
+      "icon": "HieroGlyphs/site_icons/symbol_eridu_ruins.png"
+    },
+    {
+      "id": "giza_repository",
+      "full_name": "Underground Repository of Knowledge (Giza)",
+      "address": "LIBRARY",
+      "direction": "LTR",
+      "icon": "HieroGlyphs/site_icons/symbol_giza_repository.png"
+    },
+    {
+      "id": "hetepheres_tombs",
+      "full_name": "Queen Hetepheres' Tombs",
+      "address": "HETEPH",
+      "direction": "RTL",
+      "icon": "HieroGlyphs/site_icons/symbol_hetepheres_tombs.png"
+    },
+    {
+      "id": "inka_andes",
+      "full_name": "Inka Stone Door (Andes)",
+      "address": "ANDES",
+      "direction": "LTR",
+      "icon": "HieroGlyphs/site_icons/symbol_inka_andes.png"
+    },
+    {
+      "id": "iran_ziggurat",
+      "full_name": "Ancient Ziggurat (Iran)",
+      "address": "ZIGGURAT",
+      "direction": "RTL",
+      "icon": "HieroGlyphs/site_icons/symbol_iran_ziggurat.png"
+    },
+    {
+      "id": "mars_face_mountain",
+      "full_name": "Face Mountain (Mars)",
+      "address": "MARS",
+      "direction": "LTR",
+      "icon": "HieroGlyphs/site_icons/symbol_mars_face_mountain.png"
+    },
+    {
+      "id": "ocean_giza_clone",
+      "full_name": "Sunken Giza Clone (Atlantic)",
+      "address": "OCEAN",
+      "direction": "RTL",
+      "icon": "HieroGlyphs/site_icons/symbol_ocean_giza_clone.png"
+    },
+    {
+      "id": "office_pyramid_studies",
+      "full_name": "Office of Pyramid Studies",
+      "address": "OFFICE",
+      "direction": "LTR",
+      "icon": "HieroGlyphs/site_icons/symbol_office_pyramid_studies.png"
+    },
+    {
+      "id": "queen_khentkawes",
+      "full_name": "Tomb of Queen Khentkawes",
+      "address": "KHENT",
+      "direction": "RTL",
+      "icon": "HieroGlyphs/site_icons/symbol_queen_khentkawes.png"
+    },
+    {
+      "id": "rock_cut_tombs_khafre",
+      "full_name": "Rock Cut Tombs (Khafre)",
+      "address": "ROCKCUT",
+      "direction": "LTR",
+      "icon": "HieroGlyphs/site_icons/symbol_rock_cut_tombs_khafre.png"
+    },
+    {
+      "id": "saqqara_step_pyramid",
+      "full_name": "Step Pyramid Complex (Saqqara)",
+      "address": "SAQQARA",
+      "direction": "RTL",
+      "icon": "HieroGlyphs/site_icons/symbol_saqqara_step_pyramid.png"
+    },
+    {
+      "id": "sphinx",
+      "full_name": "The Great Sphinx",
+      "address": "SPHINX",
+      "direction": "LTR",
+      "icon": "HieroGlyphs/site_icons/symbol_sphinx.png"
+    },
+    {
+      "id": "sphinx_shadow_chamber",
+      "full_name": "Sphinx's Shadow Chamber",
+      "address": "SHADOW",
+      "direction": "RTL",
+      "icon": "HieroGlyphs/site_icons/symbol_sphinx_shadow_chamber.png"
+    },
+    {
+      "id": "valley_khafre",
+      "full_name": "Valley Temple of Khafre",
+      "address": "VALLEYK",
+      "direction": "LTR",
+      "icon": "HieroGlyphs/site_icons/symbol_valley_khafre.png"
+    },
+    {
+      "id": "valley_queens",
+      "full_name": "Valley of the Queens",
+      "address": "QUEENS",
+      "direction": "RTL",
+      "icon": "HieroGlyphs/site_icons/symbol_valley_queens.png"
+    },
+    {
+      "id": "western_cemetery",
+      "full_name": "Western Cemetery",
+      "address": "WESTCEM",
+      "direction": "LTR",
+      "icon": "HieroGlyphs/site_icons/symbol_western_cemetery.png"
+    }
+  ]
+}

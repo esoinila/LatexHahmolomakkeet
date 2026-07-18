@@ -22,3 +22,9 @@ Package.restore.dependency.json
 *.swp
 .vscode/
 
+
+__pycache__/
+*.pyc
+*.aux
+*.log
+

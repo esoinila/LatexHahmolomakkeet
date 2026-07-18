@@ -1,0 +1,34 @@
+{
+  "glyphs": {
+    "A": "glyphs/A.png",
+    "B": "glyphs/B.png",
+    "C": "glyphs/C.png",
+    "D": "glyphs/D.png",
+    "E": "glyphs/E.png",
+    "F": "glyphs/F.png",
+    "G": "glyphs/G.png",
+    "H": "glyphs/H.png",
+    "I": "glyphs/I.png",
+    "J": "glyphs/J.png",
+    "K": "glyphs/K.png",
+    "L": "glyphs/L.png",
+    "M": "glyphs/M.png",
+    "N": "glyphs/N.png",
+    "O": "glyphs/O.png",
+    "P": "glyphs/P.png",
+    "Q": "glyphs/Q.png",
+    "R": "glyphs/R.png",
+    "S": "glyphs/S.png",
+    "T": "glyphs/T.png",
+    "U": "glyphs/U.png",
+    "W": "glyphs/W.png",
+    "X": "glyphs/X.png",
+    "Z": "glyphs/Z.png"
+  },
+  "aliases": {
+    "Y": "E",
+    "V": "F"
+  },
+  "style": "clean B/W silhouettes matching tourist papyrus shapes",
+  "source_reference": "Alphabet_for_hieroglyph.jpg"
+}

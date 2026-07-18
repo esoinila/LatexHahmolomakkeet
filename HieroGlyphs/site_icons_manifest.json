@@ -1,0 +1,110 @@
+{
+  "sources": {
+    "boat_pits": {
+      "color": "site_icons_color\\named\\symbol_boat_pits.jpg",
+      "bw": "site_icons\\symbol_boat_pits.png",
+      "gen": "gen_1.jpg"
+    },
+    "sphinx": {
+      "color": "site_icons_color\\named\\symbol_sphinx.jpg",
+      "bw": "site_icons\\symbol_sphinx.png",
+      "gen": "gen_2.jpg"
+    },
+    "abydos_osireion": {
+      "color": "site_icons_color\\named\\symbol_abydos_osireion.jpg",
+      "bw": "site_icons\\symbol_abydos_osireion.png",
+      "gen": "gen_3.jpg"
+    },
+    "dendera_temple": {
+      "color": "site_icons_color\\named\\symbol_dendera_temple.jpg",
+      "bw": "site_icons\\symbol_dendera_temple.png",
+      "gen": "gen_4.jpg"
+    },
+    "builders_quarters": {
+      "color": "site_icons_color\\named\\symbol_builders_quarters.jpg",
+      "bw": "site_icons\\symbol_builders_quarters.png",
+      "gen": "gen_5.jpg"
+    },
+    "iran_ziggurat": {
+      "color": "site_icons_color\\named\\symbol_iran_ziggurat.jpg",
+      "bw": "site_icons\\symbol_iran_ziggurat.png",
+      "gen": "gen_6.jpg"
+    },
+    "giza_repository": {
+      "color": "site_icons_color\\named\\symbol_giza_repository.jpg",
+      "bw": "site_icons\\symbol_giza_repository.png",
+      "gen": "gen_7.jpg"
+    },
+    "hetepheres_tombs": {
+      "color": "site_icons_color\\named\\symbol_hetepheres_tombs.jpg",
+      "bw": "site_icons\\symbol_hetepheres_tombs.png",
+      "gen": "gen_8.jpg"
+    },
+    "east_cemetery": {
+      "color": "site_icons_color\\named\\symbol_east_cemetery.jpg",
+      "bw": "site_icons\\symbol_east_cemetery.png",
+      "gen": "gen_9.jpg"
+    },
+    "inka_andes": {
+      "color": "site_icons_color\\named\\symbol_inka_andes.jpg",
+      "bw": "site_icons\\symbol_inka_andes.png",
+      "gen": "gen_10.jpg"
+    },
+    "eridu_ruins": {
+      "color": "site_icons_color\\named\\symbol_eridu_ruins.jpg",
+      "bw": "site_icons\\symbol_eridu_ruins.png",
+      "gen": "gen_11.jpg"
+    },
+    "ocean_giza_clone": {
+      "color": "site_icons_color\\named\\symbol_ocean_giza_clone.jpg",
+      "bw": "site_icons\\symbol_ocean_giza_clone.png",
+      "gen": "gen_12.jpg"
+    },
+    "office_pyramid_studies": {
+      "color": "site_icons_color\\named\\symbol_office_pyramid_studies.jpg",
+      "bw": "site_icons\\symbol_office_pyramid_studies.png",
+      "gen": "gen_13.jpg"
+    },
+    "saqqara_step_pyramid": {
+      "color": "site_icons_color\\named\\symbol_saqqara_step_pyramid.jpg",
+      "bw": "site_icons\\symbol_saqqara_step_pyramid.png",
+      "gen": "gen_14.jpg"
+    },
+    "rock_cut_tombs_khafre": {
+      "color": "site_icons_color\\named\\symbol_rock_cut_tombs_khafre.jpg",
+      "bw": "site_icons\\symbol_rock_cut_tombs_khafre.png",
+      "gen": "gen_15.jpg"
+    },
+    "queen_khentkawes": {
+      "color": "site_icons_color\\named\\symbol_queen_khentkawes.jpg",
+      "bw": "site_icons\\symbol_queen_khentkawes.png",
+      "gen": "gen_16.jpg"
+    },
+    "mars_face_mountain": {
+      "color": "site_icons_color\\named\\symbol_mars_face_mountain.jpg",
+      "bw": "site_icons\\symbol_mars_face_mountain.png",
+      "gen": "gen_17.jpg"
+    },
+    "valley_queens": {
+      "color": "site_icons_color\\named\\symbol_valley_queens.jpg",
+      "bw": "site_icons\\symbol_valley_queens.png",
+      "gen": "gen_18.jpg"
+    },
+    "valley_khafre": {
+      "color": "site_icons_color\\named\\symbol_valley_khafre.jpg",
+      "bw": "site_icons\\symbol_valley_khafre.png",
+      "gen": "gen_19.jpg"
+    },
+    "sphinx_shadow_chamber": {
+      "color": "site_icons_color\\named\\symbol_sphinx_shadow_chamber.jpg",
+      "bw": "site_icons\\symbol_sphinx_shadow_chamber.png",
+      "gen": "gen_20.jpg"
+    },
+    "western_cemetery": {
+      "color": "site_icons_color\\named\\symbol_western_cemetery.jpg",
+      "bw": "site_icons\\symbol_western_cemetery.png",
+      "gen": "gen_21.jpg"
+    }
+  },
+  "filter": "ink_sketch_bw + tight_crop"
+}
