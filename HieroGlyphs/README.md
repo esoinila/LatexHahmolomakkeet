@@ -66,3 +66,28 @@ Edit site codes / LTR·RTL in `build_hieroglyph_addresses.py` (`SITES` list), th
 - Letter art is GenAI woodcut masters tuned to `Alphabet_for_hieroglyph.jpg`.
 - After changing a master under `glyphs_color/named/`, re-run B/W process + recompose + recompile PDFs.
 - Prefer matching the wood papyrus when orienting flips (hand, crook, foot, etc.).
+
+---------
+
+Kuuban pyramidit
+https://www.youtube.com/watch?v=8yARj5QHrRc
+
+
+
+-----------
+
+Resume this session with:
+  hermes --resume 20260722_174937_cc1c40 -p venns
+  hermes -c "Thunderbolts Archive Status and Next Steps" -p venns
+
+Session:        20260722_174937_cc1c40
+Title:          Thunderbolts Archive Status and Next Steps
+Duration:       1h 1m 44s
+Messages:       296 (9 user, 279 tool calls)
+PS D:\repo12\VennsRabbitHole>
+
+
+-----------
+
+
+
