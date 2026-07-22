@@ -1,10 +1,11 @@
-# Build hieroglyph portal address tiles (player) + GM key PDFs
+# Rebuild hieroglyph print set from current GenAI letter masters.
+# Uses py -3 (Pillow). For a full icon reprocess, run build_hieroglyph_addresses.py first.
 $ErrorActionPreference = "Stop"
 Set-Location $PSScriptRoot
 
-Write-Host "=== Generating glyphs, addresses, tiles ===" -ForegroundColor Cyan
-python HieroGlyphs\build_hieroglyph_addresses.py
-if ($LASTEXITCODE -ne 0) { throw "Python build failed" }
+Write-Host "=== Glyphs, addresses, tiles, decipher card ===" -ForegroundColor Cyan
+py -3 HieroGlyphs\rebuild_print_set.py
+if ($LASTEXITCODE -ne 0) { throw "Python rebuild_print_set failed" }
 
 New-Item -ItemType Directory -Force -Path Output | Out-Null
 
@@ -18,9 +19,7 @@ Write-Host "=== Compiling site_addresses_gm.tex (pass 2) ===" -ForegroundColor C
 pdflatex -interaction=nonstopmode -output-directory=Output site_addresses_gm.tex | Out-Null
 if ($LASTEXITCODE -ne 0) { throw "pdflatex GM failed" }
 
-Write-Host "=== Building Aziz decipher keys ===" -ForegroundColor Cyan
-python HieroGlyphs\build_decipher_keys.py
-if ($LASTEXITCODE -ne 0) { throw "Decipher key build failed" }
+Write-Host "=== Compiling hieroglyph_decipher_keys.tex ===" -ForegroundColor Cyan
 pdflatex -interaction=nonstopmode -output-directory=Output hieroglyph_decipher_keys.tex | Out-Null
 if ($LASTEXITCODE -ne 0) { throw "pdflatex decipher keys failed" }
 

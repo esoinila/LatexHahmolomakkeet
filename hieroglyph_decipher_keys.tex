@@ -1,5 +1,5 @@
 \documentclass[a4paper]{article}
-\usepackage[margin=5mm,top=6mm,bottom=5mm]{geometry}
+\usepackage[margin=6mm,top=7mm,bottom=6mm]{geometry}
 \usepackage{graphicx}
 \usepackage{xcolor}
 \definecolor{cutgray}{gray}{0.40}
@@ -7,43 +7,45 @@
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
-\setlength{\tabcolsep}{1.2mm}
 
-% Fixed mm sizes — do not use macros inside \includegraphics width=
+% One large key per page — fixed mm sizes for graphicx
 \newcommand{\decipherkey}{%
   \begin{tikzpicture}
     \node[inner sep=0pt, outer sep=0pt] (k) at (0,0)
-      {\includegraphics[width=96mm,height=132mm,keepaspectratio=false]{HieroGlyphs/brand/decipher_key_card.png}};
-    \draw[cutgray, dashed, line width=0.65pt]
+      {\includegraphics[width=175mm,height=248mm,keepaspectratio=false]{HieroGlyphs/brand/decipher_key_card.png}};
+    \draw[cutgray, dashed, line width=0.8pt]
       (k.south west) rectangle (k.north east);
-    \draw[black, line width=0.85pt]
-      (k.south west) -- ++(0,3mm)
-      (k.south west) -- ++(3mm,0)
-      (k.south east) -- ++(0,3mm)
-      (k.south east) -- ++(-3mm,0)
-      (k.north west) -- ++(0,-3mm)
-      (k.north west) -- ++(3mm,0)
-      (k.north east) -- ++(0,-3mm)
-      (k.north east) -- ++(-3mm,0);
+    \draw[black, line width=1.0pt]
+      (k.south west) -- ++(0,4mm)
+      (k.south west) -- ++(4mm,0)
+      (k.south east) -- ++(0,4mm)
+      (k.south east) -- ++(-4mm,0)
+      (k.north west) -- ++(0,-4mm)
+      (k.north west) -- ++(4mm,0)
+      (k.north east) -- ++(0,-4mm)
+      (k.north east) -- ++(-4mm,0);
   \end{tikzpicture}%
 }
 
 \begin{document}
 \centering
-{\footnotesize\bfseries Aziz Desert Tours --- Portal Glyph Decoders \quad
-cut on dashed lines \quad B/W laser \quad 1 card/guest (not the real papyrus)}\\[1mm]
+{\large\bfseries Aziz Desert Tours --- Portal Glyph Decoder \quad
+cut on dashed line \quad B/W laser \quad guest key (not the real papyrus)}\\[2mm]
 
-\begin{tabular}{@{}c@{\hspace{2mm}}c@{}}
-\decipherkey & \decipherkey \\[1mm]
-\decipherkey & \decipherkey \\
-\end{tabular}
+\decipherkey
 
 \newpage
 \centering
-{\footnotesize\bfseries Aziz Desert Tours --- extra decoder sheet (spares)}\\[1mm]
-\begin{tabular}{@{}c@{\hspace{2mm}}c@{}}
-\decipherkey & \decipherkey \\[1mm]
-\decipherkey & \decipherkey \\
-\end{tabular}
+{\large\bfseries Aziz Desert Tours --- Portal Glyph Decoder \quad
+cut on dashed line \quad B/W laser \quad guest key (not the real papyrus)}\\[2mm]
+
+\decipherkey
+
+\newpage
+\centering
+{\large\bfseries Aziz Desert Tours --- Portal Glyph Decoder \quad
+cut on dashed line \quad B/W laser \quad guest key (not the real papyrus)}\\[2mm]
+
+\decipherkey
 
 \end{document}

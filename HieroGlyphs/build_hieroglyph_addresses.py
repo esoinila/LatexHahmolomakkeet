@@ -121,37 +121,68 @@ def draw_A(d, s):
 
 
 def draw_B(d, s):
-    # Foot / lower leg (side view)
+    # Fallback only — live B uses GenAI master (glyphs_color/named/B.jpg).
+    # Gardiner D58: lower leg + foot, heel left, toes right (papyrus layout).
     _poly(d, s, [
-        (25, 30), (55, 28), (70, 35), (78, 48), (75, 58),
-        (55, 62), (48, 78), (30, 80), (28, 62), (18, 55), (18, 40),
+        (22, 10), (44, 8), (48, 42), (70, 50), (90, 54), (96, 64),
+        (90, 74), (68, 78), (40, 76), (18, 66), (14, 48), (18, 24),
     ])
-    _poly(d, s, [(48, 58), (90, 62), (90, 72), (48, 70)])  # sole forward
 
 
 def draw_C(d, s):
-    # Folded cloth / crook staff (tall hooked shape)
-    _rect(d, s, (42, 10, 58, 85))
-    _arc_line(d, s, (20, 8, 58, 40), 180, 0, width=12)
-    _poly(d, s, [(20, 22), (20, 38), (32, 38), (32, 22)])
+    # Papyrus C: shepherd crook / folded-cloth staff — tall shaft + open hook.
+    # Must NOT look like a feather or blade (GenAI master was wrong).
+    # Long vertical shaft (uniform stick)
+    _rect(d, s, (52, 32, 66, 92))
+    # Open crook hook: rises from shaft, curves left, tip hangs down (like a cane)
+    # Thick stroke via filled arc band
+    _arc_line(d, s, (18, 6, 66, 54), 200, 10, width=16)
+    # Fill hook solid so it reads as a crook, not a thin line
+    _poly(d, s, [
+        (52, 34), (52, 20), (46, 10), (32, 8), (18, 18),
+        (16, 32), (22, 40), (30, 36), (34, 24), (42, 20),
+        (52, 28),
+    ])
+    # Hook tip bulb (end of crook)
+    _ellipse(d, s, (14, 28, 30, 44))
 
 
 def draw_D(d, s):
-    # Hand / forearm
+    # Papyrus D: hand (palm + fingers + thumb) — must read as a hand, not a feather
+    # Wrist / forearm on the left
     _poly(d, s, [
-        (15, 45), (55, 35), (85, 42), (88, 55), (70, 62),
-        (55, 58), (50, 72), (38, 72), (40, 58), (20, 60),
+        (6, 42), (28, 38), (32, 62), (8, 66),
     ])
-    # fingers
-    for fx, fy in [(60, 28), (70, 30), (78, 34), (84, 40)]:
-        _ellipse(d, s, (fx - 5, fy - 8, fx + 5, fy + 10))
+    # Palm
+    _ellipse(d, s, (24, 32, 68, 72))
+    # Four fingers pointing right (clear separated digits)
+    _ellipse(d, s, (58, 22, 88, 36))  # index
+    _ellipse(d, s, (62, 34, 94, 48))  # middle
+    _ellipse(d, s, (60, 46, 90, 60))  # ring
+    _ellipse(d, s, (54, 56, 82, 70))  # pinky
+    # Thumb up
+    _ellipse(d, s, (36, 18, 58, 40))
+    # Finger gaps (white slits so digits read separately, not a feather vane)
+    _line(d, s, [(64, 34), (84, 34)], width=3)
+    _line(d, s, [(66, 46), (88, 46)], width=3)
+    _line(d, s, [(62, 56), (82, 56)], width=3)
 
 
 def draw_E(d, s):
-    # Flowering reed (vertical stem + triangular flag leaf) — papyrus E/Y
-    _rect(d, s, (46, 28, 54, 90))
-    _poly(d, s, [(50, 8), (22, 42), (50, 36)])
-    _poly(d, s, [(50, 8), (78, 38), (50, 34)])
+    # Papyrus E/Y: flowering reed — vertical stem + flat triangular leaf (flag), not an arrow
+    _rect(d, s, (48, 38, 58, 92))  # stem
+    # Leaf: right-leaning triangle attached to top of stem (papyrus shape)
+    _poly(d, s, [
+        (52, 12),   # tip of leaf
+        (18, 50),   # left base of leaf
+        (52, 44),   # join to stem
+    ])
+    # Slight right edge of leaf so it reads as a flag, not a pointer
+    _poly(d, s, [
+        (52, 12),
+        (52, 44),
+        (62, 40),
+    ])
 
 
 def draw_F(d, s):
@@ -183,26 +214,42 @@ def draw_H(d, s):
 
 
 def draw_I(d, s):
-    # Two reed leaves / diagonal strokes
-    _line(d, s, [(30, 85), (42, 15)], width=11)
-    _line(d, s, [(55, 85), (68, 15)], width=11)
+    # Papyrus I: two parallel diagonal strokes (//)
+    _line(d, s, [(28, 88), (48, 12)], width=12)
+    _line(d, s, [(52, 88), (72, 12)], width=12)
 
 
 def draw_J(d, s):
-    # Cobra (rearing)
+    # Papyrus J: rearing cobra — head left, hood, body hooks down (not a feather).
+    # One solid snake silhouette matching the wood souvenir shape.
     _poly(d, s, [
-        (55, 15), (70, 25), (72, 45), (60, 55), (58, 85),
-        (42, 85), (40, 55), (28, 40), (30, 22), (45, 15),
+        # Head pointing left (top)
+        (8, 28), (18, 14), (36, 12), (48, 20),
+        # Back of hood / upper body down the right
+        (58, 28), (64, 48), (60, 68), (52, 88),
+        # Tail tip curl under
+        (42, 94), (34, 88), (40, 78),
+        # Inner front of body up
+        (46, 62), (48, 44), (40, 32),
+        # Chin / lower jaw back to head
+        (28, 36), (16, 38),
     ])
-    _ellipse(d, s, (48, 12, 68, 32))
-    _ellipse(d, s, (54, 18, 60, 24), fill=255)
+    # Eye (white) so it clearly is a head, not a feather tip
+    _ellipse(d, s, (18, 18, 30, 30), fill=255)
+    _ellipse(d, s, (21, 21, 27, 27))
+    # Small tongue
+    _line(d, s, [(10, 26), (2, 20)], width=3)
+    _line(d, s, [(10, 28), (2, 34)], width=3)
 
 
 def draw_K(d, s):
-    # Basket with handle (open bowl, no mesh) — distinct from X
-    _arc_line(d, s, (18, 28, 82, 88), 0, 180, width=10)
-    _line(d, s, [(18, 58), (82, 58)], width=6)
-    _arc_line(d, s, (28, 12, 72, 58), 200, 340, width=7)
+    # Papyrus K: solid filled bowl / dish with small handle — NO mesh (mesh is X)
+    # Half-ellipse bowl (filled), flat rim on top
+    _ellipse(d, s, (12, 28, 82, 88))
+    _rect(d, s, (12, 28, 82, 48), fill=255)  # cut top → bowl silhouette
+    _line(d, s, [(12, 48), (82, 48)], width=8)  # rim
+    # Tiny handle right
+    _arc_line(d, s, (78, 44, 96, 70), -20, 200, width=7)
 
 
 def draw_L(d, s):
@@ -230,31 +277,49 @@ def draw_M(d, s):
 
 
 def draw_N(d, s):
-    # Water ripple (zigzag)
-    pts = []
-    for i in range(7):
-        x = 12 + i * 12
-        y = 40 if i % 2 == 0 else 62
-        pts.append((x, y))
-    _line(d, s, pts, width=10)
-    # second ripple
-    pts2 = [(x, y + 12) for x, y in pts]
-    _line(d, s, pts2, width=8)
+    # Papyrus N: flat elongated serrated water-band (many small teeth), pointed left tip
+    n_peaks = 8
+    x0, x1 = 10.0, 94.0
+    # Flatter than a tall zigzag — matches the wood souvenir strip
+    y_top_peak, y_top_valley = 38.0, 48.0
+    y_bot_valley, y_bot_peak = 52.0, 62.0
+    steps = n_peaks * 2
+    top: list[tuple[float, float]] = []
+    bot: list[tuple[float, float]] = []
+    for i in range(steps + 1):
+        x = x0 + (x1 - x0) * i / steps
+        if i % 2 == 0:
+            top.append((x, y_top_peak))
+            bot.append((x, y_bot_valley))
+        else:
+            top.append((x, y_top_valley))
+            bot.append((x, y_bot_peak))
+    left = [(x0 - 6, 50.0)]  # arrow-ish tip on left (papyrus)
+    right = [(x1 + 2, 50.0)]
+    _poly(d, s, left + top + right + list(reversed(bot)))
 
 
 def draw_O(d, s):
-    # Lasso / rope loop with tail
-    _arc_line(d, s, (25, 12, 75, 62), 0, 360, width=9)
-    _poly(d, s, [(55, 55), (70, 90), (58, 92), (48, 62)])
+    # Papyrus O: lasso like a “?” / reverse-6 — open loop, long curling tail
+    # Loop (upper)
+    _ellipse(d, s, (30, 6, 78, 52))
+    _ellipse(d, s, (42, 16, 66, 42), fill=255)
+    # Open bottom of loop into tail (white gap on lower-right of ring)
+    _rect(d, s, (55, 36, 78, 52), fill=255)
+    # Long tail: starts at loop, curves down then slightly left (papyrus purple shape)
+    _poly(d, s, [
+        (55, 38), (70, 42), (74, 58), (70, 78), (58, 94),
+        (48, 92), (54, 76), (58, 58), (54, 44),
+    ])
 
 
 def draw_P(d, s):
-    # Stool / reed mat (rectangle with bars)
-    _rect(d, s, (28, 18, 72, 85))
-    for y in (35, 50, 65):
-        _line(d, s, [(32, y), (68, y)], width=4)
-    _rect(d, s, (36, 26, 64, 78), fill=255)
-    _rect(d, s, (40, 30, 60, 74))
+    # Papyrus P: solid dark stool / reed mat (rectangle with 3 horizontal bars)
+    _rect(d, s, (30, 12, 70, 88))
+    # Horizontal bars (white gaps between solid bands)
+    _rect(d, s, (36, 22, 64, 32), fill=255)
+    _rect(d, s, (36, 42, 64, 52), fill=255)
+    _rect(d, s, (36, 62, 64, 72), fill=255)
 
 
 def draw_Q(d, s):
@@ -265,61 +330,91 @@ def draw_Q(d, s):
 
 
 def draw_R(d, s):
-    # Mouth
-    _ellipse(d, s, (15, 30, 85, 70))
-    _ellipse(d, s, (28, 40, 72, 60), fill=255)
-    _line(d, s, [(30, 50), (70, 50)], width=4)
+    # Papyrus R: almond / lens mouth (two lips), not a plain ring
+    # Outer lip shape
+    _ellipse(d, s, (8, 34, 92, 68))
+    # Inner opening
+    _ellipse(d, s, (22, 42, 78, 60), fill=255)
+    # Upper and lower lip thickness via arcs
+    _arc_line(d, s, (18, 36, 82, 58), 200, 340, width=6)
+    _arc_line(d, s, (18, 44, 82, 68), 20, 160, width=6)
+    # Corner points
+    _ellipse(d, s, (6, 46, 16, 56))
+    _ellipse(d, s, (84, 46, 94, 56))
 
 
 def draw_S(d, s):
-    # Door bolt / folded cloth (like a latch / H with bar)
-    _rect(d, s, (18, 40, 82, 60))
+    # Papyrus S: door bolt / folded cloth — like a red “H” with side bars
+    # Vertical posts
     _rect(d, s, (28, 28, 42, 72))
     _rect(d, s, (58, 28, 72, 72))
+    # Cross bar through middle with end caps
+    _rect(d, s, (14, 42, 86, 58))
+    _rect(d, s, (10, 38, 22, 62))
+    _rect(d, s, (78, 38, 90, 62))
 
 
 def draw_T(d, s):
-    # Bread loaf (solid dome / half-circle on baseline)
-    _ellipse(d, s, (18, 30, 82, 92))
-    _rect(d, s, (18, 30, 82, 55), fill=255)
-    _line(d, s, [(18, 55), (82, 55)], width=7)
-    # tiny top bumps to look like loaf, not sieve
-    _ellipse(d, s, (30, 42, 42, 55))
-    _ellipse(d, s, (44, 38, 56, 55))
-    _ellipse(d, s, (58, 42, 70, 55))
+    # Papyrus T: solid bread loaf / dome (half-disk on baseline), no mesh
+    # Full ellipse then erase top half → solid dome
+    _ellipse(d, s, (14, 28, 86, 92))
+    _rect(d, s, (14, 20, 86, 58), fill=255)
+    _line(d, s, [(14, 58), (86, 58)], width=6)
 
 
 def draw_U(d, s):
-    # Quail spiral / lasso curl
-    _arc_line(d, s, (25, 15, 75, 65), -40, 220, width=10)
-    _arc_line(d, s, (38, 28, 62, 52), 0, 360, width=7)
-    _poly(d, s, [(55, 55), (72, 88), (60, 90), (48, 60)])
+    # Papyrus U: spiral coil (like a red “9” / coiled rope)
+    # Outer spiral arm
+    _arc_line(d, s, (22, 12, 78, 68), -30, 240, width=12)
+    # Inner coil
+    _arc_line(d, s, (36, 24, 64, 52), 0, 360, width=9)
+    # Small center hole
+    _ellipse(d, s, (44, 32, 56, 44), fill=255)
+    # Tail tip hanging slightly
+    _poly(d, s, [(58, 58), (70, 78), (62, 82), (52, 62)])
 
 
 def draw_W(d, s):
-    # Quail chick (standing chick)
-    _ellipse(d, s, (30, 28, 72, 72))
-    _ellipse(d, s, (40, 12, 68, 40))
-    _poly(d, s, [(38, 22), (22, 18), (36, 30)])  # beak
-    _rect(d, s, (40, 68, 48, 90))
-    _rect(d, s, (55, 68, 63, 90))
-    _ellipse(d, s, (50, 20, 58, 28), fill=255)
-    _poly(d, s, [(65, 40), (88, 32), (88, 48), (68, 50)])  # wing
+    # Papyrus W: quail chick — standing small bird (distinct from tall vulture A)
+    # Body (plump, upright)
+    _ellipse(d, s, (30, 38, 70, 78))
+    # Head
+    _ellipse(d, s, (36, 16, 68, 46))
+    # Beak pointing left
+    _poly(d, s, [(38, 28), (18, 24), (36, 36)])
+    # Eye
+    _ellipse(d, s, (46, 24, 56, 34), fill=255)
+    _ellipse(d, s, (48, 26, 54, 32))
+    # Legs + feet
+    _rect(d, s, (40, 74, 48, 90))
+    _rect(d, s, (54, 74, 62, 90))
+    _poly(d, s, [(36, 88), (40, 90), (50, 90), (48, 86)])
+    _poly(d, s, [(52, 88), (54, 90), (68, 90), (62, 86)])
+    # Wing folded on body
+    _poly(d, s, [(58, 48), (78, 44), (76, 62), (58, 64)])
+    # Short tail
+    _poly(d, s, [(62, 68), (78, 72), (70, 80), (58, 74)])
 
 
 def draw_X(d, s):
-    # Sieve / basket with cross-hatch mesh (papyrus X) — outline + mesh, not solid
-    # Outer bowl outline (thick stroke via concentric ellipses)
-    _ellipse(d, s, (16, 36, 84, 90))
-    _ellipse(d, s, (22, 42, 78, 84), fill=255)
-    _line(d, s, [(16, 48), (84, 48)], width=6)
-    # Cross-hatch mesh (white interior already)
-    for i in range(5):
-        x = 28 + i * 11
-        _line(d, s, [(x, 50), (x, 82)], width=4)
-    for j in range(4):
-        y = 54 + j * 8
-        _line(d, s, [(26, y), (74, y)], width=4)
+    # Papyrus X: wide basket bowl WITH diamond/cross mesh (not a round sieve; not plain K)
+    # Wide shallow bowl silhouette
+    _ellipse(d, s, (8, 30, 92, 88))
+    _rect(d, s, (8, 30, 92, 48), fill=255)
+    _line(d, s, [(8, 48), (92, 48)], width=7)
+    # Interior white then mesh
+    _ellipse(d, s, (14, 48, 86, 84), fill=255)
+    # Cross-hatch mesh inside bowl
+    for i in range(7):
+        x = 20 + i * 10
+        _line(d, s, [(x, 50), (x, 82)], width=3)
+    for j in range(5):
+        y = 52 + j * 7
+        _line(d, s, [(18, y), (82, y)], width=3)
+    # Re-draw bowl outline bottom
+    _arc_line(d, s, (8, 30, 92, 88), 0, 180, width=8)
+    # Handle right
+    _arc_line(d, s, (84, 42, 100, 68), -20, 200, width=6)
 
 
 def draw_Z(d, s):
@@ -340,16 +435,22 @@ DRAWERS = {
 }
 
 
+def rebuild_letter_glyph(letter: str) -> None:
+    """Draw one programmatic letter glyph (B/W laser)."""
+    drawer = DRAWERS[letter]
+    im, d, s = _canvas()
+    drawer(d, s)
+    inv = ImageOps.invert(im)
+    inv = inv.filter(ImageFilter.MaxFilter(3))
+    im = ImageOps.invert(inv)
+    im = im.point(lambda p: 0 if p < 128 else 255)
+    GLYPH_DIR.mkdir(parents=True, exist_ok=True)
+    im.save(GLYPH_DIR / f"{letter}.png")
+
+
 def build_glyphs() -> None:
-    for letter, drawer in DRAWERS.items():
-        im, d, s = _canvas()
-        drawer(d, s)
-        # Thicken for laser: slight max-filter on ink
-        inv = ImageOps.invert(im)
-        inv = inv.filter(ImageFilter.MaxFilter(3))
-        im = ImageOps.invert(inv)
-        im = im.point(lambda p: 0 if p < 128 else 255)
-        im.save(GLYPH_DIR / f"{letter}.png")
+    for letter in DRAWERS:
+        rebuild_letter_glyph(letter)
 
 
 def load_glyph(letter: str) -> Image.Image:
@@ -546,9 +647,14 @@ def write_reference_alphabet_sheet() -> None:
             y0 = pad + 20 + r * cell
             d.rectangle([x0, y0, x0 + cell - 4, y0 + cell - 4], outline=0, width=2)
             g = load_glyph(letter)
-            g = g.resize((56, 56), Image.Resampling.LANCZOS)
             g = g.point(lambda p: 0 if p < 140 else 255)
-            sheet.paste(g, (x0 + 6, y0 + 24))
+            # Fit in cell keeping aspect (same proportions as address strips)
+            max_side = 56
+            scale = min(max_side / g.width, max_side / g.height)
+            nw = max(1, int(g.width * scale))
+            nh = max(1, int(g.height * scale))
+            g = g.resize((nw, nh), Image.Resampling.LANCZOS)
+            sheet.paste(g, (x0 + 6 + (max_side - nw) // 2, y0 + 24 + (max_side - nh) // 2))
             d.text((x0 + cell - 30, y0 + 6), letter, fill=0, font=font)
             if letter == "E":
                 d.text((x0 + cell - 30, y0 + 24), "Y", fill=0, font=font_sm)
@@ -652,68 +758,80 @@ def write_tex_files() -> None:
 \end{document}
 """
 
-    gm = r"""\documentclass[a4paper,9pt]{article}
-\usepackage[margin=8mm]{geometry}
-\usepackage{graphicx}
-\usepackage{longtable}
-\usepackage{array}
-\usepackage{booktabs}
-\pagestyle{plain}
-\setlength{\parindent}{0pt}
+    # GM layout: tile + address strip at the same height (address as large as the tile).
+    # Full-width address row so long glyph lines still fit at that height.
+    gm_tile_w_cm = 4.8
+    gm_tile_h_cm = gm_tile_w_cm * (TILE_H / TILE_W)  # ~3.84
+    gm_addr_h_cm = gm_tile_h_cm
+    gm_addr_w_cm = 19.0  # nearly full text width on A4 with 8mm margins
 
-\begin{document}
-\begin{center}
-{\Large\bfseries GM Portal Address Key --- KEEP SECRET}\\[1mm]
-{\small Latin names for the GM. Glyph strips match the player tiles.}
-\end{center}
-\vspace{1.5mm}
+    gm = rf"""\documentclass[a4paper,12pt]{{article}}
+\usepackage[margin=8mm,top=9mm,bottom=9mm]{{geometry}}
+\usepackage{{graphicx}}
+\usepackage{{array}}
+\usepackage{{booktabs}}
+\pagestyle{{plain}}
+\setlength{{\parindent}}{{0pt}}
+\setlength{{\parskip}}{{0pt}}
 
-{\small
-\textbf{Cipher:} Tourist papyrus A--Z (\texttt{HieroGlyphs/Alphabet\_for\_hieroglyph.jpg} / print key).
+\newcommand{{\gmsite}}[5]{{%
+  % #1 tile path  #2 address path  #3 code  #4 dir  #5 site name
+  \noindent
+  \begin{{minipage}}[c]{{{gm_tile_w_cm:.2f}cm}}
+    \includegraphics[width={gm_tile_w_cm:.2f}cm]{{#1}}
+  \end{{minipage}}\hspace{{4mm}}%
+  \begin{{minipage}}[c]{{13.5cm}}
+    {{\Large\bfseries #5}}\\[1mm]
+    {{\large\texttt{{#3}} \quad #4}}
+  \end{{minipage}}\\[2mm]
+  \noindent
+  \includegraphics[height={gm_addr_h_cm:.2f}cm,width={gm_addr_w_cm:.2f}cm,keepaspectratio]{{#2}}\\[2mm]
+  \hrule height 0.45pt
+  \vspace{{3.5mm}}
+}}
+
+\begin{{document}}
+\begin{{center}}
+{{\LARGE\bfseries GM Portal Address Key --- KEEP SECRET}}\\[2mm]
+{{\large Latin names for the GM. Address glyphs are as tall as the tile images.}}
+\end{{center}}
+\vspace{{2mm}}
+
+{{\normalsize
+\textbf{{Cipher:}} Tourist papyrus A--Z (\texttt{{HieroGlyphs/Alphabet\_for\_hieroglyph.jpg}} / print key).\\
 Aliases: Y$\rightarrow$E, V$\rightarrow$F.
-Direction: bird faces the start. LTR = left-to-right; RTL = right-to-left (glyphs reversed on tile).
-}
+\quad Direction: bird faces the start. LTR = left-to-right; RTL = right-to-left (glyphs reversed on tile).
+}}
 
-\vspace{1.5mm}
-\renewcommand{\arraystretch}{1.15}
-\begin{longtable}{@{}>{\centering\arraybackslash}p{2.4cm}>{\centering\arraybackslash}p{6.6cm}p{1.9cm}c p{5.0cm}@{}}
-\toprule
-\textbf{Tile} & \textbf{Address glyphs} & \textbf{Code} & \textbf{Dir} & \textbf{Site} \\
-\midrule
-\endfirsthead
-\toprule
-\textbf{Tile} & \textbf{Address glyphs} & \textbf{Code} & \textbf{Dir} & \textbf{Site} \\
-\midrule
-\endhead
+\vspace{{3mm}}
 """
     for sid, name, addr, direction in SITES:
+        safe_name = name.replace("&", "\\&")
         gm += (
-            f"\\includegraphics[width=2.2cm]{{HieroGlyphs/tiles/{sid}.png}}"
-            f" & \\includegraphics[height=0.78cm]{{HieroGlyphs/addresses/{sid}.png}}"
-            f" & \\texttt{{{addr}}} & {direction} & {name} \\\\\n"
-            "\\midrule\n"
+            f"\\gmsite{{HieroGlyphs/tiles/{sid}.png}}"
+            f"{{HieroGlyphs/addresses/{sid}.png}}"
+            f"{{{addr}}}{{{direction}}}{{{safe_name}}}\n"
         )
     gm += r"""
-\end{longtable}
-
-\vspace{1mm}
-\section*{Quick lookup}
-\begin{tabular}{@{}ll@{\hspace{12mm}}ll@{}}
+\vspace{2mm}
+\section*{\Large Quick lookup}
+\large
+\begin{tabular}{@{}ll@{\hspace{14mm}}ll@{}}
 """
     half = (len(SITES) + 1) // 2
     left, right = SITES[:half], SITES[half:]
     for i in range(half):
         a = left[i]
-        line = f"\\texttt{{{a[2]}}} & {a[1]}"
+        line = f"\\texttt{{{a[2]}}} & {a[1].replace('&', '\\&')}"
         if i < len(right):
             b = right[i]
-            line += f" & \\texttt{{{b[2]}}} & {b[1]}"
+            line += f" & \\texttt{{{b[2]}}} & {b[1].replace('&', '\\&')}"
         gm += line + " \\\\\n"
     gm += r"""
 \end{tabular}
 
-\vspace{4mm}
-{\footnotesize Built by \texttt{HieroGlyphs/build\_hieroglyph\_addresses.py} from \texttt{site\_addresses.json}.}
+\vspace{6mm}
+Built by \texttt{HieroGlyphs/build\_hieroglyph\_addresses.py} from \texttt{site\_addresses.json}.
 \end{document}
 """
 
@@ -735,7 +853,7 @@ def main() -> int:
     from process_glyphs_bw import main as process_glyphs_main  # noqa: E402
 
     process_glyphs_main()
-    # Note: programmatic build_glyphs() is skipped when GenAI glyph masters exist.
+    # Letter art: glyphs_color/named/*.jpg masters → glyphs/*.png (no draw_* override).
     write_alphabet_json()
     write_site_json()
     write_reference_alphabet_sheet()
