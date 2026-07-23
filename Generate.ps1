@@ -35,6 +35,11 @@ Get-ChildItem "$tempDir/character_*.tex" | ForEach-Object {
         if (Test-Path "$baseName.pdf") {
              Move-Item "$baseName.pdf" "../../$outputDir" -Force
              Write-Host "Generated: $outputDir/$baseName.pdf" -ForegroundColor Green
+             
+             # Clean up temporary files
+             Remove-Item "$baseName.aux" -ErrorAction SilentlyContinue
+             Remove-Item "$baseName.log" -ErrorAction SilentlyContinue
+             Remove-Item "$baseName.tex" -ErrorAction SilentlyContinue
         }
     }
     Pop-Location
@@ -49,9 +54,16 @@ Get-ChildItem "$tempDir/namesign_*.tex" | ForEach-Object {
         if (Test-Path "$baseName.pdf") {
              Move-Item "$baseName.pdf" "../../$outputDir" -Force
              Write-Host "Generated: $outputDir/$baseName.pdf" -ForegroundColor Green
+
+             # Clean up temporary files
+             Remove-Item "$baseName.aux" -ErrorAction SilentlyContinue
+             Remove-Item "$baseName.log" -ErrorAction SilentlyContinue
+             Remove-Item "$baseName.tex" -ErrorAction SilentlyContinue
         }
     }
     Pop-Location
 }
 
+Write-Host "Cleaning up remaining temp files..."
+Remove-Item "$tempDir/*.aux", "$tempDir/*.log" -ErrorAction SilentlyContinue
 Write-Host "Done!"
